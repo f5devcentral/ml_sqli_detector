@@ -3197,9 +3197,11 @@ cuerva,benign
 34170,benign
 " UNION ALL SELECT 'INJ'||'ECT'||'XXX',2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27#",sqli
 "<ruby onmousedown=""alert(1)"">test</ruby>",xss
+custom.js,benign
 "<header onbeforepaste=""alert(1)"" contenteditable>test</header>",xss
 1'||  (  select 'aioq' from dual where 8176  =  8176,sqli
 "<button draggable=""true"" ondragstart=""alert(1)"">test</button>",xss
+image3.jpg,benign
 "<tt ondblclick=""alert(1)"">test</tt>",xss
 <dt onblur=alert(1) tabindex=1 id=x></dt><input autofocus>,xss
 standiford@elpaisaje.bg,benign
@@ -5369,6 +5371,8 @@ estupian lladonet,benign
 " AND 5650=CONVERT(INT,(UNION ALL SELECTCHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)+CHAR(88)))-- ",sqli
 "<strike onkeydown=""alert(1)"" contenteditable>test</strike>",xss
 "<dialog onkeydown=""alert(1)"" contenteditable>test</dialog>",xss
+logo.png HTTP/1.0,benign
+logo10.png HTTP/1.1,benign
 "<?xml-stylesheet type=""text/xsl"" href=""data:,%3Cxsl:transform version='1.0' xmlns:xsl='http://www.w3.org/1999/XSL/Transform' id='xss'%3E%3Cxsl:output method='html'/%3E%3Cxsl:template match='/'%3E%3Cscript%3Ealert(66)%3C/script%3E%3C/xsl:template%3E%3C/xsl:transform%3E""?>",xss
 "1  )   as rtpl where 1262  =  1262 and 3202  =  like  (  'abcdefg',upper  (  hex  (  randomblob  (  500000000/2   )    )      )    )   --",sqli
 "<s onkeyup=""alert(1)"" contenteditable>test</s>",xss
@@ -6164,6 +6168,7 @@ brunton9,benign
 "-5097'  )   union all select 8992,8992,8992,8992,8992,8992,8992,8992,8992--",sqli
 "<div id=""137""><svg>",xss
 "1""  )   union all select null,null,null,null,null--",sqli
+jquery.backstretch.min.js,benign
 "-9725'  )   union all select 2481,2481,2481,2481,2481,2481,2481,2481,2481,2481--",sqli
 "1'+  (  select vlut where 9517  =  9517 union all select null,null,null--",sqli
 " select * from users where id  =  '1' union select @ 1,version  (    )   --  1'",sqli
@@ -6603,6 +6608,7 @@ schauer,benign
 42141,benign
 "<html onmousedown=""alert(1)"">test</html>",xss
 "<style>:target {color:red;}</style><thead id=x style=""transition:color 1s"" ontransitionend=alert(1)></thead>",xss
+jquery.shuffle.modernizr.min.js,benign
 1 or   (  select * from   (  select  (  sleep  (  5   )    )     )  ydpu  )  -- paxv,sqli
 "<div draggable=""true"" contenteditable>drag me</div><area ondragover=alert(1) contenteditable>drop here</area>",xss
 "<plaintext onbeforepaste=""alert(1)"" contenteditable>test</plaintext>",xss
@@ -9169,6 +9175,7 @@ admin'  )   or   (  '1'  =  '1'#,sqli
 "<style>:target {color: red;}</style><figure id=x style=""transition:color 10s"" ontransitioncancel=alert(1)></figure>",xss
 c/ grabador david roberts 154 1-h,benign
 <tr id=x tabindex=1 onfocusin=alert(1)></tr>,xss
+main.css?version=4.4.0 HTTP/1.1,benign
 select   (  case when   (  5390  =  7419  )   then 5390 else 5390*  (  select 5390 from mysql.db  )   end  )  #,sqli
 "<rt oncopy=""alert(1)"" contenteditable>test</rt>",xss
 "martel 153,",benign
