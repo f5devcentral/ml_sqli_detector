@@ -26,7 +26,6 @@ publico/autenticar.jsp?modo=entrar&login=centeno&pwd=b%FAho&remember=off&B1=Entr
 miembros/imagenes/castro.jpg,normal
 %2e%2e\%2e%2e\{FILE},traversal
 "<BODY BACKGROUND=""javascript:alert('XSS')"">",xss
-x' or 1=1 or 'x'='y,xpath
 miembros/fotos.jsp,normal
 "ABC<div style=""x:expression\x5C(javascript:alert(1)"">DEF",xss
 <~/XSS/*-*/STYLE=xss:e/**/xpression(alert('XSS'))>,xss
@@ -722,7 +721,6 @@ imagenes/3.gif,normal
 a)|/usr/bin/id;,command_injection
 publico/anadir.jsp?id=1&nombre=Vino+Rioja&precio=85&cantidad=94&B1=A%F1adir+al+carrito,normal
 Redirect 302 /a&#46;jpg http&#58;//victimsite&#46;com/admin&#46;asp&deleteuser,xss
-count(/child::node()),xpath
 "<div style=""font-family:foo{bar;background:url(http://foo.f/oo};color:red/*/foo.jpg);"">X",xss
 %%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/{FILE},traversal
 "<body BACKGROUND=""javascript:document.vulnerable=true;"">",xss
@@ -1975,7 +1973,6 @@ s&n1&: select * from users where id='1' or $ 1=1 or 1=1 -- 1',sqli
 imagenes/1.gif,normal
 "sUEo1: select * from users where id='1' union select !<1,version() -- 1'",sqli
 a' or 3=3--,sqli
-' or '1'='1,xpath
 publico/registro.jsp?modo=registro&login=athwal&password=a92974d4r&nombre=Meinrad&apellidos=Martinho+Burg%E8s&email=bruzzese%40audiosat.ar&dni=63102165D&direccion=Calle+Pintor+Picasso%2C+182+5%3FD&ciudad=Montesa&cp=20180&provincia=Toledo&ntc=9280522239849881&B1=Registrar,normal
 "'';!--""<XSS>=&{()}",xss
 publico/vaciar.jsp?B2=Vaciar+carrito,normal
@@ -2403,7 +2400,6 @@ publico/anadir.jsp?id=3&nombre=Vino+Rioja&precio=85&cantidad=64&B1=A%F1adir+al+c
 publico/registro.jsp?modo=registro&login=kaitlyn&password=8Omp0R1ti6a&nombre=Karem&apellidos=Armengol+Sieira&email=frechette8%40legami.ly&dni=56632037B&direccion=Jose+Incenga+14%2C+&ciudad=Ulldecona&cp=09610&provincia=Badajoz&ntc=0589864781053341&B1=Registrar,normal
 "<style><img src=""</style><img src=x onerror=alert(XSS)//"">",xss
 "<INPUT TYPE=""IMAGE"" SRC=""javascript:alert('XSS');"">   ",xss
-' or ''=',xpath
 </font>/<svg><style>{src&#x3A;'<style/onload=this.onload=confirm(1)>'</font>/</style>,xss
 ..//..//..//..//..//..//..//{FILE},traversal
 ..\{FILE},traversal
@@ -2553,7 +2549,6 @@ publico/carrito.jsp,normal
 imagenes/nuestratierra.jpg,normal
 publico/pagar.jsp?modo=insertar&precio=6684&B1=Pasar+por+caja,normal
 ..\\..\\{FILE},traversal
-@*,xpath
 ../..//../..//../..//../..//{FILE},traversal
 miembros/imagenes/zarauz.jpg,normal
 index.jsp,normal
@@ -4120,7 +4115,6 @@ miembros/index.jsp,normal
 "<applet onreadystatechange applet onreadystatechange=""javascript:javascript:alert(1)""></applet onreadystatechange>",xss
 publico/pagar.jsp?modo=insertar&precio=3815&B1=Pasar+por+caja,normal
 %2e%2e%2f%2e%2e%2f%77%69%6e%6e%74%2f%73%79%73%74%65%6d%33%32%2f%63%6d%64%2e%65%78%65%3f%2f%63%2b%64%69%72%2b%63%3a%5c,traversal
-x' or name()='username' or 'x'='y,xpath
 miembros/salir.jsp,normal
 """<IMG SRC=""""jav""",xss
 imagenes/1.gif,normal
@@ -5662,7 +5656,6 @@ miembros/imagenes/castro.jpg,normal
 "<style>.XSS{background-image:url(""javascript:document.vulnerable=true"");}</STYLE><A CLASS=XSS></a>",xss
 "<input TYPE=""IMAGE"" SRC=""javascript:document.vulnerable=true;"">",xss
 publico/vaciar.jsp?B2=Vaciar+carrito,normal
-*/*,xpath
 index.jsp,normal
 global/creditos.jsp,normal
 publico/pagar.jsp?modo=insertar&precio=1776&B1=Pasar+por+caja,normal
@@ -6211,7 +6204,6 @@ imagenes/3.gif,normal
 miembros/index.jsp,normal
 publico/productos.jsp,normal
 imagenes/cmenbul.gif,normal
-//*,xpath
 publico/pagar.jsp?modo=insertar&precio=3394&B1=Pasar+por+caja,normal
 0x2e0x2e/0x2e0x2e/{FILE},traversal
 "&lt;BODY onload!#$%&()*~+-_&#46;,&#58;;?@&#91;/|\&#93;^`=alert(\""XSS\"")&gt;",xss
@@ -6701,7 +6693,6 @@ miembros/index.jsp,normal
 %c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af{FILE},traversal
 0x2e0x2e\0x2e0x2e\0x2e0x2e\0x2e0x2e\{FILE},traversal
 publico/anadir.jsp?id=2&nombre=Vino+Rioja&precio=100&cantidad=6&B1=A%F1adir+al+carrito,normal
-/,xpath
 publico/entrar.jsp?errorMsg=Credenciales+incorrectas,normal
 """%3cscript%3ealert(""""WXSS"""");%3c/script%3e""",xss
 miembros/imagenes/ogono.jpg,normal
@@ -7803,7 +7794,6 @@ o()&1: select * from users where id=1 %(\) or 1=1 -- 1,sqli
 imagenes/logo.gif,normal
 ' or uid like '%,sqli
 "<iframe/src=""data:text/html;&Tab;base64&Tab;,PGJvZHkgb25sb2FkPWFsZXJ0KDEpPg=="">",xss
-//,xpath
 &<script>document.vulnerable=true;</script>,xss
 imagenes/3.gif,normal
 publico/miembros.jsp,normal
