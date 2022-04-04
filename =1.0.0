@@ -1,5 +1,5 @@
 Requirement already satisfied: scikit-learn in /home/jupyter/.local/lib/python3.8/site-packages (0.24.2)
+Requirement already satisfied: threadpoolctl>=2.0.0 in /home/jupyter/.local/lib/python3.8/site-packages (from scikit-learn) (3.1.0)
 Requirement already satisfied: numpy>=1.13.3 in /home/jupyter/.local/lib/python3.8/site-packages (from scikit-learn) (1.22.3)
 Requirement already satisfied: scipy>=0.19.1 in /home/jupyter/.local/lib/python3.8/site-packages (from scikit-learn) (1.8.0)
-Requirement already satisfied: threadpoolctl>=2.0.0 in /home/jupyter/.local/lib/python3.8/site-packages (from scikit-learn) (3.1.0)
 Requirement already satisfied: joblib>=0.11 in /home/jupyter/.local/lib/python3.8/site-packages (from scikit-learn) (1.1.0)
