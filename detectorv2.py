@@ -29,7 +29,7 @@ def proc(req):
         features = pickle.load(open('/home/jupyter/tf_model.preproc',
                             'rb'))
         new_model = load_model('/home/jupyter/tf_model.h5', custom_objects={'TokenEmbedding': layers.Embedding, 'PositionEmbedding': layers.Embedding}, compile=True)
-        labels = ['normal', 'sqli', 'xss', 'traversal', 'xpath', 'code_injection', 'command_injection', 'ssi']
+        labels = ['normal', 'sqli', 'xss', 'traversal', 'code_injection', 'command_injection']
         text = urllib.parse.unquote(req)
         preproc_text = features.preprocess([text])
         result = new_model.predict(preproc_text)
