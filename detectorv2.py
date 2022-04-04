@@ -29,7 +29,7 @@ def proc(req):
         features = pickle.load(open('/home/jupyter/tf_model.preproc',
                             'rb'))
         new_model = load_model('/home/jupyter/tf_model.h5', custom_objects={'TokenEmbedding': layers.Embedding, 'PositionEmbedding': layers.Embedding}, compile=True)
-        labels = ['benign', 'sqli', 'xss']
+        labels = ['normal', 'sqli', 'xss', 'traversal', 'xpath', 'code_injection', 'command_injection', 'ssi']
         text = urllib.parse.unquote(req)
         preproc_text = features.preprocess([text])
         result = new_model.predict(preproc_text)
@@ -46,7 +46,7 @@ class ProxyHTTPRequestHandler(BaseHTTPRequestHandler):
 
     def do_GET(self, body=True):
         result = proc(self.path)
-        if result != "benign":
+        if result != "normal":
             self.send_response(403, "Payload is %s" % result)
             #self.send_header("Set-Cookie", "foo=bar")
             self.end_headers()
@@ -83,7 +83,7 @@ class ProxyHTTPRequestHandler(BaseHTTPRequestHandler):
             sent = False
             try:
                 url = '{}://{}{}'.format(protocol, hostname, self.path)
-                content_len = int(self.headers('Content-Length', 0))
+                content_len = int(self.headers.get('Content-Length', 0))
                 post_body = self.rfile.read(content_len)
                 req_header = self.parse_headers()
                 print(url)
