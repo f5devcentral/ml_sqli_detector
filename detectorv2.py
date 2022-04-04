@@ -6,6 +6,7 @@ from ktrain import text
 import pickle
 import urllib.parse
 from tensorflow.keras.models import load_model
+from tensorflow.keras import layers
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID";
 os.environ["CUDA_VISIBLE_DEVICES"]="0"; 
 from http.server import BaseHTTPRequestHandler, HTTPServer
@@ -15,8 +16,6 @@ import threading
 hostname = 'arcadia.f5ase.net'
 serverPort = 8081
 
-def merge_two_dicts(x, y):
-    return x | y
 
 def set_header():
     headers = {
@@ -29,7 +28,7 @@ def proc(req):
  # loading preprocess and model file
         features = pickle.load(open('/home/jupyter/tf_model.preproc',
                             'rb'))
-        new_model = load_model('/home/jupyter/tf_model.h5')
+        new_model = load_model('/home/jupyter/tf_model.h5', custom_objects={'TokenEmbedding': layers.Embedding, 'PositionEmbedding': layers.Embedding}, compile=True)
         labels = ['benign', 'sqli', 'xss']
         text = urllib.parse.unquote(req)
         preproc_text = features.preprocess([text])
@@ -84,7 +83,7 @@ class ProxyHTTPRequestHandler(BaseHTTPRequestHandler):
             sent = False
             try:
                 url = '{}://{}{}'.format(protocol, hostname, self.path)
-                content_len = int(self.headers.getheader('content-length', 0))
+                content_len = int(self.headers('Content-Length', 0))
                 post_body = self.rfile.read(content_len)
                 req_header = self.parse_headers()
                 print(url)
