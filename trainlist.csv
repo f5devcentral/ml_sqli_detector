@@ -1,4 +1,5 @@
-﻿"<XSS STYLE=""xss:expression(javascript:alert(1))"">",xss
+﻿payload,type
+"<XSS STYLE=""xss:expression(javascript:alert(1))"">",xss
 "<IMG SRC='vbscript:msgbox(""XSS"")'>",xss
 miembros/imagenes/castro.jpg,normal
 miembros/salir.jsp,normal
