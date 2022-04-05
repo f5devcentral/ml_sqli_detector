@@ -35,9 +35,9 @@ This lab allows you to familiarize themself with various components of ML, as we
 
 |
 
-Next: |signup|
+Next: |lab1|
 
-.. |signup| raw:: html
+.. |lab1| raw:: html
 
-            <a href="https://github.com/f5devcentral/f5-waap/blob/main/csd/lab1.rst" target="_blank">Lab 1: Base Configuration of CSD</a>
+            <a href="https://github.com/sstarzh/ml_sqli_detector/blob/main/lab1.rst" target="_blank">Lab 1: Working with the Jupyter notebook</a>
 
