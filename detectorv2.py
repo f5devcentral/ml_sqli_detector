@@ -8,7 +8,7 @@ import urllib.parse
 from tensorflow.keras.models import load_model
 from tensorflow.keras import layers
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID";
-os.environ["CUDA_VISIBLE_DEVICES"]="0"; 
+os.environ["CUDA_VISIBLE_DEVICES"]="0";
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from socketserver import ThreadingMixIn
 import threading
@@ -26,17 +26,21 @@ def set_header():
 
 def proc(req):
  # loading preprocess and model file
-        features = pickle.load(open('/home/jupyter/tf_model.preproc',
-                            'rb'))
-        new_model = load_model('/home/jupyter/tf_model.h5', custom_objects={'TokenEmbedding': layers.Embedding, 'PositionEmbedding': layers.Embedding}, compile=True)
-        labels = ['benign', 'sqli', 'xss']
+        #features = pickle.load(open('/home/jupyter/Jupyter/notebook/ml_sqli_detector/predictor_distilbert/tf_model.preproc',
+        #                    'rb'))
+        predictor = ktrain.load_predictor('detector_model_distilbert')
+        new_model = ktrain.get_predictor(predictor.model, predictor.preproc)
+        #labels = ['benign', 'sqli', 'xss']
         text = urllib.parse.unquote(req)
-        preproc_text = features.preprocess([text])
-        result = new_model.predict(preproc_text)
-        label = labels[result[0].argmax(axis=0)]
-        score = ('{:.2f}'.format(round(np.max(result[0]), 2)*100))
-        resp = print('LABEL :', label, 'SCORE :', score)
-        return label
+        #list = text.split()
+        #preproc_text = features.preprocess(list)
+        result = new_model.predict(text)
+        #label = labels[result[0].argmax(axis=0)]
+        #score = ('{:.2f}'.format(round(np.max(result[0]), 2)*100))
+        #resp = print('LABEL :', label, 'SCORE :', score)
+        print(result)
+        resp = result
+        return resp
 
 class ProxyHTTPRequestHandler(BaseHTTPRequestHandler):
     protocol_version = 'HTTP/1.0'
@@ -98,9 +102,9 @@ class ProxyHTTPRequestHandler(BaseHTTPRequestHandler):
             finally:
                 if not sent:
                     self.send_error(404, 'error trying to proxy')
-    
+
     do_PUT  = do_POST
-    do_DELETE=do_POST   
+    do_DELETE=do_POST
 
     def parse_headers(self):
             req_header = {}
@@ -136,7 +140,7 @@ def parse_args(argv=sys.argv[1:]):
 
 class ThreadedHTTPServer(ThreadingMixIn, HTTPServer):
         """Handle requests in a separate thread."""
-def main(argv=sys.argv[1:]):
+def __main__(argv=sys.argv[1:]):
     global hostname
     global protocol
     args = parse_args(argv)
