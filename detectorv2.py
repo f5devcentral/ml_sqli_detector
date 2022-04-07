@@ -140,7 +140,7 @@ def parse_args(argv=sys.argv[1:]):
 
 class ThreadedHTTPServer(ThreadingMixIn, HTTPServer):
         """Handle requests in a separate thread."""
-def __main__(argv=sys.argv[1:]):
+def main(argv=sys.argv[1:]):
     global hostname
     global protocol
     args = parse_args(argv)
