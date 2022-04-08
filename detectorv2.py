@@ -3,7 +3,7 @@
 import argparse, os, random, sys, requests, ktrain
 import numpy as np
 from ktrain import text
-import pickle
+#import pickle
 import urllib.parse
 from tensorflow.keras.models import load_model
 from tensorflow.keras import layers
@@ -28,7 +28,7 @@ def proc(req):
  # loading preprocess and model file
         #features = pickle.load(open('/home/jupyter/Jupyter/notebook/ml_sqli_detector/predictor_distilbert/tf_model.preproc',
         #                    'rb'))
-        predictor = ktrain.load_predictor('detector_model_distilbert')
+        predictor = ktrain.load_predictor(load_model)
         new_model = ktrain.get_predictor(predictor.model, predictor.preproc)
         #labels = ['benign', 'sqli', 'xss']
         text = urllib.parse.unquote(req)
@@ -57,7 +57,7 @@ class ProxyHTTPRequestHandler(BaseHTTPRequestHandler):
         else:
             sent = False
             try:
-                url = '{}://{}{}'.format(protocol, hostname, self.path)
+                url = '{}://{}{}'.format(protocol, origin, self.path)
                 req_header = self.parse_headers()
 
                 #print(req_header)
@@ -128,12 +128,16 @@ def parse_args(argv=sys.argv[1:]):
     parser = argparse.ArgumentParser(description='Proxy HTTP requests')
     parser.add_argument('--port', dest='port', type=int, default=8081,
                         help='serve HTTP requests on specified port (default: random)')
-    parser.add_argument('--hostname', dest='hostname', type=str, default='arcadia.f5ase.net',
+    parser.add_argument('--origin', dest='origin', type=str, default='arcadia.f5ase.net',
                         help='hostname of the origin (default: arcadia.f5ase.net)')
+    parser.add_argument('--host', dest='hostname', type=str, default=origin,
+                        help='host header to send (default: same as origin)')
     parser.add_argument('--ip', dest='ip', type=str, default='127.0.0.1',
                         help='listen on IP (default: 127.0.0.1')
     parser.add_argument('--proto', dest='protocol', type=str, default='http',
                         help='protocol - either http or https (default: http')
+    parser.add_argument('--model', dest='load_model', type=str, default='detector_model_distilbert',
+                        help='Predictor model to use (default: detector_model_distilbert)')
     args = parser.parse_args(argv)
     return args
 
