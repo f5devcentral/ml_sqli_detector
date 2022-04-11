@@ -7,7 +7,7 @@ Serve the model
 -----------------
 
 Now we can use our pre-trained model to perform predictions (inferences) on the input text. We will extract HTTP path from the incoming HTTP request and "feed" it into the model to determine if HTTP path contains XSS or SQLi attacks.
-:guilabel:`detectorv2.py` is the script that acts as a simple HTTP proxy while performing predictions and mitigation of XSS/SQLi attacks. Script takes few arguments:
+`detectorv2.py` is the script that acts as a simple HTTP proxy while performing predictions and mitigation of XSS/SQLi attacks. Script takes few arguments:
 
  - `--port`  - port to listen on for HTTP requests
  - `--origin` - origin server to proxy requests to
@@ -20,13 +20,13 @@ Now we can use our pre-trained model to perform predictions (inferences) on the 
 
 .. image:: static/ssh.png
 
- 2. Run the `detectorv2.py` script  
+2. Run the `detectorv2.py` script  
 
-    .. code-block:: terminal
+.. code-block:: terminal
 
-        sudo su - jupyter
-        cd ~/Jupyter/notebook/ml_sqli_detector
-        python3 detectorv2.py --ip 10.1.1.4 --port 8081 --proto https
+    sudo su - jupyter
+    cd ~/Jupyter/notebook/ml_sqli_detector
+    python3 detectorv2.py --ip 10.1.1.4 --port 8081 --proto https
 
 .. note:: By default script will proxy HTTP requests to `https://arcadia.f5ase.net` and use the same host header.
 

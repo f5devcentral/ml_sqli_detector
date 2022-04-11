@@ -13,7 +13,7 @@ Jupyter notebook is a web-based application suitable for capturing the whole com
  - Notebook documents: a representation of all content visible in the web application, including inputs and outputs of the computations, explanatory text, mathematics, images, and rich media representations of objects.
 
 
-Strusture of notebook documents
+Structure of notebook documents
 -------------------------------
 
 The notebook consists of a sequence of cells. A cell is a multiline text input field, and its contents can be executed by using Shift-Enter, or by clicking either the “Play” button the toolbar, or Cell, Run in the menu bar. The execution behavior of a cell is determined by the cell's type. There are three types of cells: code cells, markdown cells, and raw cells
@@ -36,7 +36,7 @@ Raw cells provide a place in which you can write output directly. Raw cells are 
 Open existing Jupyter Notebook
 ------------------------------
 
-1. In the running deployment click :guilabel:`ACCESS` -> :guilabel:`JUPYTER` then enter password `jupyter` and click  :guilabel:`Log in`
+1. In the running deployment click `ACCESS` -> `JUPYTER` then enter password `jupyter` and click  `Log in`
 
     .. image:: static/access.png
 
@@ -48,11 +48,11 @@ Open existing Jupyter Notebook
 Import packages and load data set
 ---------------------------------
 
-1. Highlight first code cell and click :guilabel:`Run`
+1. Highlight first code cell and click `Run`
 
     .. image:: static/run.png
 
-.. note:: Code cell status (shown in `[ ]:` brackets), will change to :guilabel:`*` while kernel is running the code. And change to :guilabel:`<step number>` when execution is complete. I.e. for completed step 1 it will show :guilabel:`[1]:`
+.. note:: Code cell status (shown in `[ ]:` brackets), will change to `*` while kernel is running the code. And change to `<step number>` when execution is complete. I.e. for completed step 1 it will show `[1]:`
 
 
 2. Wait until the execution is complete and run code cells #2 #3 and #4
