@@ -46,3 +46,13 @@ Now we can use our pre-trained model to perform predictions (inferences) on the 
         python3 dsss.py -u "http://10.1.1.4:8081/?product=shirt"
 
 
+5. Browse `Arcadia Web App` using web browser: 
+
+     - Ensure `detectorv2.py` is running
+     - Navigate to `XSS SQLI DETECTOR` in UDF ( Jupyter server VM )
+
+    .. image:: static/detector.png
+
+.. note:: There will be some false positives which is expected based on the amount of training data available. Real world models are constantly fine-tuned and re-trained periodically ( or at real - time, depending on whether it's supervised or unsupervised learning)
+
+END OF LAB
