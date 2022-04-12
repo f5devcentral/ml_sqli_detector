@@ -1,7 +1,7 @@
-# ml_sqli_detector
+# ML-based XSS and SQLi detector
 F5 ML lab
 
-Navigate here to start the LAB: [ML lab](start.rst)
+## Navigate here to start the LAB: [ML lab](start.rst)
 
 ## Support
 For support, please open a GitHub issue.  Note, the code in this repository is community supported and is not supported by F5 Networks.  For a complete list of supported projects please reference [SUPPORT.md](SUPPORT.md).
