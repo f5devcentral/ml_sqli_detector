@@ -14,6 +14,7 @@ from socketserver import ThreadingMixIn
 import threading
 
 hostname = 'arcadia.f5ase.net'
+origin = 'arcadia.f5ase.net'
 serverPort = 8081
 
 
