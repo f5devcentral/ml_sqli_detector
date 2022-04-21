@@ -15,6 +15,7 @@ import threading
 
 hostname = 'arcadia.f5ase.net'
 origin = 'arcadia.f5ase.net'
+load_my_model = 'detector_model_distilbert'
 serverPort = 8081
 
 
@@ -29,7 +30,7 @@ def proc(req):
  # loading preprocess and model file
         #features = pickle.load(open('/home/jupyter/Jupyter/notebook/ml_sqli_detector/predictor_distilbert/tf_model.preproc',
         #                    'rb'))
-        predictor = ktrain.load_predictor(load_model)
+        predictor = ktrain.load_predictor(load_my_model)
         new_model = ktrain.get_predictor(predictor.model, predictor.preproc)
         #labels = ['benign', 'sqli', 'xss']
         text = urllib.parse.unquote(req)
@@ -137,7 +138,7 @@ def parse_args(argv=sys.argv[1:]):
                         help='listen on IP (default: 127.0.0.1')
     parser.add_argument('--proto', dest='protocol', type=str, default='http',
                         help='protocol - either http or https (default: http')
-    parser.add_argument('--model', dest='load_model', type=str, default='detector_model_distilbert',
+    parser.add_argument('--model', dest='load_my_model', type=str, default='detector_model_distilbert',
                         help='Predictor model to use (default: detector_model_distilbert)')
     args = parser.parse_args(argv)
     return args
