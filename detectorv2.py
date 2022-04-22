@@ -33,7 +33,11 @@ def proc(req):
         predictor = ktrain.load_predictor(load_my_model)
         new_model = ktrain.get_predictor(predictor.model, predictor.preproc)
         #labels = ['benign', 'sqli', 'xss']
-        text = urllib.parse.unquote(req)
+        path = urllib.parse.unquote(req)
+        try:
+            text = path.split('?')[1]
+        except:
+            text = path
         #list = text.split()
         #preproc_text = features.preprocess(list)
         result = new_model.predict(text)
